@@ -4,92 +4,230 @@
            xmlns:aqd="http://aurora-network.global/queries/namespace/">
     <dc:identifier type="sdg">2</dc:identifier>
     <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg2</dc:subject>
-    <dc:identifier type="version">3.0</dc:identifier>
-    <dc:identifier type="doi">10.5281/zenodo.3817437</dc:identifier>
-    <dc:source type="doi">10.5281/zenodo.3817433</dc:source>
+    <dc:identifier type="version">4.0</dc:identifier>
+    <dc:identifier type="doi">10.5281/zenodo.3817443</dc:identifier>
+    <dc:source type="doi">10.5281/zenodo.3817437</dc:source>
     <dc:relation type="uri">https://sustainabledevelopment.un.org/sdgs</dc:relation>
     <dc:title>SDG-02 zero hunger</dc:title>
-    <dc:description>It is time to rethink how we grow, share and consume our food. If done right, agriculture, forestry and fisheries can provide nutritious food for all and generate decent incomes, while supporting people-centered rural development and protecting the environment.
-Right now, our soils, freshwater, oceans, forests and biodiversity are being rapidly degraded. Climate change is putting even more pressure on the resources we depend on, increasing risks associated with disasters, such as droughts and floods. Many rural women and men can no longer make ends meet on their land, forcing them to migrate to cities in search of opportunities. Poor food security is also causing millions of children to be stunted, or too short for the ages, due to severe malnutrition.
-A profound change of the global food and agriculture system is needed if we are to nourish the 821 million people who are hungry today and the additional 2 billion people expected to be undernourished by 2050. Investments in agriculture are crucial to increasing the capacity for agricultural productivity and sustainable food production systems are necessary to help alleviate the perils of hunger.</dc:description>
+    <dc:description>
+        It is time to rethink how we grow, share and consume our food. If done right, agriculture, forestry
+        and fisheries can provide nutritious food for all and generate decent incomes, while supporting people-centered
+        rural development and protecting the environment.
+        Right now, our soils, freshwater, oceans, forests and biodiversity are being rapidly degraded. Climate change is
+        putting even more pressure on the resources we depend on, increasing risks associated with disasters, such as
+        droughts and floods. Many rural women and men can no longer make ends meet on their land, forcing them to
+        migrate to cities in search of opportunities. Poor food security is also causing millions of children to be
+        stunted, or too short for the ages, due to severe malnutrition.
+        A profound change of the global food and agriculture system is needed if we are to nourish the 821 million
+        people who are hungry today and the additional 2 billion people expected to be undernourished by 2050.
+        Investments in agriculture are crucial to increasing the capacity for agricultural productivity and sustainable
+        food production systems are necessary to help alleviate the perils of hunger.
+    </dc:description>
     <dc:rights href="http://creativecommons.org/licenses/by/4.0/">CC-BY v4 INT</dc:rights>
     <dc:creator>
-       Aurora Universities Network (AUR); René Otten (VUA); Lars Kullman (UGO); Maurice Vanderfeesten (VUA); Didier Vercueil (UGA); Nykohla Strong (UAB); Raf Guns (UAN); Felix Schmidt (UDE); Ane Sesma (UEA); Baldvin Zarioh (UIC);
+      Aurora Universities Network (AUR); René Otten (VUA); Maurice Vanderfeesten (VUA); Didier Vercueil (UGA); Nykohla Strong (UAB); Raf Guns (UAN); Eike Spielberg (UDE); Felix Schmidt (UDE); Linda Hasse (UDE); Lars Kullman (UGO); Baldvin Zarioh (UIC);
     </dc:creator>
     <dc:contributor>
       Eike Spielberg (UDE)
     </dc:contributor>
-    <dc:date>2019-05-31</dc:date>
+    <dc:date>2019-08-21</dc:date>
     <aqd:query-definitions syntax="SCOPUS">
         <aqd:query-definition>
             <aqd:subquery-identifier>1</aqd:subquery-identifier>
             <aqd:subquery-descriptions>
-              <aqd:subquery-description>
-          <!---->
-By 2030, end hunger and ensure access by all people, in particular the poor and people in vulnerable situations, including infants, to safe, nutritious and sufficient food all year round </aqd:subquery-description>
-        <aqd:subquery-description>2.1.1
-Prevalence of undernourishment
+                <aqd:subquery-description>
+                    By 2030, end hunger and ensure access by all people, in particular the poor and people in
+                    vulnerable situations, including infants, to safe, nutritious and sufficient food all year round
                 </aqd:subquery-description>
-        <aqd:subquery-description>2.1.2
-Prevalence of moderate or severe food insecurity in the population, based on the Food Insecurity Experience Scale (FIES)         </aqd:subquery-description>
-        <aqd:subquery-description>
-          <!---->
-By 2030, end all forms of malnutrition, including achieving, by 2025, the internationally agreed targets on stunting and wasting in children under 5 years of age, and address the nutritional needs of adolescent girls, pregnant and lactating women and older persons </aqd:subquery-description>
-        <aqd:subquery-description>2.2.1
-Prevalence of stunting (height for age &lt;-2 standard deviation from the median of the World Health Organization (WHO) Child Growth Standards) among children under 5 years of age
+                <aqd:subquery-description>
+                    2.1.1
+                    Prevalence of undernourishment
                 </aqd:subquery-description>
-        <aqd:subquery-description>2.2.2
-Prevalence of malnutrition (weight for height &gt;+2 or &lt;-2 standard deviation from the median of the WHO Child Growth Standards) among children under 5 years of age, by type (wasting and overweight) </aqd:subquery-description>
-        <aqd:subquery-description>
-By 2030, double the agricultural productivity and incomes of small-scale food producers, in particular women, indigenous peoples, family farmers, pastoralists and fishers, including through secure and equal access to land, other productive resources and inputs, knowledge, financial services, markets and opportunities for value addition and non-farm employment </aqd:subquery-description>
-        <aqd:subquery-description>2.3.1
-Volume of production per labour unit by classes of farming/pastoral/forestry enterprise size
-                </aqd:subquery-description>
-        <aqd:subquery-description>2.3.2
-Average income of small-scale food producers, by sex and indigenous status
-                </aqd:subquery-description>
-        <aqd:subquery-description>
-By 2030, ensure sustainable food production systems and implement resilient agricultural practices that increase productivity and production, that help maintain ecosystems, that strengthen capacity for adaptation to climate change, extreme weather, drought, flooding and other disasters and that progressively improve land and soil quality </aqd:subquery-description>
-        <aqd:subquery-description>2.4.1
-Proportion of agricultural area under productive and sustainable agriculture
-                </aqd:subquery-description>
-        <aqd:subquery-description>By 2020, maintain the genetic diversity of seeds, cultivated plants and farmed and domesticated animals and their related wild species, including through soundly managed and diversified seed and plant banks at the national, regional and international levels, and promote access to and fair and equitable sharing of benefits arising from the utilization of genetic resources and associated traditional knowledge, as internationally agreed </aqd:subquery-description>
-        <aqd:subquery-description>2.5.1
-Number of plant and animal genetic resources for food and agriculture secured in either medium or long-term conservation facilities
-                </aqd:subquery-description>
-        <aqd:subquery-description>2.5.2
-Proportion of local breeds classified as being at risk, not-at-risk or at unknown level of risk of extinction
-                </aqd:subquery-description>
-        <aqd:subquery-description>Increase investment, including through enhanced international cooperation, in rural infrastructure, agricultural research and extension services, technology development and plant and livestock gene banks in order to enhance agricultural productive capacity in developing countries, in particular least developed countries </aqd:subquery-description>
-        <aqd:subquery-description>2.a.1
-The agriculture orientation index for government expenditures
-                </aqd:subquery-description>
-        <aqd:subquery-description>2.a.2
-Total official flows (official development assistance plus other official flows) to the agriculture sector
-                </aqd:subquery-description>
-        <aqd:subquery-description>
-Correct and prevent trade restrictions and distortions in world agricultural markets, including through the parallel elimination of all forms of agricultural export subsidies and all export measures with equivalent effect, in accordance with the mandate of the Doha Development Round </aqd:subquery-description>
-        <aqd:subquery-description>2.b.1
-Producer Support Estimate
-                </aqd:subquery-description>
-        <aqd:subquery-description>2.b.2
-Agricultural export subsidies </aqd:subquery-description>
-        <aqd:subquery-description>Adopt measures to ensure the proper functioning of food commodity markets and their derivatives and facilitate timely access to market information, including on food reserves, in order to help limit extreme food price volatility </aqd:subquery-description>
-        <aqd:subquery-description>2.c.1
-                    Indicator of food price anomalies
-
+                <aqd:subquery-description>
+                    2.1.2
+                    Prevalence of moderate or severe food insecurity in the population, based on the Food Insecurity
+                    Experience Scale (FIES)
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
-            <aqd:query-lines field="TITLE-ABS-KEY">
-                <aqd:query-line>TITLE-ABS-KEY ( "Food security" OR "nutrition" OR "sustainable agriculture" OR "Rural
-                    Development" OR ( ( "development" ) W/3 ( "food" OR "aid" ) ) OR ( ( "hunger" ) W/3 ( "sustainab*"
-                    OR "malnutrition" OR "malnourish*" OR "undernourish*" OR "improved nutrition" ) ) OR "child hunger"
-                    OR ( "sustainable food production" W/3 "agricultur*" ) OR ( "agricultur*" W/3 "sustainab*" ) OR (
-                    "food production" W/3 "sustainab*" ) OR "global food" ) OR "vitamin deficienc*"
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">"Food security" OR "nutrition" OR "global food"</aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">"vitamin deficienc*"</aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                    ( "hunger" ) W/3 ( "sustainab*" OR "malnutrition" OR "malnourish*" OR "undernourish*" OR
+                    "improved nutrition" )
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
+        <aqd:query-definition>
+            <aqd:subquery-identifier>2</aqd:subquery-identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    By 2030, end all forms of malnutrition, including achieving, by 2025, the internationally
+                    agreed targets on stunting and wasting in children under 5 years of age, and address the nutritional
+                    needs of adolescent girls, pregnant and lactating women and older persons
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    2.2.1
+                    Prevalence of stunting (height for age &lt;-2 standard deviation from the median of the World Health
+                    Organization (WHO) Child Growth Standards) among children under 5 years of age
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    2.2.2
+                    Prevalence of malnutrition (weight for height &gt;+2 or &lt;-2 standard deviation from the median of
+                    the WHO Child Growth Standards) among children under 5 years of age, by type (wasting and
+                    overweight)
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">"child hunger"</aqd:query-line>
+            </aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:query-definition syntax="SCOPUS">
+            <aqd:subquery-identifier>3</aqd:subquery-identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    By 2030, double the agricultural productivity and incomes of small-scale food
+                    producers, in particular women, indigenous peoples, family farmers, pastoralists and fishers,
+                    including through secure and equal access to land, other productive resources and inputs, knowledge,
+                    financial services, markets and opportunities for value addition and non-farm employment
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    2.3.1
+                    Volume of production per labour unit by classes of farming/pastoral/forestry enterprise size
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    2.3.2
+                    Average income of small-scale food producers, by sex and indigenous status
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY"/>
+            </aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:query-definition syntax="SCOPUS">
+            <aqd:subquery-identifier>4</aqd:subquery-identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    By 2030, ensure sustainable food production systems and implement resilient
+                    agricultural practices that increase productivity and production, that help maintain ecosystems,
+                    that strengthen capacity for adaptation to climate change, extreme weather, drought, flooding and
+                    other disasters and that progressively improve land and soil quality
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    2.4.1
+                    Proportion of agricultural area under productive and sustainable agriculture
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                    ( "sustainable food production"
+                    W/3 "agricultur*" )
+                    OR ( "agricultur*"
+                    W/6 "sustainab*" )
+                    OR ( "food production"
+                    W/3 "sustainab*" )
+                    OR ( "future" AND "high*" W/3 "food demand" )
+                    "sustainable agriculture"
+                </aqd:query-line>
+            </aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:query-definition syntax="SCOPUS">
+            <aqd:subquery-identifier>5</aqd:subquery-identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    By 2020, maintain the genetic diversity of seeds, cultivated plants and farmed
+                    and domesticated animals and their related wild species, including through soundly managed and
+                    diversified seed and plant banks at the national, regional and international levels, and promote
+                    access to and fair and equitable sharing of benefits arising from the utilization of genetic
+                    resources and associated traditional knowledge, as internationally agreed
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    2.5.1
+                    Number of plant and animal genetic resources for food and agriculture secured in either medium or
+                    long-term conservation facilities
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    2.5.2
+                    Proportion of local breeds classified as being at risk, not-at-risk or at unknown level of risk of
+                    extinction
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY"/>
+            </aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:query-definition syntax="SCOPUS">
+            <aqd:subquery-identifier>a</aqd:subquery-identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    Increase investment, including through enhanced international cooperation, in
+                    rural infrastructure, agricultural research and extension services, technology development and plant
+                    and livestock gene banks in order to enhance agricultural productive capacity in developing
+                    countries, in particular least developed countries
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    2.a.1
+                    The agriculture orientation index for government expenditures
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    2.a.2
+                    Total official flows (official development assistance plus other official flows) to the agriculture
+                    sector
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                    "Rural Development"
+                    OR (
+                    ( "development" )
+                    W/3
+                    ( "food"
+                    OR "aid" )
+                    )
+                </aqd:query-line>
+            </aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:query-definition syntax="SCOPUS">
+            <aqd:subquery-identifier>b</aqd:subquery-identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    Correct and prevent trade restrictions and distortions in world agricultural
+                    markets, including through the parallel elimination of all forms of agricultural export subsidies
+                    and all export measures with equivalent effect, in accordance with the mandate of the Doha
+                    Development Round
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    2.b.1
+                    Producer Support Estimate OR ( )
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    2.b.2
+                    Agricultural export subsidies
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY"/>
+            </aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:query-definition syntax="SCOPUS">
+            <aqd:subquery-identifier>c</aqd:subquery-identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    Adopt measures to ensure the proper functioning of food commodity markets and
+                    their derivatives and facilitate timely access to market information, including on food reserves, in
+                    order to help limit extreme food price volatility
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    2.c.1
+                    Indicator of food price anomalies
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY"/>
+            </aqd:query-lines>
+        </aqd:query-definition>
         <aqd:filters>
+            <aqd:filter type="affilation" field="AF-ID"></aqd:filter>
             <aqd:timerange field="PUBYEAR">
                 <aqd:start>2009</aqd:start>
                 <aqd:end>2019</aqd:end>

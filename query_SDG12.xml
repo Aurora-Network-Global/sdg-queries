@@ -4,136 +4,268 @@
            xmlns:aqd="http://aurora-network.global/queries/namespace/">
     <dc:identifier type="sdg">12</dc:identifier>
     <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg12</dc:subject>
-    <dc:identifier type="version">3.0</dc:identifier>
-    <dc:identifier type="doi">10.5281/zenodo.3817437</dc:identifier>
-    <dc:source type="doi">10.5281/zenodo.3817433</dc:source>
+    <dc:identifier type="version">4.0</dc:identifier>
+    <dc:identifier type="doi">10.5281/zenodo.3817443</dc:identifier>
+    <dc:source type="doi">10.5281/zenodo.3817437</dc:source>
     <dc:relation type="uri">https://sustainabledevelopment.un.org/sdgs</dc:relation>
     <dc:title>SDG-12 responsible consumption and production</dc:title>
-    <dc:description>Sustainable consumption and production is about promoting resource and energy efficiency, sustainable infrastructure, and providing access to basic services, green and decent jobs and a better quality of life for all. Its implementation helps to achieve overall development plans, reduce future economic, environmental and social costs, strengthen economic competitiveness and reduce poverty.
-At the current time, material consumption of natural resources is increasing, particularly within Eastern Asia. Countries are also continuing to address challenges regarding air, water and soil pollution.
-Since sustainable consumption and production aims at “doing more and better with less,” net welfare gains from economic activities can increase by reducing resource use, degradation and pollution along the whole life cycle, while increasing quality of life. There also needs to be significant focus on operating on supply chain, involving everyone from producer to final consumer. This includes educating consumers on sustainable consumption and lifestyles, providing them with adequate information through standards and labels and engaging in sustainable public procurement, among others.</dc:description>
+    <dc:description>
+        Sustainable consumption and production is about promoting resource and energy efficiency, sustainable
+        infrastructure, and providing access to basic services, green and decent jobs and a better quality of life for
+        all. Its implementation helps to achieve overall development plans, reduce future economic, environmental and
+        social costs, strengthen economic competitiveness and reduce poverty.
+        At the current time, material consumption of natural resources is increasing, particularly within Eastern Asia.
+        Countries are also continuing to address challenges regarding air, water and soil pollution.
+        Since sustainable consumption and production aims at “doing more and better with less,” net welfare gains from
+        economic activities can increase by reducing resource use, degradation and pollution along the whole life cycle,
+        while increasing quality of life. There also needs to be significant focus on operating on supply chain,
+        involving everyone from producer to final consumer. This includes educating consumers on sustainable consumption
+        and lifestyles, providing them with adequate information through standards and labels and engaging in
+        sustainable public procurement, among others.
+    </dc:description>
     <dc:rights href="http://creativecommons.org/licenses/by/4.0/">CC-BY v4 INT</dc:rights>
     <dc:creator>
-       Aurora Universities Network (AUR); René Otten (VUA); Lars Kullman (UGO); Maurice Vanderfeesten (VUA); Didier Vercueil (UGA); Nykohla Strong (UAB); Raf Guns (UAN); Felix Schmidt (UDE); Ane Sesma (UEA); Baldvin Zarioh (UIC);
+      Aurora Universities Network (AUR); René Otten (VUA); Maurice Vanderfeesten (VUA); Didier Vercueil (UGA); Nykohla Strong (UAB); Raf Guns (UAN); Eike Spielberg (UDE); Felix Schmidt (UDE); Linda Hasse (UDE); Lars Kullman (UGO); Baldvin Zarioh (UIC);
     </dc:creator>
     <dc:contributor>
       Eike Spielberg (UDE)
     </dc:contributor>
-    <dc:date>2019-05-31</dc:date>
+    <dc:date>2019-08-21</dc:date>
     <aqd:query-definitions syntax="SCOPUS">
         <aqd:query-definition>
             <aqd:subquery-identifier>1</aqd:subquery-identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
-          <!---->Implement the 10-year framework of programmes on sustainable consumption and production, all countries taking action, with developed countries taking the lead, taking into account the development and capabilities of developing countries </aqd:subquery-description>
-        <aqd:subquery-description>12.1.1
-Number of countries with sustainable consumption and production (SCP) national action plans or SCP mainstreamed as a priority or a target into national policies
+                    Implement the 10-year framework of programmes on sustainable consumption and production, all
+                    countries taking action, with developed countries taking the lead, taking into account the
+                    development and capabilities of developing countries
                 </aqd:subquery-description>
-        <aqd:subquery-description>
-          <!---->
-By 2030, achieve the sustainable management and efficient use of natural resources </aqd:subquery-description>
-        <aqd:subquery-description>12.2.1
-Material footprint, material footprint per capita, and material footprint per GDP
+                <aqd:subquery-description>
+                    12.1.1
+                    Number of countries with sustainable consumption and production (SCP) national action plans or SCP
+                    mainstreamed as a priority or a target into national policies
                 </aqd:subquery-description>
-        <aqd:subquery-description>12.2.2
-Domestic material consumption, domestic material consumption per capita, and domestic material consumption per GDP
-                </aqd:subquery-description>
-        <aqd:subquery-description>By 2030, halve per capita global food waste at the retail and consumer levels and reduce food losses along production and supply chains, including post-harvest losses </aqd:subquery-description>
-        <aqd:subquery-description>12.3.1
-Global food loss index
-                </aqd:subquery-description>
-        <aqd:subquery-description>By 2020, achieve the environmentally sound management of chemicals and all wastes throughout their life cycle, in accordance with agreed international frameworks, and significantly reduce their release to air, water and soil in order to minimize their adverse impacts on human health and the environment </aqd:subquery-description>
-        <aqd:subquery-description>12.4.1
-Number of parties to international multilateral environmental agreements on hazardous waste, and other chemicals that meet their commitments and obligations in transmitting information as required by each relevant agreement
-                </aqd:subquery-description>
-        <aqd:subquery-description>12.4.2
-Hazardous waste generated per capita and proportion of hazardous waste treated, by type of treatment
-                </aqd:subquery-description>
-        <aqd:subquery-description>By 2030, substantially reduce waste generation through prevention, reduction, recycling and reuse </aqd:subquery-description>
-        <aqd:subquery-description>12.5.1
-National recycling rate, tons of material recycled
-                </aqd:subquery-description>
-        <aqd:subquery-description>Encourage companies, especially large and transnational companies, to adopt sustainable practices and to integrate sustainability information into their reporting cycle </aqd:subquery-description>
-        <aqd:subquery-description>12.6.1
-Number of companies publishing sustainability reports
-                </aqd:subquery-description>
-        <aqd:subquery-description>Promote public procurement practices that are sustainable, in accordance with national policies and priorities </aqd:subquery-description>
-        <aqd:subquery-description>12.7.1
-Number of countries implementing sustainable public procurement policies and action plans
-                </aqd:subquery-description>
-        <aqd:subquery-description>By 2030, ensure that people everywhere have the relevant information and awareness for sustainable development and lifestyles in harmony with nature </aqd:subquery-description>
-        <aqd:subquery-description>12.8.1
-Extent to which (i) global citizenship education and (ii) education for sustainable development (including climate change education) are mainstreamed in (a) national education policies; (b) curricula; (c) teacher education; and (d) student assessment
-                </aqd:subquery-description>
-        <aqd:subquery-description>Support developing countries to strengthen their scientific and technological capacity to move towards more sustainable patterns of consumption and production </aqd:subquery-description>
-        <aqd:subquery-description>12.a.1
-Amount of support to developing countries on research and development for sustainable consumption and production and environmentally sound technologies
-                </aqd:subquery-description>
-        <aqd:subquery-description>Develop and implement tools to monitor sustainable development impacts for sustainable tourism that creates jobs and promotes local culture and products </aqd:subquery-description>
-        <aqd:subquery-description>12.b.1
-Number of sustainable tourism strategies or policies and implemented action plans with agreed monitoring and evaluation tools </aqd:subquery-description>
-        <aqd:subquery-description>Rationalize inefficient fossil-fuel subsidies that encourage wasteful consumption by removing market distortions, in accordance with national circumstances, including by restructuring taxation and phasing out those harmful subsidies, where they exist, to reflect their environmental impacts, taking fully into account the specific needs and conditions of developing countries and minimizing the possible adverse impacts on their development in a manner that protects the poor and the affected communities </aqd:subquery-description>
-        <aqd:subquery-description>12.c.1
-Amount of fossil-fuel subsidies per unit of GDP (production and consumption) and as a proportion of total national expenditure on fossil fuels </aqd:subquery-description>
             </aqd:subquery-descriptions>
-            <aqd:query-lines field="TITLE-ABS-KEY">
-                <aqd:query-line>(
-                    TITLE-ABS-KEY (
-                    ( ( "sustainab*" )
-                    W/3 ( "consum*" OR "product*" ) )
-
-                    OR (( "sustainab*" OR "efficen*" )
-                    W/3 ( "manage*" OR "managing" OR "natural resource*" ) )
-
-                    OR (( "reduc*" )
-                    W/3 ( " postharvest loss*" OR " post-harvest loss*" ) )
-
-                    OR ( ( "reduc*" )
-                    W/3 ( "food" )
-                    W/3 ( "wast*" OR "loss*" OR "spoil*" ) )
-
-                    OR ( ( "reduc*" )
-                    W/3 ( "chemical*" OR "waste*" )
-                    W/3 ( "air" OR "water" OR "soil" OR "recycl*") )
-
-                    OR ( ( "sustainab*" )
-                    W/3 ( "practice*" OR "information*" OR "report*" )
-                    AND ( "compan*" OR "firm*" ) )
-
-                    OR ( ( "sustainab*" )
-                    W/3 ( "procurement*" OR "buying" OR "policies" OR "policy") )
-
-                    OR ( ( "sustainab*" )
-                    W/3 ( "information" OR "awareness" ) )
-
-                    OR ( ( "sustainab*" )
-                    W/3 ( "tourism*" ) )
-
-                    OR ( ( "reduc*" OR "rationali*" )
-                    W/3 ( "subsid*" OR "replace*" OR "substitut*" OR "alternative*" )
-                    W/3 ( "fossil-fuel" OR "coal" OR "petrol*") )
-
-                    OR ( "Material footprint"
-                    OR "Domestic material consumption"
-                    OR "food loss index"
-                    OR "Hazardous waste generated per capita"
-                    OR "National recycling rate"
-                    OR "tons of material recycled"
-                    OR "fossil-fuel subsidies per unit of GDP" )
-
-                    OR ( "Alternative Agriculture"
-                    OR "Conservation Of Natural Resources"
-                    OR "Energy Conservation"
-                    OR "Life Cycle Analysis"
-                    OR "Life Cycle Assessment"
-                    OR "Recycling"
-                    OR "Sustainable Consumption")
-                    )
-                    )
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                    ( ( "sustainab*" ) W/3 ( "consum*" OR "product*" ) ) OR "Sustainable Consumption" OR
+                    "Alternative Agriculture"
+                </aqd:query-line>
+            </aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:query-definition>
+            <aqd:subquery-identifier>2</aqd:subquery-identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    By 2030, achieve the sustainable management and efficient use of natural resources
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    12.2.1
+                    Material footprint, material footprint per capita, and material footprint per GDP
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    12.2.2
+                    Domestic material consumption, domestic material consumption per capita, and domestic material
+                    consumption per GDP
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                    (( "sustainab*" OR "efficen*" ) W/3 ( "manage*" OR "managing" OR "natural resource*" ) )
+                    OR
+                    "Material footprint" OR "Domestic material consumption" OR "Conservation Of Natural Resources"
+                </aqd:query-line>
+            </aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:query-definition syntax="SCOPUS">
+            <aqd:subquery-identifier>3</aqd:subquery-identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    By 2030, halve per capita global food waste at the retail and consumer levels
+                    and reduce food losses along production and supply chains, including post-harvest losses
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    12.3.1
+                    Global food loss index
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                    (( "reduc*" ) W/3 ( " postharvest loss*" OR " post-harvest loss*"
+                    ) )
+                    OR
+                    ( ( "reduc*" ) W/3 ( "food" ) W/3 ( "wast*" OR "loss*" OR "spoil*" ) )
+                    OR
+                    "food loss index"
+                </aqd:query-line>
+            </aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:query-definition syntax="SCOPUS">
+            <aqd:subquery-identifier>4</aqd:subquery-identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    By 2020, achieve the environmentally sound management of chemicals and all
+                    wastes throughout their life cycle, in accordance with agreed international frameworks, and
+                    significantly reduce their release to air, water and soil in order to minimize their adverse impacts
+                    on human health and the environment
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    12.4.1
+                    Number of parties to international multilateral environmental agreements on hazardous waste, and
+                    other chemicals that meet their commitments and obligations in transmitting information as required
+                    by each relevant agreement
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    12.4.2
+                    Hazardous waste generated per capita and proportion of hazardous waste treated, by type of treatment
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                    "Life Cycle Analysis" OR "Life Cycle Assessment" OR "Hazardous waste generated per capita"
+                </aqd:query-line>
+            </aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:query-definition syntax="SCOPUS">
+            <aqd:subquery-identifier>5</aqd:subquery-identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    By 2030, substantially reduce waste generation through prevention, reduction,
+                    recycling and reuse
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    12.5.1
+                    National recycling rate, tons of material recycled
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                    ( ( "reduc*" ) W/3 ( "chemical*" OR "waste*" ) W/3 ( "air" OR
+                    "water" OR "soil" OR "recycl*") ) OR "Recycling" OR "National recycling rate" OR "tons of material
+                    recycled"
+                </aqd:query-line>
+            </aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:query-definition syntax="SCOPUS">
+            <aqd:subquery-identifier>6</aqd:subquery-identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    Encourage companies, especially large and transnational companies, to adopt
+                    sustainable practices and to integrate sustainability information into their reporting cycle
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    12.6.1
+                    Number of companies publishing sustainability reports
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                    ( ( "sustainab*" ) W/3 ( "practice*" OR "information*" OR
+                    "report*" ) AND ( "compan*" OR "firm*" ) )
+                </aqd:query-line>
+            </aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:query-definition syntax="SCOPUS">
+            <aqd:subquery-identifier>7</aqd:subquery-identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    Promote public procurement practices that are sustainable, in accordance with
+                    national policies and priorities
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    12.7.1
+                    Number of countries implementing sustainable public procurement policies and action plans
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                    ( ( "sustainab*" ) W/3 ( "procurement*" OR "buying" OR "policies"
+                    OR "policy") )
+                </aqd:query-line>
+            </aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:query-definition syntax="SCOPUS">
+            <aqd:subquery-identifier>8</aqd:subquery-identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    By 2030, ensure that people everywhere have the relevant information and
+                    awareness for sustainable development and lifestyles in harmony with nature
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    12.8.1
+                    Extent to which (i) global citizenship education and (ii) education for sustainable development
+                    (including climate change education) are mainstreamed in (a) national education policies; (b)
+                    curricula; (c) teacher education; and (d) student assessment
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                    ( ( "sustainab*" ) W/3 ( "information" OR "awareness" ) )
+                </aqd:query-line>
+            </aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:query-definition syntax="SCOPUS">
+            <aqd:subquery-identifier>a</aqd:subquery-identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    Support developing countries to strengthen their scientific and technological
+                    capacity to move towards more sustainable patterns of consumption and production
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    12.a.1
+                    Amount of support to developing countries on research and development for sustainable consumption
+                    and production and environmentally sound technologies
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY"/>
+            </aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:query-definition syntax="SCOPUS">
+            <aqd:subquery-identifier>b</aqd:subquery-identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    Develop and implement tools to monitor sustainable development impacts for
+                    sustainable tourism that creates jobs and promotes local culture and products
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    12.b.1
+                    Number of sustainable tourism strategies or policies and implemented action plans with agreed
+                    monitoring and evaluation tools
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                    ( ( "sustainab*" ) W/3 ( "tourism*" ) )</aqd:query-line>
+            </aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:query-definition syntax="SCOPUS">
+            <aqd:subquery-identifier>c</aqd:subquery-identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    Rationalize inefficient fossil-fuel subsidies that encourage wasteful
+                    consumption by removing market distortions, in accordance with national circumstances, including by
+                    restructuring taxation and phasing out those harmful subsidies, where they exist, to reflect their
+                    environmental impacts, taking fully into account the specific needs and conditions of developing
+                    countries and minimizing the possible adverse impacts on their development in a manner that protects
+                    the poor and the affected communities
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    12.c.1
+                    Amount of fossil-fuel subsidies per unit of GDP (production and consumption) and as a proportion of
+                    total national expenditure on fossil fuels
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                    ( ( "reduc*" OR "rationali*" ) W/3 ( "subsid*" OR "replace*" OR
+                    "substitut*" OR "alternative*" ) W/3 ( "fossil-fuel" OR "coal" OR "petrol*") ) OR "fossil-fuel
+                    subsidies per unit of GDP" OR "Energy Conservation"
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
         <aqd:filters>
+            <aqd:filter type="affilation" field="AF-ID"></aqd:filter>
             <aqd:timerange field="PUBYEAR">
                 <aqd:start>2009</aqd:start>
                 <aqd:end>2019</aqd:end>

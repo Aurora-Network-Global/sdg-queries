@@ -4,80 +4,138 @@
            xmlns:aqd="http://aurora-network.global/queries/namespace/">
     <dc:identifier type="sdg">7</dc:identifier>
     <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg7</dc:subject>
-    <dc:identifier type="version">3.0</dc:identifier>
-    <dc:identifier type="doi">10.5281/zenodo.3817437</dc:identifier>
-    <dc:source type="doi">10.5281/zenodo.3817433</dc:source>
+    <dc:identifier type="version">4.0</dc:identifier>
+    <dc:identifier type="doi">10.5281/zenodo.3817443</dc:identifier>
+    <dc:source type="doi">10.5281/zenodo.3817437</dc:source>
     <dc:relation type="uri">https://sustainabledevelopment.un.org/sdgs</dc:relation>
     <dc:title>SDG-07 affordable and clean energy</dc:title>
-    <dc:description>Energy is central to nearly every major challenge and opportunity the world faces today. Be it for jobs, security, climate change, food production or increasing incomes, access to energy for all is essential. Working towards this goal is especially important as it interlinks with other Sustainable Development Goals. Focusing on universal access to energy, increased energy efficiency and the increased use of renewable energy through new economic and job opportunities is crucial to creating more sustainable and inclusive communities and resilience to environmental issues like climate change.
-At the current time, there are approximately 3 billion people who lack access to clean-cooking solutions and are exposed to dangerous levels of air pollution. Additionally, slightly less than 1 billion people are functioning without electricity and 50% of them are found in Sub-Saharan Africa alone. Fortunately, progress has been made in the past decade regarding the use of renewable electricity from water, solar and wind power and the ratio of energy used per unit of GDP is also declining.
-However, the challenge is far from being solved and there needs to be more access to clean fuel and technology and more progress needs to be made regarding integrating renewable energy into end-use applications in buildings, transport and industry. Public and private investments in energy also need to be increased and there needs to be more focus on regulatory frameworks and innovative business models to transform the world’s energy systems.</dc:description>
+    <dc:description>
+        Energy is central to nearly every major challenge and opportunity the world faces today. Be it for
+        jobs, security, climate change, food production or increasing incomes, access to energy for all is essential.
+        Working towards this goal is especially important as it interlinks with other Sustainable Development Goals.
+        Focusing on universal access to energy, increased energy efficiency and the increased use of renewable energy
+        through new economic and job opportunities is crucial to creating more sustainable and inclusive communities and
+        resilience to environmental issues like climate change.
+        At the current time, there are approximately 3 billion people who lack access to clean-cooking solutions and are
+        exposed to dangerous levels of air pollution. Additionally, slightly less than 1 billion people are functioning
+        without electricity and 50% of them are found in Sub-Saharan Africa alone. Fortunately, progress has been made
+        in the past decade regarding the use of renewable electricity from water, solar and wind power and the ratio of
+        energy used per unit of GDP is also declining.
+        However, the challenge is far from being solved and there needs to be more access to clean fuel and technology
+        and more progress needs to be made regarding integrating renewable energy into end-use applications in
+        buildings, transport and industry. Public and private investments in energy also need to be increased and there
+        needs to be more focus on regulatory frameworks and innovative business models to transform the world’s energy
+        systems.
+    </dc:description>
     <dc:rights href="http://creativecommons.org/licenses/by/4.0/">CC-BY v4 INT</dc:rights>
     <dc:creator>
-       Aurora Universities Network (AUR); René Otten (VUA); Lars Kullman (UGO); Maurice Vanderfeesten (VUA); Didier Vercueil (UGA); Nykohla Strong (UAB); Raf Guns (UAN); Felix Schmidt (UDE); Ane Sesma (UEA); Baldvin Zarioh (UIC);
+      Aurora Universities Network (AUR); René Otten (VUA); Maurice Vanderfeesten (VUA); Didier Vercueil (UGA); Nykohla Strong (UAB); Raf Guns (UAN); Eike Spielberg (UDE); Felix Schmidt (UDE); Linda Hasse (UDE); Lars Kullman (UGO); Baldvin Zarioh (UIC);
     </dc:creator>
     <dc:contributor>
       Eike Spielberg (UDE)
     </dc:contributor>
-    <dc:date>2019-05-31</dc:date>
+    <dc:date>2019-08-21</dc:date>
     <aqd:query-definitions syntax="SCOPUS">
         <aqd:query-definition>
             <aqd:subquery-identifier>1</aqd:subquery-identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
-          <!---->By 2030, ensure universal access to affordable, reliable and modern energy services </aqd:subquery-description>
-        <aqd:subquery-description>7.1.1
-Proportion of population with access to electricity
+                    By 2030, ensure universal access to affordable, reliable and modern energy services
                 </aqd:subquery-description>
-        <aqd:subquery-description>7.1.2
-Proportion of population with primary reliance on clean fuels and technology
+                <aqd:subquery-description>
+                    7.1.1
+                    Proportion of population with access to electricity
                 </aqd:subquery-description>
-        <aqd:subquery-description>
-          <!---->By 2030, increase substantially the share of renewable energy in the global energy mix </aqd:subquery-description>
-        <aqd:subquery-description>7.2.1
-Renewable energy share in the total final energy consumption
-                </aqd:subquery-description>
-        <aqd:subquery-description>By 2030, double the global rate of improvement in energy efficiency
-                </aqd:subquery-description>
-        <aqd:subquery-description>7.3.1
-Energy intensity measured in terms of primary energy and GDP
-                </aqd:subquery-description>
-        <aqd:subquery-description>By 2030, enhance international cooperation to facilitate access to clean energy research and technology, including renewable energy, energy efficiency and advanced and cleaner fossil-fuel technology, and promote investment in energy infrastructure and clean energy technology </aqd:subquery-description>
-        <aqd:subquery-description>7.a.1
-International financial flows to developing countries in support of clean energy research and development and renewable energy production, including in hybrid systems
-                </aqd:subquery-description>
-        <aqd:subquery-description>By 2030, expand infrastructure and upgrade technology for supplying modern and sustainable energy services for all in developing countries, in particular least developed countries, small island developing States, and land-locked developing countries, in accordance with their respective programmes of support </aqd:subquery-description>
-        <aqd:subquery-description>7.b.1
-Investments in energy efficiency as a percentage of GDP and the amount of foreign direct investment in financial transfer for infrastructure and technology to sustainable development services
+                <aqd:subquery-description>
+                    7.1.2
+                    Proportion of population with primary reliance on clean fuels and technology
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
-            <aqd:query-lines field="TITLE-ABS-KEY">
-                <aqd:query-line>(TITLE-ABS-KEY
-                    (
-                    ({access}
-                    W/3 ({affordable} OR {reliable} OR {modern})
-                    AND {energy service*}
-                    )
-                    OR {increase renewable energy}
-                    OR (" improv*" W/3 { energy efficiency})
-                    OR ({clean energy} OR {renewable energy})
-                    W/3 ("research" OR "development" OR "production"
-                    )
-                    )
-                    OR ("investment"
-                    W/3 ({energy infrastructure} OR {clean energy technology})
-                    )
-                    OR (
-                    (("modern" OR "sustainable")
-                    AND "energy"
-                    )
-                    AND ("developing countr*")
-                    )
-                    )
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                    ({access} W/3 ({affordable} OR {reliable} OR {modern}) AND {energy service*})
+                </aqd:query-line>
+            </aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:query-definition>
+            <aqd:subquery-identifier>2</aqd:subquery-identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    By 2030, increase substantially the share of renewable energy in the global energy mix
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    7.2.1
+                    Renewable energy share in the total final energy consumption
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">{increase renewable energy}</aqd:query-line>
+            </aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:query-definition syntax="SCOPUS">
+            <aqd:subquery-identifier>3</aqd:subquery-identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    By 2030, double the global rate of improvement in energy efficiency
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    7.3.1
+                    Energy intensity measured in terms of primary energy and GDP
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                    (" improv*" W/3 { energy efficiency})</aqd:query-line>
+            </aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:query-definition syntax="SCOPUS">
+            <aqd:subquery-identifier>a</aqd:subquery-identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    By 2030, enhance international cooperation to facilitate access to clean
+                    energy research and technology, including renewable energy, energy efficiency and advanced and
+                    cleaner fossil-fuel technology, and promote investment in energy infrastructure and clean energy
+                    technology
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    7.a.1
+                    Mobilized amount of United States dollars per year starting in 2020 accountable towards the $100
+                    billion commitment
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                    ("investment" W/3 ({energy infrastructure} OR {clean energy
+                    technology}))
+                </aqd:query-line>
+            </aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:query-definition syntax="SCOPUS">
+            <aqd:subquery-identifier>b</aqd:subquery-identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    By 2030, expand infrastructure and upgrade technology for supplying modern and
+                    sustainable energy services for all in developing countries, in particular least developed
+                    countries, small island developing States, and land-locked developing countries, in accordance with
+                    their respective programmes of support
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    7.b.1
+                    Investments in energy efficiency as a percentage of GDP and the amount of foreign direct investment
+                    in financial transfer for infrastructure and technology to sustainable development services
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                    ((("modern" OR "sustainable") AND "energy") AND ("developing
+                    countr*"))
+                    OR
+                    ({clean energy} OR {renewable energy}) W/3 ("research" OR "development" OR "production")
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
         <aqd:filters>
+            <aqd:filter type="affilation" field="AF-ID"></aqd:filter>
             <aqd:timerange field="PUBYEAR">
                 <aqd:start>2009</aqd:start>
                 <aqd:end>2019</aqd:end>
