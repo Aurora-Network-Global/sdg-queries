@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="queries.xsl"?>
+<aqd:query xmlns:dc="http://dublincore.org/documents/dcmi-namespace/" xmlns:aqd="http://aurora-network.global/queries/namespace/">
+  <dc:identifier type="sdg">11</dc:identifier>
+  <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg11</dc:subject>
+  <dc:identifier type="version">1.0</dc:identifier>
+  <dc:identifier type="doi">10.5281/zenodo.3817352</dc:identifier>
+  <dc:source type="uri">https://sustainabledevelopment.un.org/sdgs</dc:source>
+  <dc:relation type="uri">https://sustainabledevelopment.un.org/sdgs</dc:relation>
+  <dc:title>SDG-11 sustainable cities and communities</dc:title>
+  <dc:description>Cities are hubs for ideas, commerce, culture, science, productivity, social development and much more. At their best, cities have enabled people to advance socially and economically. With the number of people living within cities projected to rise to 5 billion people by 2030, it’s important that efficient urban planning and management practices are in place to deal with the challenges brought by urbanization.
+Many challenges exist to maintaining cities in a way that continues to create jobs and prosperity without straining land and resources. Common urban challenges include congestion, lack of funds to provide basic services, a shortage of adequate housing, declining infrastructure and rising air pollution within cities.
+Rapid urbanization challenges, such as the safe removal and management of solid waste within cities, can be overcome in ways that allow them to continue to thrive and grow, while improving resource use and reducing pollution and poverty. One such example is an increase in municipal waste collection. There needs to be a future in which cities provide opportunities for all, with access to basic services, energy, housing, transportation and more.</dc:description>
+  <dc:rights href="http://creativecommons.org/licenses/by/4.0/">CC-BY v4 INT</dc:rights>
+  <dc:creator>
+    Aurora Universities Network (AUR); Didier Vercueil (UGA); Nykohla Strong (UAB); Felix Schmidt (UDE); Adam Green (UEA); Jaqui Farrar (UEA); Lars Kullman (UGO); René Otten (VUA); Maurice Vanderfeesten (VUA)
+  </dc:creator>
+  <dc:contributor>
+    Eike Spielberg (UDE)
+  </dc:contributor>
+  <dc:date>2018-01-31</dc:date>
+  <aqd:query-definitions syntax="SCOPUS">
+    <aqd:query-definition>
+      <aqd:subquery-identifier>1</aqd:subquery-identifier>
+      <aqd:subquery-descriptions>
+        <aqd:subquery-description>
+          <!---->By 2030, ensure access for all to adequate, safe and affordable housing and basic services and upgrade slums </aqd:subquery-description>
+        <aqd:subquery-description>11.1.1
+Proportion of urban population living in slums, informal settlements or inadequate housing
+                </aqd:subquery-description>
+        <aqd:subquery-description>
+          <!---->By 2030, provide access to safe, affordable, accessible and sustainable transport systems for all, improving road safety, notably by expanding public transport, with special attention to the needs of those in vulnerable situations, women, children, persons with disabilities and older persons </aqd:subquery-description>
+        <aqd:subquery-description>11.2.1
+Proportion of population that has convenient access to public transport, by sex, age and persons with disabilities
+                </aqd:subquery-description>
+        <aqd:subquery-description>By 2030, enhance inclusive and sustainable urbanization and capacity for participatory, integrated and sustainable human settlement planning and management in all countries </aqd:subquery-description>
+        <aqd:subquery-description>11.3.1
+Ratio of land consumption rate to population growth rate
+                </aqd:subquery-description>
+        <aqd:subquery-description>11.3.2
+Proportion of cities with a direct participation structure of civil society in urban planning and management that operate regularly and democratically
+                </aqd:subquery-description>
+        <aqd:subquery-description>Strengthen efforts to protect and safeguard the world’s cultural and natural heritage </aqd:subquery-description>
+        <aqd:subquery-description>11.4.1
+Total expenditure (public and private) per capita spent on the preservation, protection and conservation of all cultural and natural heritage, by type of heritage (cultural, natural, mixed and World Heritage Centre designation), level of government (national, regional and local/municipal), type of expenditure (operating expenditure/investment) and type of private funding (donations in kind, private non-profit sector and sponsorship)
+                </aqd:subquery-description>
+        <aqd:subquery-description>By 2030, significantly reduce the number of deaths and the number of people affected and substantially decrease the direct economic losses relative to global gross domestic product caused by disasters, including water-related disasters, with a focus on protecting the poor and people in vulnerable situations </aqd:subquery-description>
+        <aqd:subquery-description>11.5.1
+Number of deaths, missing persons and persons affected by disaster per 100,000 peoplea
+                </aqd:subquery-description>
+        <aqd:subquery-description>11.5.2
+Direct disaster economic loss in relation to global GDP, including disaster damage to critical infrastructure and disruption of basic servicesa
+                </aqd:subquery-description>
+        <aqd:subquery-description>By 2030, reduce the adverse per capita environmental impact of cities, including by paying special attention to air quality and municipal and other waste management </aqd:subquery-description>
+        <aqd:subquery-description>11.6.1
+Proportion of urban solid waste regularly collected and with adequate final discharge out of total urban solid waste generated, by cities
+                </aqd:subquery-description>
+        <aqd:subquery-description>11.6.2
+Annual mean levels of fine particulate matter (e.g. PM2.5 and PM10) in cities (population weighted)
+                </aqd:subquery-description>
+        <aqd:subquery-description>By 2030, provide universal access to safe, inclusive and accessible, green and public spaces, in particular for women and children, older persons and persons with disabilities </aqd:subquery-description>
+        <aqd:subquery-description>11.7.1
+Average share of the built-up area of cities that is open space for public use for all, by sex, age and persons with disabilities   </aqd:subquery-description>
+        <aqd:subquery-description>11.7.2
+Proportion of persons victim of physical or sexual harassment, by sex, age, disability status and place of occurrence, in the previous 12 months </aqd:subquery-description>
+        <aqd:subquery-description>Support positive economic, social and environmental links between urban, peri-urban and rural areas by strengthening national and regional development planning </aqd:subquery-description>
+        <aqd:subquery-description>11.a.1
+Proportion of population living in cities that implement urban and regional development plans integrating population projections and resource needs, by size of city
+                </aqd:subquery-description>
+        <aqd:subquery-description>By 2020, substantially increase the number of cities and human settlements adopting and implementing integrated policies and plans towards inclusion, resource efficiency, mitigation and adaptation to climate change, resilience to disasters, and develop and implement, in line with the Sendai Framework for Disaster Risk Reduction 2015-2030, holistic disaster risk management at all levels </aqd:subquery-description>
+        <aqd:subquery-description>11.b.1
+Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015-2030a
+                </aqd:subquery-description>
+        <aqd:subquery-description>11.b.2
+Number of countries with national and local disaster risk reduction strategiesa
+                </aqd:subquery-description>
+        <aqd:subquery-description>Support least developed countries, including through financial and technical assistance, in building sustainable and resilient buildings utilizing local materials </aqd:subquery-description>
+        <aqd:subquery-description>11.c.1
+Proportion of financial support to the least developed countries that is allocated to the construction and retrofitting of sustainable, resilient and resource-efficient buildings utilizing local materials
+                </aqd:subquery-description>
+      </aqd:subquery-descriptions>
+      <aqd:query-lines field="TITLE-ABS-KEY">
+        <aqd:query-line>TITLE-ABS-KEY ("safe housing"
+                    OR "sustainable transport"
+                    OR "urban transport"
+                    OR "road safety"
+                    OR "sustainable urbanisation"
+                    OR "inclusive urbanisation"
+                    OR "sustainable settlement*"
+                    OR "green space"
+                    OR "sustainable city"
+                    OR "solid waste collection"
+                    OR "city pollution"
+                    OR "smog"
+                    OR "urban development plan*"
+                    OR "urban planning"
+                    OR "Sendai Framework"
+                    OR "city safe*"
+                    OR "Disaster risk reduction"
+                    )
+                </aqd:query-line>
+      </aqd:query-lines>
+    </aqd:query-definition>
+    <aqd:filters>
+      <aqd:timerange field="PUBYEAR">
+        <aqd:start>2009</aqd:start>
+        <aqd:end>2019</aqd:end>
+      </aqd:timerange>
+    </aqd:filters>
+  </aqd:query-definitions>
+</aqd:query>

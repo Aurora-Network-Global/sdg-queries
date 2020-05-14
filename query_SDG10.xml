@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="queries.xsl"?>
+<aqd:query xmlns:dc="http://dublincore.org/documents/dcmi-namespace/" xmlns:aqd="http://aurora-network.global/queries/namespace/">
+  <dc:identifier type="sdg">10</dc:identifier>
+  <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg10</dc:subject>
+  <dc:identifier type="version">1.0</dc:identifier>
+  <dc:identifier type="doi">10.5281/zenodo.3817352</dc:identifier>
+  <dc:source type="uri">https://sustainabledevelopment.un.org/sdgs</dc:source>
+  <dc:relation type="uri">https://sustainabledevelopment.un.org/sdgs</dc:relation>
+  <dc:title>SDG-10 reduce inequalities</dc:title>
+  <dc:description>The international community has made significant strides towards lifting people out of poverty.  The most vulnerable nations – the least developed countries, the landlocked developing countries and the small island developing states – continue to make inroads into poverty reduction.  However, inequality persists and large disparities remain regarding access to health and education services and other assets.
+There is growing consensus that economic growth is not sufﬁcient to reduce poverty if it is not inclusive and if it does not involve the three dimensions of sustainable development – economic, social and environmental. Fortunately, income inequality has been reduced both between and within countries. At the current time, the per capita income of 60 out of 94 countries with data has risen more rapidly than the national average. There has been some progress regarding creating favorable access conditions for exports from least developing countries as well.
+To reduce inequality, policies should be universal in principle, paying attention to the needs of disadvantaged and marginalized populations. There needs to be an increase in duty-free treatment and continuation of favoring exports from developing countries, in addition to increasing the share of developing countries’ vote within the IMF. Finally, innovations in technology can help reduce the cost of transferring money for migrant workers.</dc:description>
+  <dc:rights href="http://creativecommons.org/licenses/by/4.0/">CC-BY v4 INT</dc:rights>
+  <dc:creator>
+    Aurora Universities Network (AUR); Didier Vercueil (UGA); Nykohla Strong (UAB); Felix Schmidt (UDE); Adam Green (UEA); Jaqui Farrar (UEA); Lars Kullman (UGO); René Otten (VUA); Maurice Vanderfeesten (VUA)
+  </dc:creator>
+  <dc:contributor>
+    Eike Spielberg (UDE)
+  </dc:contributor>
+  <dc:date>2018-01-31</dc:date>
+  <aqd:query-definitions syntax="SCOPUS">
+    <aqd:query-definition>
+      <aqd:subquery-identifier>1</aqd:subquery-identifier>
+      <aqd:subquery-descriptions>
+        <aqd:subquery-description>
+          <!---->By 2030, progressively achieve and sustain income growth of the bottom 40 per cent of the population at a rate higher than the national average</aqd:subquery-description>
+        <aqd:subquery-description>10.1.1
+Growth rates of household expenditure or income per capita among the bottom 40 per cent of the population and the total population
+</aqd:subquery-description>
+        <aqd:subquery-description>
+          <!---->By 2030, empower and promote the social, economic and political inclusion of all, irrespective of age, sex, disability, race, ethnicity, origin, religion or economic or other status </aqd:subquery-description>
+        <aqd:subquery-description>10.2.1
+Proportion of people living below 50 per cent of median income, by age, sex and persons with disabilities
+</aqd:subquery-description>
+        <aqd:subquery-description>Ensure equal opportunity and reduce inequalities of outcome, including by eliminating discriminatory laws, policies and practices and promoting appropriate legislation, policies and action in this regard</aqd:subquery-description>
+        <aqd:subquery-description>10.3.1
+Proportion of the population reporting having personally felt discriminated against or harassed within the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law
+</aqd:subquery-description>
+        <aqd:subquery-description>Adopt policies, especially fiscal, wage and social protection policies, and progressively achieve greater equality</aqd:subquery-description>
+        <aqd:subquery-description>10.4.1
+Labour share of GDP, comprising wages and social protection transfers
+</aqd:subquery-description>
+        <aqd:subquery-description>Improve the regulation and monitoring of global financial markets and institutions and strengthen the implementation of such regulations</aqd:subquery-description>
+        <aqd:subquery-description>10.5.1
+Financial Soundness Indicators
+</aqd:subquery-description>
+        <aqd:subquery-description>Ensure enhanced representation and voice for developing countries in decision-making in global international economic and financial institutions in order to deliver more effective, credible, accountable and legitimate institutions</aqd:subquery-description>
+        <aqd:subquery-description>10.6.1
+Proportion of members and voting rights of developing countries in international organizations
+</aqd:subquery-description>
+        <aqd:subquery-description>Facilitate orderly, safe, regular and responsible migration and mobility of people, including through the implementation of planned and well-managed migration policies</aqd:subquery-description>
+        <aqd:subquery-description>10.7.1
+Recruitment cost borne by employee as a proportion of yearly income earned in country of destination
+</aqd:subquery-description>
+        <aqd:subquery-description>10.7.2
+Number of countries that have implemented well-managed migration policies
+</aqd:subquery-description>
+        <aqd:subquery-description>Implement the principle of special and differential treatment for developing countries, in particular least developed countries, in accordance with World Trade Organization agreements</aqd:subquery-description>
+        <aqd:subquery-description>10.a.1
+Proportion of tariff lines applied to imports from least developed countries and developing countries with zero-tariff
+</aqd:subquery-description>
+        <aqd:subquery-description>Encourage official development assistance and financial flows, including foreign direct investment, to States where the need is greatest, in particular least developed countries, African countries, small island developing States and landlocked developing countries, in accordance with their national plans and programmes</aqd:subquery-description>
+        <aqd:subquery-description>10.b.1
+Total resource flows for development, by recipient and donor countries and type of flow (e.g. official development assistance, foreign direct investment and other flows)
+</aqd:subquery-description>
+        <aqd:subquery-description>By 2030, reduce to less than 3 per cent the transaction costs of migrant remittances and eliminate remittance corridors with costs higher than 5 per cent</aqd:subquery-description>
+        <aqd:subquery-description>10.c.1
+Remittance costs as a proportion of the amount remitted
+</aqd:subquery-description>
+      </aqd:subquery-descriptions>
+      <aqd:query-lines field="TITLE-ABS-KEY">
+        <aqd:query-line>(
+TITLE-ABS-KEY(
+(income* AND growth* AND "bottom 40 per cent")
+OR ((social* OR economic* OR politic*) AND inclusion)
+OR (
+((reduc*) W/3 "inequalit*")
+W/3 (legislation OR polic* OR action)
+)
+OR (
+(polic* W/3 (fiscal OR wage OR "social protection"))
+AND {equality}
+)
+OR (
+(regulation OR monitoring)
+W/3 (global*
+W/1 (financial
+W/1 (market* OR institution*)
+)
+)
+OR (
+("strength*" OR "implement*")
+W/3 "regulations"
+)
+)
+OR {Financial Soundness Indicator*}
+OR (
+({enhanc* representation} W/3 {develop* countr*})
+AND (
+(global W/3 "economic OR financial")
+W/1 "Institution*"
+)
+)
+OR ("managed" W/3 {migration polic*})
+OR ( ("developing countr*")
+AND ("World Trade Organization" OR "WTO" OR "World Trade Organisation")
+)
+)
+)
+</aqd:query-line>
+      </aqd:query-lines>
+    </aqd:query-definition>
+    <aqd:filters>
+      <aqd:timerange field="PUBYEAR">
+        <aqd:start>2009</aqd:start>
+        <aqd:end>2019</aqd:end>
+      </aqd:timerange>
+    </aqd:filters>
+  </aqd:query-definitions>
+</aqd:query>

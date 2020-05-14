@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:dc="http://purl.org/dc/terms"
+           xmlns:aqd="http://aurora-network.global/queries/namespace/"
+           elementFormDefault="qualified"
+           targetNamespace="http://aurora-network.global/queries/namespace/">
+
+    <xs:import schemaLocation="https://www.dublincore.org/schemas/xmls/qdc/dcterms.xsd"
+               namespace="http://purl.org/dc/terms"/>
+
+    <xs:annotation>
+        <xs:documentation xml:lang="en">
+            XML Schema 2020-02-01 by Eike Spielberg
+        </xs:documentation>
+    </xs:annotation>
+
+    <!-- Definition of query set, holding multiple queries. -->
+    <xs:element name="querySet" type="QuerySetType"/>
+    <xs:complexType name="QuerySetType">
+        <xs:sequence>
+            <xs:element ref="query" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- main element of the query definition. -->
+    <xs:element name="query">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:group ref="dc:elementsAndRefinementsGroup"/>
+                <xs:element name="query-definitions" type="aqd:QueryDefintionsType"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Definition of Timerange, a special filter element. -->
+    <xs:complexType name="TimerangeType">
+        <xs:sequence>
+            <xs:element name="start" type="xs:string"/>
+            <xs:element name="end" type="xs:string"/>
+        </xs:sequence>
+        <xs:attribute name="field" type="xs:string"/>
+    </xs:complexType>
+
+    <!--  Definition of general filter elements. -->
+    <xs:complexType name="FilterType">
+        <xs:sequence>
+            <xs:element name="type" type="xs:string"/>
+        </xs:sequence>
+        <xs:attribute name="field" type="xs:string" use="required"/>
+        <xs:attribute name="type" type="xs:string"/>
+    </xs:complexType>
+
+    <!-- Definition of filters. Consisting of individual filters and a timerange. -->
+    <xs:complexType name="FiltersType">
+        <xs:sequence>
+            <xs:element name="timerange" type="TimerangeType"/>
+            <xs:element name="filter" type="aqd:FilterType" maxOccurs="unbounded"
+                        minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Definition of the descriptions element. giving context to the query lines. -->
+    <xs:complexType name="SubqueryDescriptionsType">
+        <xs:sequence>
+            <xs:element name="subquery-description" maxOccurs="unbounded"
+                        type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Definition of a single query line. -->
+    <xs:complexType name="QueryLinesType">
+        <xs:sequence>
+            <xs:element name="query-line" type="xs:string" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:attribute name="field" type="xs:string"/>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Definition of the subquery, consisting of a number of individual topics. -->
+    <xs:complexType name="QueryDefintionsType">
+        <xs:sequence>
+            <xs:element name="query-definition" type="aqd:QueryDefinitionType" maxOccurs="unbounded"/>
+            <xs:element name="filters" type="aqd:FiltersType"/>
+        </xs:sequence>
+        <xs:attribute name="syntax" type="xs:string">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="SCOPUS"/>
+                    <xs:enumeration value="WOS"/>
+                    <xs:enumeration value="MYCORE"/>
+                    <xs:enumeration value="CROSSREF"/>
+					<xs:enumeration value="LUCENE"/>
+					<xs:enumeration value="CQL"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+
+    <!-- Definition of the a query definition, consisting of an individual identifier, query lines, descriptions, and
+     possibly filters. -->
+    <xs:complexType name="QueryDefinitionType">
+        <xs:sequence>
+            <xs:element name="subquery-identifier" type="xs:int"/>
+            <xs:element name="subquery-descriptions" type="aqd:SubqueryDescriptionsType"/>
+            <xs:element name="query-lines" type="aqd:QueryLinesType"/>
+            <xs:element name="filters" type="aqd:FiltersType" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>

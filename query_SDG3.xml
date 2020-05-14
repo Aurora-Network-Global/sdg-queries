@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="queries.xsl"?>
+<aqd:query xmlns:dc="http://dublincore.org/documents/dcmi-namespace/" xmlns:aqd="http://aurora-network.global/queries/namespace/">
+  <dc:identifier type="sdg">3</dc:identifier>
+  <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg3</dc:subject>
+  <dc:identifier type="version">1.0</dc:identifier>
+  <dc:identifier type="doi">10.5281/zenodo.3817352</dc:identifier>
+  <dc:source type="uri">https://sustainabledevelopment.un.org/sdgs</dc:source>
+  <dc:relation type="uri">https://sustainabledevelopment.un.org/sdgs</dc:relation>
+  <dc:title>SDG-03 good health and well-being</dc:title>
+  <dc:description>Ensuring healthy lives and promoting the well-being at all ages is essential to sustainable development.
+Significant strides have been made in increasing life expectancy and reducing some of the common killers associated with child and maternal mortality, but working towards achieving the target of less than 70 maternal deaths per 100,000 live births by 2030 would require improvements in skilled delivery care.
+Achieving the target of reducing premature deaths due to incommunicable diseases by 1/3 by the year 2030 would also require more efficient technologies for clean fuel use during cooking and education on the risks of tobacco.
+Many more efforts are needed to fully eradicate a wide range of diseases and address many different persistent and emerging health issues. By focusing on providing more efficient funding of health systems, improved sanitation and hygiene, increased access to physicians and more tips on ways to reduce ambient pollution, significant progress can be made in helping to save the lives of millions.</dc:description>
+  <dc:rights href="http://creativecommons.org/licenses/by/4.0/">CC-BY v4 INT</dc:rights>
+  <dc:creator>
+    Aurora Universities Network (AUR); Didier Vercueil (UGA); Nykohla Strong (UAB); Felix Schmidt (UDE); Adam Green (UEA); Jaqui Farrar (UEA); Lars Kullman (UGO); René Otten (VUA); Maurice Vanderfeesten (VUA)
+  </dc:creator>
+  <dc:contributor>
+    Eike Spielberg (UDE)
+  </dc:contributor>
+  <dc:date>2018-01-31</dc:date>
+  <aqd:query-definitions syntax="SCOPUS">
+    <aqd:query-definition>
+      <aqd:subquery-identifier>1</aqd:subquery-identifier>
+      <aqd:subquery-descriptions>
+        <aqd:subquery-description>
+          <!---->By 2030, reduce the global maternal mortality ratio to less than 70 per 100,000 live births </aqd:subquery-description>
+        <aqd:subquery-description>3.1.1
+Maternal mortality ratio
+                </aqd:subquery-description>
+        <aqd:subquery-description>3.1.2
+Proportion of births attended by skilled health personnel
+                </aqd:subquery-description>
+        <aqd:subquery-description>By 2030, end preventable deaths of newborns and children under 5 years of age, with all countries aiming to reduce neonatal mortality to at least as low as 12 per 1,000 live births and under-5 mortality to at least as low as 25 per 1,000 live births </aqd:subquery-description>
+        <aqd:subquery-description>3.2.1
+Under-five mortality rate
+                </aqd:subquery-description>
+        <aqd:subquery-description>3.2.2
+Neonatal mortality rate
+                </aqd:subquery-description>
+        <aqd:subquery-description>By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases </aqd:subquery-description>
+        <aqd:subquery-description>3.3.1
+Number of new HIV infections per 1,000 uninfected population, by sex, age and key populations
+                </aqd:subquery-description>
+        <aqd:subquery-description>3.3.2
+Tuberculosis incidence per 1,000 population </aqd:subquery-description>
+        <aqd:subquery-description>3.3.3
+Malaria incidence per 1,000 population
+                </aqd:subquery-description>
+        <aqd:subquery-description>3.3.4
+Hepatitis B incidence per 100,000 population
+                </aqd:subquery-description>
+        <aqd:subquery-description>3.3.5
+Number of people requiring interventions against neglected tropical diseases
+                </aqd:subquery-description>
+        <aqd:subquery-description>By 2030, reduce by one third premature mortality from non-communicable diseases through prevention and treatment and promote mental health and well-being </aqd:subquery-description>
+        <aqd:subquery-description>3.4.1
+Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease
+                </aqd:subquery-description>
+        <aqd:subquery-description>3.4.2
+Suicide mortality rate </aqd:subquery-description>
+        <aqd:subquery-description>Strengthen the prevention and treatment of substance abuse, including narcotic drug abuse and harmful use of alcohol </aqd:subquery-description>
+        <aqd:subquery-description>3.5.1
+Coverage of treatment interventions (pharmacological, psychosocial and rehabilitation and aftercare services) for substance use disorders
+                </aqd:subquery-description>
+        <aqd:subquery-description>3.5.2
+Harmful use of alcohol, defined according to the national context as alcohol per capita consumption (aged 15 years and older) within a calendar year in litres of pure alcohol
+                </aqd:subquery-description>
+        <aqd:subquery-description>By 2020, halve the number of global deaths and injuries from road traffic accidents </aqd:subquery-description>
+        <aqd:subquery-description>3.6.1
+Death rate due to road traffic injuries
+                </aqd:subquery-description>
+        <aqd:subquery-description>By 2030, ensure universal access to sexual and reproductive health-care services, including for family planning, information and education, and the integration of reproductive health into national strategies and programmes </aqd:subquery-description>
+        <aqd:subquery-description>3.7.1
+Proportion of women of reproductive age (aged 15-49 years) who have their need for family planning satisfied with modern methods
+                </aqd:subquery-description>
+        <aqd:subquery-description>3.7.2
+Adolescent birth rate (aged 10-14 years; aged 15-19 years) per 1,000 women in that age group
+                </aqd:subquery-description>
+        <aqd:subquery-description>Achieve universal health coverage, including financial risk protection, access to quality essential health-care services and access to safe, effective, quality and affordable essential medicines and vaccines for all </aqd:subquery-description>
+        <aqd:subquery-description>3.8.1
+Coverage of essential health services (defined as the average coverage of essential services based on tracer interventions that include reproductive, maternal, newborn and child health, infectious diseases, non-communicable diseases and service capacity and access, among the general and the most disadvantaged population)
+                </aqd:subquery-description>
+        <aqd:subquery-description>3.8.2
+Proportion of population with large household expenditures on health as a share of total household expenditure or income </aqd:subquery-description>
+        <aqd:subquery-description>By 2030, substantially reduce the number of deaths and illnesses from hazardous chemicals and air, water and soil pollution and contamination</aqd:subquery-description>
+        <aqd:subquery-description>3.9.1
+Mortality rate attributed to household and ambient air pollution
+                </aqd:subquery-description>
+        <aqd:subquery-description>3.9.2
+Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene (exposure to unsafe Water, Sanitation and Hygiene for All (WASH) services)
+                </aqd:subquery-description>
+        <aqd:subquery-description>3.9.3
+Mortality rate attributed to unintentional poisoning
+                </aqd:subquery-description>
+        <aqd:subquery-description>Strengthen the implementation of the World Health Organization Framework Convention on Tobacco Control in all countries, as appropriate </aqd:subquery-description>
+        <aqd:subquery-description>3.a.1
+Age-standardized prevalence of current tobacco use among persons aged 15 years and older
+                </aqd:subquery-description>
+        <aqd:subquery-description>
+Support the research and development of vaccines and medicines for the communicable and non-communicable diseases that primarily affect developing countries, provide access to affordable essential medicines and vaccines, in accordance with the Doha Declaration on the TRIPS Agreement and Public Health, which affirms the right of developing countries to use to the full the provisions in the Agreement on Trade-Related Aspects of Intellectual Property Rights regarding flexibilities to protect public health, and, in particular, provide access to medicines for all </aqd:subquery-description>
+        <aqd:subquery-description>3.b.1
+Proportion of the population with access to affordable medicines and vaccines on a sustainable basis
+                </aqd:subquery-description>
+        <aqd:subquery-description>3.b.2
+Total net official development assistance to medical research and basic health sectors
+                </aqd:subquery-description>
+        <aqd:subquery-description>Substantially increase health financing and the recruitment, development, training and retention of the health workforce in developing countries, especially in least developed countries and small island developing States </aqd:subquery-description>
+        <aqd:subquery-description>3.c.1
+Health worker density and distribution
+                </aqd:subquery-description>
+        <aqd:subquery-description>Strengthen the capacity of all countries, in particular developing countries, for early warning, risk reduction and management of national and global health risks </aqd:subquery-description>
+        <aqd:subquery-description>3.d.1
+                    International Health Regulations (IHR) capacity and health emergency preparedness
+                </aqd:subquery-description>
+      </aqd:subquery-descriptions>
+      <aqd:query-lines field="TITLE-ABS-KEY">
+        <aqd:query-line>(
+                    (TITLE-ABS-KEY
+                    (
+                    (
+                    ( {reduce}
+                    W/3 (
+                    ( {maternal}
+                    OR {neonatal}
+                    OR {under-five}
+                    OR ( {under}
+                    W/2 ({5} OR {five})
+                    )
+                    OR {before fifth}
+                    )
+                    W/3 {mortality} )
+                    )
+                    )
+                    )
+                    )
+                    OR (TITLE-ABS-KEY
+                    (
+                    (
+                    ( {epidemic} OR {combat})
+                    W/3 ( {tuberculos*}
+                    OR {malaria}
+                    OR {hepatit*}
+                    OR {HIV}
+                    OR {AIDS}
+                    OR {tropical disease*}
+                    OR {Zika*}
+                    OR {Ebola*}
+                    )
+                    )
+                    )
+                    )
+                    OR (TITLE-ABS-KEY
+                    (
+                    (
+                    ( {abuse}
+                    W/3 ({substance*}
+                    OR {drug*}
+                    OR {alcohol}
+                    )
+                    )
+                    AND ( {prevention} AND {treatment} )
+                    )
+                    )
+                    )
+                    OR (TITLE-ABS-KEY
+                    (
+                    (
+                    ( "road" W/3 "traffic" )
+                    W/3 ( "injur*"
+                    OR "death*"
+                    OR "accident*"
+                    )
+                    )
+                    )
+                    )
+                    OR (TITLE-ABS-KEY
+                    (
+                    (
+                    ( "Access"
+                    OR "national strategy*"
+                    OR "national program*"
+                    )
+                    W/3 ( "reproductive healthcare*"
+                    OR "reproductive health-care*"
+                    OR "sexual healthcare*"
+                    OR "sexual health-care*"
+                    )
+                    )
+                    )
+                    )
+                    OR (TITLE-ABS-KEY
+                    (
+                    ( {family planning}
+                    OR {adolescent birth rate}
+                    OR {adolescent mother*}
+                    OR ( {teen*}
+                    W/3 ( {mother*}
+                    OR {pregnan*}
+                    OR {birth rate*}
+                    )
+                    )
+                    )
+                    )
+                    )
+                    OR (TITLE-ABS-KEY
+                    (
+                    (
+                    ( {universal access}
+                    W/3 ( {healthcare}
+                    OR {health-care} )
+                    )
+                    OR (
+                    ({affordable} OR {quality})
+                    W/3 ( {medicine*} OR {vaccin*})
+                    )
+                    )
+                    )
+                    )
+                    OR (TITLE-ABS-KEY
+                    (
+                    ( "mortality"
+                    AND ( "hazardous chemical*"
+                    OR (
+                    ( "pollut*"
+                    OR "contaminat*"
+                    OR "poison*" )
+                    W/3 ( "water"
+                    OR "air"
+                    OR "soil" )
+                    )
+                    )
+                    )
+                    )
+                    )
+                    OR (TITLE-ABS-KEY
+                    (
+                    ( "tobacco" W/6 "control*" )
+                    )
+                    )
+                    OR (TITLE-ABS-KEY
+                    (
+                    (
+                    ( "health"
+                    W/3 ( "financing"
+                    OR "recruit*"
+                    OR "training" )
+                    )
+                    AND "developing countr*"
+                    )
+                    )
+                    )
+                    OR (TITLE-ABS-KEY
+                    (
+                    (
+                    ( "early" W/3 "warning" )
+                    OR ( "risk" W/3 "reduction" )
+                    OR ( "risk" W/3 "management" )
+                    )
+                    W/3 ("health risk*")
+                    )
+                    )
+
+
+                    )
+                </aqd:query-line>
+      </aqd:query-lines>
+    </aqd:query-definition>
+    <aqd:filters>
+      <aqd:timerange field="PUBYEAR">
+        <aqd:start>2009</aqd:start>
+        <aqd:end>2019</aqd:end>
+      </aqd:timerange>
+    </aqd:filters>
+  </aqd:query-definitions>
+</aqd:query>

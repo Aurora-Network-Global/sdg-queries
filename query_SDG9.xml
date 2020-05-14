@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="queries.xsl"?>
+<aqd:query xmlns:dc="http://dublincore.org/documents/dcmi-namespace/" xmlns:aqd="http://aurora-network.global/queries/namespace/">
+  <dc:identifier type="sdg">9</dc:identifier>
+  <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg9</dc:subject>
+  <dc:identifier type="version">1.0</dc:identifier>
+  <dc:identifier type="doi">10.5281/zenodo.3817352</dc:identifier>
+  <dc:source type="uri">https://sustainabledevelopment.un.org/sdgs</dc:source>
+  <dc:relation type="uri">https://sustainabledevelopment.un.org/sdgs</dc:relation>
+  <dc:title>SDG-09 industry, innovation and infrastructure</dc:title>
+  <dc:description>Investments in infrastructure – transport, irrigation, energy and information and communication technology – are crucial to achieving sustainable development and empowering communities in many countries. It has long been recognized that growth in productivity and incomes, and improvements in health and education outcomes require investment in infrastructure
+Manufacturing is an important driver of economic development and employment. At the current time, however, manufacturing value added per capita is only US$100 in the least developed countries compared to over US$4,500 in Europe and Northern America. Another important factor to consider is the emission of Carbon Dioxide during manufacturing processes. Emissions have decreased over the past decade in many countries but the pace of decline has not been even around the world.
+Technological progress is the foundation of efforts to achieve environmental objectives, such as increased resource and energy-efficiency. Without technology and innovation, industrialization will not happen, and without industrialization, development will not happen. There needs to be more investments in high-tech products that dominate the manufacturing productions to increase efficiency and a focus on mobile cellular services that increase connections between people.</dc:description>
+  <dc:rights href="http://creativecommons.org/licenses/by/4.0/">CC-BY v4 INT</dc:rights>
+  <dc:creator>
+    Aurora Universities Network (AUR); Didier Vercueil (UGA); Nykohla Strong (UAB); Felix Schmidt (UDE); Adam Green (UEA); Jaqui Farrar (UEA); Lars Kullman (UGO); René Otten (VUA); Maurice Vanderfeesten (VUA)
+  </dc:creator>
+  <dc:contributor>
+    Eike Spielberg (UDE)
+  </dc:contributor>
+  <dc:date>2018-01-31</dc:date>
+  <aqd:query-definitions syntax="SCOPUS">
+    <aqd:query-definition>
+      <aqd:subquery-identifier>1</aqd:subquery-identifier>
+      <aqd:subquery-descriptions>
+        <aqd:subquery-description>
+          <!---->Develop quality, reliable, sustainable and resilient infrastructure, including regional and transborder infrastructure, to support economic development and human well-being, with a focus on affordable and equitable access for all </aqd:subquery-description>
+        <aqd:subquery-description>9.1.1
+Proportion of the rural population who live within 2 km of an all-season road
+                </aqd:subquery-description>
+        <aqd:subquery-description>9.1.2
+Passenger and freight volumes, by mode of transport
+                </aqd:subquery-description>
+        <aqd:subquery-description>
+          <!---->Promote inclusive and sustainable industrialization and, by 2030, significantly raise industry’s share of employment and gross domestic product, in line with national circumstances, and double its share in least developed countries </aqd:subquery-description>
+        <aqd:subquery-description>9.2.1
+Manufacturing value added as a proportion of GDP and per capita
+                </aqd:subquery-description>
+        <aqd:subquery-description>9.2.2
+Manufacturing employment as a proportion of total employment
+                </aqd:subquery-description>
+        <aqd:subquery-description>Increase the access of small-scale industrial and other enterprises, in particular in developing countries, to financial services, including affordable credit, and their integration into value chains and markets </aqd:subquery-description>
+        <aqd:subquery-description>9.3.1
+Proportion of small-scale industries in total industry value added
+                </aqd:subquery-description>
+        <aqd:subquery-description>9.3.2
+Proportion of small-scale industries with a loan or line of credit
+                </aqd:subquery-description>
+        <aqd:subquery-description>By 2030, upgrade infrastructure and retrofit industries to make them sustainable, with increased resource-use efficiency and greater adoption of clean and environmentally sound technologies and industrial processes, with all countries taking action in accordance with their respective capabilities </aqd:subquery-description>
+        <aqd:subquery-description>9.4.1
+CO2 emission per unit of value added </aqd:subquery-description>
+        <aqd:subquery-description>
+Enhance scientific research, upgrade the technological capabilities of industrial sectors in all countries, in particular developing countries, including, by 2030, encouraging innovation and substantially increasing the number of research and development workers per 1 million people and public and private research and development spending </aqd:subquery-description>
+        <aqd:subquery-description>9.5.1
+Research and development expenditure as a proportion of GDP
+                </aqd:subquery-description>
+        <aqd:subquery-description>9.5.2
+Researchers (in full-time equivalent) per million inhabitants
+                </aqd:subquery-description>
+        <aqd:subquery-description>Facilitate sustainable and resilient infrastructure development in developing countries through enhanced financial, technological and technical support to African countries, least developed countries, landlocked developing countries and small island developing States</aqd:subquery-description>
+        <aqd:subquery-description>9.a.1
+Total official international support (official development assistance plus other official flows) to infrastructure
+                </aqd:subquery-description>
+        <aqd:subquery-description>Support domestic technology development, research and innovation in developing countries, including by ensuring a conducive policy environment for, inter alia, industrial diversification and value addition to commodities </aqd:subquery-description>
+        <aqd:subquery-description>9.b.1
+Proportion of medium and high-tech industry value added in total value added
+                </aqd:subquery-description>
+        <aqd:subquery-description>Significantly increase access to information and communications technology and strive to provide universal and affordable access to the Internet in least developed countries by 2020</aqd:subquery-description>
+        <aqd:subquery-description>9.c.1
+Proportion of population covered by a mobile network, by technology
+                </aqd:subquery-description>
+      </aqd:subquery-descriptions>
+      <aqd:query-lines field="TITLE-ABS-KEY">
+        <aqd:query-line>TITLE-ABS-KEY (
+                    (
+                    (
+                    (
+                    (
+                    (quality OR reliab* OR sustainab* OR resilient)
+                    AND infrastructure
+                    )
+                    OR "regional infrastructure"
+                    OR "transborder infrastructure"
+                    )
+                    OR ("economic development" OR "human well-being")
+                    AND ((afford* OR equitable) AND access)
+                    )
+                    OR (
+                    (
+                    (inclusi* OR sustainab*)
+                    AND industr*
+                    )
+                    OR (
+                    ("share of employment" OR "gross domestic product")
+                    AND industr*)
+                    )
+                    OR (access
+                    AND ("financial servic*" OR "credit" OR "value chain*" OR market*)
+                    AND (industr* OR enterprise*)
+                    )
+                    OR (
+                    (
+                    (upgrade AND infrastructur*)
+                    OR (retrofit AND industr*)
+                    )
+                    AND (sustainab*)
+                    OR (
+                    (increase* AND "resource-use efficiency")
+                    OR (clean OR "environmentally sound")
+                    )
+                    AND (technolog* OR industr*)
+                    )
+                    OR (
+                    (enhance AND scien* AND research AND "developing countries")
+                    OR (upgrade AND "technological capabilities" AND "developing countries")
+                    OR "encouraging innovation"
+                    )
+                    OR (
+                    (sustainable OR resilient)
+                    AND infrastructur*
+                    AND develop*
+                    )
+                    OR (
+                    ("domestic technology development")
+                    OR (support
+                    AND (research OR innovation)
+                    AND "developing countries")
+                    )
+                    OR (access
+                    AND (internet
+                    OR inform*
+                    OR (communication AND technolog*)
+                    )
+                    AND develop*
+                    )
+                    OR (Proportion
+                    AND "rural population"
+                    AND "within 2 km"
+                    AND "all-season road"
+                    )
+                    OR (Passenger*
+                    AND freight
+                    AND volume*
+                    AND "mode of transport"
+                    )
+                    OR (Manufactur*
+                    AND value
+                    AND "GDP and per capita"
+                    )
+                    OR (Manufactur*
+                    AND employment
+                    AND proportion
+                    AND "total employment"
+                    )
+                    OR (Proportion
+                    AND "small-scale"
+                    AND industr*
+                    AND "total industry value"
+                    )
+                    OR (Proportion
+                    AND "small-scale"
+                    AND industr*
+                    AND ("loan" OR "line of credit")
+                    )
+                    OR ("CO2 emission" AND "per unit of value")
+                    OR (
+                    (Research OR development)
+                    AND expenditure
+                    AND "proportion of GDP"
+                    )
+                    OR (Researcher* AND "full-time equivalent" AND inhabitants)
+                    OR ("international support"
+                    AND (official*
+                    AND ("development assistance" OR flow*)
+                    )
+                    AND infrastructure*
+                    )
+                    OR (Proportion
+                    AND (medium OR high-tech)
+                    AND industr*
+                    AND "value added"
+                    )
+                    OR (Proportion
+                    AND population
+                    AND mobile
+                    AND network*
+                    AND technolog*
+                    )
+                    )
+                    )
+                </aqd:query-line>
+      </aqd:query-lines>
+    </aqd:query-definition>
+    <aqd:filters>
+      <aqd:timerange field="PUBYEAR">
+        <aqd:start>2009</aqd:start>
+        <aqd:end>2019</aqd:end>
+      </aqd:timerange>
+    </aqd:filters>
+  </aqd:query-definitions>
+</aqd:query>

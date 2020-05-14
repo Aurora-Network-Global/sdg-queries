@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="queries.xsl"?>
+<aqd:query xmlns:dc="http://dublincore.org/documents/dcmi-namespace/" xmlns:aqd="http://aurora-network.global/queries/namespace/">
+  <dc:identifier type="sdg">14</dc:identifier>
+  <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg14</dc:subject>
+  <dc:identifier type="version">1.0</dc:identifier>
+  <dc:identifier type="doi">10.5281/zenodo.3817352</dc:identifier>
+  <dc:source type="uri">https://sustainabledevelopment.un.org/sdgs</dc:source>
+  <dc:relation type="uri">https://sustainabledevelopment.un.org/sdgs</dc:relation>
+  <dc:title>SDG-14 life below water</dc:title>
+  <dc:description>The world’s oceans – their temperature, chemistry, currents and life – drive global systems that make the Earth habitable for humankind. Our rainwater, drinking water, weather, climate, coastlines, much of our food, and even the oxygen in the air we breathe, are all ultimately provided and regulated by the sea. Throughout history, oceans and seas have been vital conduits for trade and transportation.
+Careful management of this essential global resource is a key feature of a sustainable future. However, at the current time, there is a continuous deterioration of coastal waters owing to pollution and ocean acidification is having an adversarial effect on the functioning of ecosystems and biodiversity. This is also negatively impacting small scale fisheries.
+Marine protected areas need to be effectively managed and well-resourced and regulations need to be put in place to reduce overfishing, marine pollution and ocean acidification.</dc:description>
+  <dc:rights href="http://creativecommons.org/licenses/by/4.0/">CC-BY v4 INT</dc:rights>
+  <dc:creator>
+    Aurora Universities Network (AUR); Didier Vercueil (UGA); Nykohla Strong (UAB); Felix Schmidt (UDE); Adam Green (UEA); Jaqui Farrar (UEA); Lars Kullman (UGO); René Otten (VUA); Maurice Vanderfeesten (VUA)
+  </dc:creator>
+  <dc:contributor>
+    Eike Spielberg (UDE)
+  </dc:contributor>
+  <dc:date>2018-01-31</dc:date>
+  <aqd:query-definitions syntax="SCOPUS">
+    <aqd:query-definition>
+      <aqd:subquery-identifier>1</aqd:subquery-identifier>
+      <aqd:subquery-descriptions>
+        <aqd:subquery-description>By 2025, prevent and significantly reduce marine pollution of all kinds, in particular from land-based activities, including marine debris and nutrient pollution </aqd:subquery-description>
+        <aqd:subquery-description>14.1.1
+Index of coastal eutrophication and floating plastic debris density </aqd:subquery-description>
+        <aqd:subquery-description>By 2020, sustainably manage and protect marine and coastal ecosystems to avoid significant adverse impacts, including by strengthening their resilience, and take action for their restoration in order to achieve healthy and productive oceans </aqd:subquery-description>
+        <aqd:subquery-description>14.2.1
+Proportion of national exclusive economic zones managed using ecosystem-based approaches
+                </aqd:subquery-description>
+        <aqd:subquery-description>Minimize and address the impacts of ocean acidification, including through enhanced scientific cooperation at all levels </aqd:subquery-description>
+        <aqd:subquery-description>14.3.1
+Average marine acidity (pH) measured at agreed suite of representative sampling stations </aqd:subquery-description>
+        <aqd:subquery-description>
+By 2020, effectively regulate harvesting and end overfishing, illegal, unreported and unregulated fishing and destructive fishing practices and implement science-based management plans, in order to restore fish stocks in the shortest time feasible, at least to levels that can produce maximum sustainable yield as determined by their biological characteristics </aqd:subquery-description>
+        <aqd:subquery-description>14.4.1
+Proportion of fish stocks within biologically sustainable levels
+                </aqd:subquery-description>
+        <aqd:subquery-description>By 2020, conserve at least 10 per cent of coastal and marine areas, consistent with national and international law and based on the best available scientific information </aqd:subquery-description>
+        <aqd:subquery-description>14.5.1
+Coverage of protected areas in relation to marine areas
+                </aqd:subquery-description>
+        <aqd:subquery-description>
+By 2020, prohibit certain forms of fisheries subsidies which contribute to overcapacity and overfishing, eliminate subsidies that contribute to illegal, unreported and unregulated fishing and refrain from introducing new such subsidies, recognizing that appropriate and effective special and differential treatment for developing and least developed countries should be an integral part of the World Trade Organization fisheries subsidies negotiation</aqd:subquery-description>
+        <aqd:subquery-description>14.6.1
+Progress by countries in the degree of implementation of international instruments aiming to combat illegal, unreported and unregulated fishing </aqd:subquery-description>
+        <aqd:subquery-description>By 2030, increase the economic benefits to Small Island developing States and least developed countries from the sustainable use of marine resources, including through sustainable management of fisheries, aquaculture and tourism </aqd:subquery-description>
+        <aqd:subquery-description>14.7.1
+Sustainable fisheries as a percentage of GDP in small island developing States, least developed countries and all countries     </aqd:subquery-description>
+        <aqd:subquery-description>
+Increase scientific knowledge, develop research capacity and transfer marine technology, taking into account the Intergovernmental Oceanographic Commission Criteria and Guidelines on the Transfer of Marine Technology, in order to improve ocean health and to enhance the contribution of marine biodiversity to the development of developing countries, in particular small island developing States and least developed countries</aqd:subquery-description>
+        <aqd:subquery-description>14.a.1
+Proportion of total research budget allocated to research in the field of marine technology
+                </aqd:subquery-description>
+        <aqd:subquery-description>
+Provide access for small-scale artisanal fishers to marine resources and markets </aqd:subquery-description>
+        <aqd:subquery-description>14.b.1
+Progress by countries in the degree of application of a legal/regulatory/policy/institutional framework which recognizes and protects access rights for small-scale fisheries </aqd:subquery-description>
+        <aqd:subquery-description>Enhance the conservation and sustainable use of oceans and their resources by implementing international law as reflected in UNCLOS, which provides the legal framework for the conservation and sustainable use of oceans and their resources, as recalled in paragraph 158 of The Future We Want </aqd:subquery-description>
+        <aqd:subquery-description>14.c.1
+Number of countries making progress in ratifying, accepting and implementing through legal, policy and institutional frameworks, ocean-related instruments that implement international law, as reflected in the United Nation Convention on the Law of the Sea, for the conservation and sustainable use of the oceans and their resources
+                </aqd:subquery-description>
+      </aqd:subquery-descriptions>
+      <aqd:query-lines field="TITLE-ABS-KEY">
+        <aqd:query-line>TITLE-ABS-KEY (
+                    (
+                    ("ocean*"
+                    OR "marine"
+                    OR "coast*"
+                    OR "sea"
+                    OR "seawater*"
+                    OR "sea water'"
+                    )
+                    AND ("sustainab*"
+                    OR "ecosystem*"
+                    OR "protect*"
+                    OR "preservation*"
+                    OR "biodivers*"
+                    OR “small Island*”
+                    OR "tourism"
+                    OR "protected area*"
+                    OR "conservation*"
+                    OR "developing countries"
+                    OR "ecosystem*"
+                    OR “environmental degradation”
+                    OR “climat* change*”
+                    OR "pollut*"
+                    OR "eutrophication*"
+                    OR "acidification*"
+                    OR "acidity"
+                    OR “pH level*”
+                    OR "debris"
+                    OR "nutrient pollution*"
+                    OR "overfish*"
+                    OR “fisheries”
+                    OR “fishery”
+                    OR “fish stock*”
+                    OR "fishing"
+                    OR "small-scale fish*"
+                    OR "jurisdiction*"
+                    OR "legal"
+                    OR "law*"
+                    )
+                    )
+                    )
+                </aqd:query-line>
+      </aqd:query-lines>
+    </aqd:query-definition>
+    <aqd:filters>
+      <aqd:timerange field="PUBYEAR">
+        <aqd:start>2009</aqd:start>
+        <aqd:end>2019</aqd:end>
+      </aqd:timerange>
+    </aqd:filters>
+  </aqd:query-definitions>
+</aqd:query>

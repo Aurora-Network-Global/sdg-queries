@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="queries.xsl"?>
+<aqd:query xmlns:dc="http://dublincore.org/documents/dcmi-namespace/" xmlns:aqd="http://aurora-network.global/queries/namespace/">
+  <dc:identifier type="sdg">17</dc:identifier>
+  <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg17</dc:subject>
+  <dc:identifier type="version">1.0</dc:identifier>
+  <dc:identifier type="doi">10.5281/zenodo.3817352</dc:identifier>
+  <dc:source type="uri">https://sustainabledevelopment.un.org/sdgs</dc:source>
+  <dc:relation type="uri">https://sustainabledevelopment.un.org/sdgs</dc:relation>
+  <dc:title>SDG-17 partnerships for the goals</dc:title>
+  <dc:description>A successful sustainable development agenda requires partnerships between governments, the private sector and civil society. These inclusive partnerships built upon principles and values, a shared vision, and shared goals that place people and the planet at the centre, are needed at the global, regional, national and local level.
+Urgent action is needed to mobilize, redirect and unlock the transformative power of trillions of dollars of private resources to deliver on sustainable development objectives. Long-term investments, including foreign direct investment, are needed in critical sectors, especially in developing countries. These include sustainable energy, infrastructure and transport, as well as information and communications technologies. The public sector will need to set a clear direction. Review and monitoring frameworks, regulations and incentive structures that enable such investments must be retooled to attract investments and reinforce sustainable development. National oversight mechanisms such as supreme audit institutions and oversight functions by legislatures should be strengthened.</dc:description>
+  <dc:rights href="http://creativecommons.org/licenses/by/4.0/">CC-BY v4 INT</dc:rights>
+  <dc:creator>
+    Aurora Universities Network (AUR); Didier Vercueil (UGA); Nykohla Strong (UAB); Felix Schmidt (UDE); Adam Green (UEA); Jaqui Farrar (UEA); Lars Kullman (UGO); René Otten (VUA); Maurice Vanderfeesten (VUA)
+  </dc:creator>
+  <dc:contributor>
+    Eike Spielberg (UDE)
+  </dc:contributor>
+  <dc:date>2018-01-31</dc:date>
+  <aqd:query-definitions syntax="SCOPUS">
+    <aqd:query-definition>
+      <aqd:subquery-identifier>1</aqd:subquery-identifier>
+      <aqd:subquery-descriptions>
+        <aqd:subquery-description>Strengthen domestic resource mobilization, including through international support to developing countries, to improve domestic capacity for tax and other revenue collection </aqd:subquery-description>
+        <aqd:subquery-description>17.1.1
+Total government revenue as a proportion of GDP, by source
+                </aqd:subquery-description>
+        <aqd:subquery-description>17.1.2
+Proportion of domestic budget funded by domestic taxes
+                </aqd:subquery-description>
+        <aqd:subquery-description>Developed countries to implement fully their official development assistance commitments, including the commitment by many developed countries to achieve the target of 0.7 per cent of ODA/GNI to developing countries and 0.15 to 0.20 per cent of ODA/GNI to least developed countries; ODA providers are encouraged to consider setting a target to provide at least 0.20 per cent of ODA/GNI to least developed countries </aqd:subquery-description>
+        <aqd:subquery-description>17.2.1
+Net official development assistance, total and to least developed countries, as a proportion of the Organization for Economic Cooperation and Development (OECD) Development Assistance Committee donors’ gross national income (GNI) </aqd:subquery-description>
+        <aqd:subquery-description>Mobilize additional financial resources for developing countries from multiple sources </aqd:subquery-description>
+        <aqd:subquery-description>17.3.1
+Foreign direct investments (FDI), official development assistance and South-South Cooperation as a proportion of total domestic budget </aqd:subquery-description>
+        <aqd:subquery-description>17.3.2
+Volume of remittances (in United States dollars) as a proportion of total GDP
+                </aqd:subquery-description>
+        <aqd:subquery-description>Assist developing countries in attaining long-term debt sustainability through coordinated policies aimed at fostering debt financing, debt relief and debt restructuring, as appropriate, and address the external debt of highly indebted poor countries to reduce debt distress </aqd:subquery-description>
+        <aqd:subquery-description>17.4.1
+Debt service as a proportion of exports of goods and services
+                </aqd:subquery-description>
+        <aqd:subquery-description>
+Adopt and implement investment promotion regimes for least developed countries </aqd:subquery-description>
+        <aqd:subquery-description>17.5.1
+Number of countries that adopt and implement investment promotion regimes for least developed countries
+                </aqd:subquery-description>
+        <aqd:subquery-description>Enhance North-South, South-South and triangular regional and international cooperation on and access to science, technology and innovation and enhance knowledge sharing on mutually agreed terms, including through improved coordination among existing mechanisms, in particular at the United Nations level, and through a global technology facilitation mechanism </aqd:subquery-description>
+        <aqd:subquery-description>17.6.1
+Number of science and/or technology cooperation agreements and programmes between countries, by type of cooperation </aqd:subquery-description>
+        <aqd:subquery-description>17.6.2
+Fixed Internet broadband subscriptions per 100 inhabitants, by speed </aqd:subquery-description>
+        <aqd:subquery-description>Promote the development, transfer, dissemination and diffusion of environmentally sound technologies to developing countries on favourable terms, including on concessional and preferential terms, as mutually agreed </aqd:subquery-description>
+        <aqd:subquery-description>17.7.1
+Total amount of approved funding for developing countries to promote the development, transfer, dissemination and diffusion of environmentally sound technologies
+                </aqd:subquery-description>
+        <aqd:subquery-description>Fully operationalize the technology bank and science, technology and innovation capacity-building mechanism for least developed countries by 2017 and enhance the use of enabling technology, in particular information and communications technology </aqd:subquery-description>
+        <aqd:subquery-description>17.8.1
+Proportion of individuals using the Internet </aqd:subquery-description>
+        <aqd:subquery-description>Enhance international support for implementing effective and targeted capacity-building in developing countries to support national plans to implement all the sustainable development goals, including through North-South, South-South and triangular cooperation </aqd:subquery-description>
+        <aqd:subquery-description>17.9.1
+Dollar value of financial and technical assistance (including through North-South, South-South and triangular cooperation) committed to developing countries
+                </aqd:subquery-description>
+        <aqd:subquery-description>Promote a universal, rules-based, open, non-discriminatory and equitable multilateral trading system under the World Trade Organization, including through the conclusion of negotiations under its Doha Development Agenda </aqd:subquery-description>
+        <aqd:subquery-description>17.10.1
+Worldwide weighted tariff-average </aqd:subquery-description>
+        <aqd:subquery-description>Significantly increase the exports of developing countries, in particular with a view to doubling the least developed countries’ share of global exports by 2020 </aqd:subquery-description>
+        <aqd:subquery-description>17.11.1
+Developing countries’ and least developed countries’ share of global exports </aqd:subquery-description>
+        <aqd:subquery-description>Realize timely implementation of duty-free and quota-free market access on a lasting basis for all least developed countries, consistent with World Trade Organization decisions, including by ensuring that preferential rules of origin applicable to imports from least developed countries are transparent and simple, and contribute to facilitating market access </aqd:subquery-description>
+        <aqd:subquery-description>17.12.1
+Average tariffs faced by developing countries, least developed countries and small island developing States </aqd:subquery-description>
+        <aqd:subquery-description>Enhance global macroeconomic stability, including through policy coordination and policy coherence </aqd:subquery-description>
+        <aqd:subquery-description>17.13.1
+Macroeconomic Dashboard
+                </aqd:subquery-description>
+        <aqd:subquery-description>Enhance policy coherence for sustainable development </aqd:subquery-description>
+        <aqd:subquery-description>17.14.1
+Number of countries with mechanisms in place to enhance policy coherence of sustainable development      </aqd:subquery-description>
+        <aqd:subquery-description>Respect each country’s policy space and leadership to establish and implement policies for poverty eradication and sustainable development </aqd:subquery-description>
+        <aqd:subquery-description>17.15.1
+Extent of use of country-owned results frameworks and planning tools by providers of development cooperation   </aqd:subquery-description>
+        <aqd:subquery-description>Enhance the global partnership for sustainable development, complemented by multi-stakeholder partnerships that mobilize and share knowledge, expertise, technology and financial resources, to support the achievement of the sustainable development goals in all countries, in particular developing countries</aqd:subquery-description>
+        <aqd:subquery-description>17.16.1
+Number of countries reporting progress in multi-stakeholder development effectiveness monitoring frameworks that support the achievement of the sustainable development goals </aqd:subquery-description>
+        <aqd:subquery-description>Encourage and promote effective public, public-private and civil society partnerships, building on the experience and resourcing strategies of partnerships </aqd:subquery-description>
+        <aqd:subquery-description>17.17.1
+Amount of United States dollars committed to public-private and civil society partnerships </aqd:subquery-description>
+        <aqd:subquery-description>
+By 2020, enhance capacity-building support to developing countries, including for least developed countries and small island developing States, to increase significantly the availability of high-quality, timely and reliable data disaggregated by income, gender, age, race, ethnicity, migratory status, disability, geographic location and other characteristics relevant in national contexts </aqd:subquery-description>
+        <aqd:subquery-description>17.18.1
+Proportion of sustainable development indicators produced at the national level with full disaggregation when relevant to the target, in accordance with the Fundamental Principles of Official Statistics
+                </aqd:subquery-description>
+        <aqd:subquery-description>17.18.2
+Number of countries that have national statistical legislation that complies with the Fundamental Principles of Official Statistics </aqd:subquery-description>
+        <aqd:subquery-description>17.18.3
+Number of countries with a national statistical plan that is fully funded and under implementation, by source of funding
+                </aqd:subquery-description>
+        <aqd:subquery-description>By 2030, build on existing initiatives to develop measurements of progress on sustainable development that complement gross domestic product, and support statistical capacity-building in developing countries</aqd:subquery-description>
+        <aqd:subquery-description>17.19.1
+Dollar value of all resources made available to strengthen statistical capacity in developing countries </aqd:subquery-description>
+        <aqd:subquery-description>17.19.2
+Proportion of countries that (a) have conducted at least one population and housing census in the last 10 years; and (b) have achieved 100 per cent birth registration and 80 per cent death registration </aqd:subquery-description>
+      </aqd:subquery-descriptions>
+      <aqd:query-lines field="TITLE-ABS-KEY">
+        <aqd:query-line>
+                    ( TITLE-ABS-KEY
+                    (
+                    ( "sustainab*" )
+                    )
+                    )
+                    AND
+                    ( TITLE-ABS-KEY
+                    (
+                    ( "partner*" OR "cooperation" OR "development assistance" OR "development agenda" OR "international
+                    support" OR "coordinated polic*" OR "trading system*" OR "WTO" OR "world trade organization"
+                    )
+                    )
+                    )
+                    AND
+                    ( TITLE-ABS-KEY
+                    (
+                    ( "government*" OR "private*" OR "public*" OR "societ*" OR "stakeholder*" OR "developing countr*"
+                    )
+                    )
+                    )
+                    )
+                </aqd:query-line>
+      </aqd:query-lines>
+    </aqd:query-definition>
+    <aqd:filters>
+      <aqd:timerange field="PUBYEAR">
+        <aqd:start>2009</aqd:start>
+        <aqd:end>2019</aqd:end>
+      </aqd:timerange>
+    </aqd:filters>
+  </aqd:query-definitions>
+</aqd:query>

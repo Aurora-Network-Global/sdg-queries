@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="queries.xsl"?>
+<aqd:query xmlns:dc="http://dublincore.org/documents/dcmi-namespace/" xmlns:aqd="http://aurora-network.global/queries/namespace/">
+  <dc:identifier type="sdg">13</dc:identifier>
+  <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg13</dc:subject>
+  <dc:identifier type="version">1.0</dc:identifier>
+  <dc:identifier type="doi">10.5281/zenodo.3817352</dc:identifier>
+  <dc:source type="uri">https://sustainabledevelopment.un.org/sdgs</dc:source>
+  <dc:relation type="uri">https://sustainabledevelopment.un.org/sdgs</dc:relation>
+  <dc:title>SDG-13 climate action</dc:title>
+  <dc:description>Climate change is now affecting every country on every continent. It is disrupting national economies and affecting lives, costing people, communities and countries dearly today and even more tomorrow. Weather patterns are changing, sea levels are rising, weather events are becoming more extreme and greenhouse gas emissions are now at their highest levels in history. Without action, the world’s average surface temperature is likely to surpass 3 degrees centigrade this century. The poorest and most vulnerable people are being affected the most.
+Affordable, scalable solutions are now available to enable countries to leapfrog to cleaner, more resilient economies. The pace of change is quickening as more people are turning to renewable energy and a range of other measures that will reduce emissions and increase adaptation efforts. Climate change, however, is a global challenge that does not respect national borders. It is an issue that requires solutions that need to be coordinated at the international level to help developing countries move toward a low-carbon economy.
+To strengthen the global response to the threat of climate change, countries adopted the Paris Agreement at the COP21 in Paris, which went into force in November of 2016. In the agreement, all countries agreed to work to limit global temperature rise to well below 2 degrees centigrade. As of April 2018, 175 parties had ratified the Paris Agreement and 10 developing countries had submitted their first iteration of their national adaptation plans for responding to climate change.</dc:description>
+  <dc:rights href="http://creativecommons.org/licenses/by/4.0/">CC-BY v4 INT</dc:rights>
+  <dc:creator>
+    Aurora Universities Network (AUR); Didier Vercueil (UGA); Nykohla Strong (UAB); Felix Schmidt (UDE); Adam Green (UEA); Jaqui Farrar (UEA); Lars Kullman (UGO); René Otten (VUA); Maurice Vanderfeesten (VUA)
+  </dc:creator>
+  <dc:contributor>
+    Eike Spielberg (UDE)
+  </dc:contributor>
+  <dc:date>2018-01-31</dc:date>
+  <aqd:query-definitions syntax="SCOPUS">
+    <aqd:query-definition>
+      <aqd:subquery-identifier>0</aqd:subquery-identifier>
+      <aqd:subquery-descriptions>
+        <aqd:subquery-description>
+          <!---->Strengthen resilience and adaptive capacity to climate-related hazards and natural disasters in all countries </aqd:subquery-description>
+        <aqd:subquery-description>13.1.3
+Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies
+                </aqd:subquery-description>
+        <aqd:subquery-description>13.1.1
+Number of deaths, missing persons and persons affected by disaster per 100,000 people </aqd:subquery-description>
+        <aqd:subquery-description>13.1.2
+Number of countries with national and local disaster risk reduction strategies
+                </aqd:subquery-description>
+        <aqd:subquery-description>Integrate climate change measures into national policies, strategies and planning </aqd:subquery-description>
+        <aqd:subquery-description>13.2.1
+Number of countries that have communicated the establishment or operationalization of an integrated policy/strategy/plan which increases their ability to adapt to the adverse impacts of climate change, and foster climate resilience and low greenhouse gas emissions development in a manner that does not threaten food production (including a national adaptation plan, nationally determined contribution, national communication, biennial update report or other)
+                </aqd:subquery-description>
+        <aqd:subquery-description>Improve education, awareness-raising and human and institutional capacity on climate change mitigation, adaptation, impact reduction and early warning</aqd:subquery-description>
+        <aqd:subquery-description>13.3.1
+Number of countries that have integrated mitigation, adaptation, impact reduction and early warning into primary, secondary and tertiary curricula
+                </aqd:subquery-description>
+        <aqd:subquery-description>13.3.2
+Number of countries that have communicated the strengthening of institutional, systemic and individual capacity-building to implement adaptation, mitigation and technology transfer, and development actions </aqd:subquery-description>
+        <aqd:subquery-description>
+Implement the commitment undertaken by developed-country parties to the United Nations Framework Convention on Climate Change to a goal of mobilizing jointly $100 billion annually by 2020 from all sources to address the needs of developing countries in the context of meaningful mitigation actions and transparency on implementation and fully operationalize the Green Climate Fund through its capitalization as soon as possible </aqd:subquery-description>
+        <aqd:subquery-description>13.a.1
+Mobilized amount of United States dollars per year starting in 2020 accountable towards the $100 billion commitment </aqd:subquery-description>
+        <aqd:subquery-description>
+Promote mechanisms for raising capacity for effective climate change-related planning and management in least developed countries and small island developing States, including focusing on women, youth and local and marginalized communities
+
+* Acknowledging that the United Nations Framework Convention on Climate Change is the primary international,
+intergovernmental forum for negotiating the global response to climate change. </aqd:subquery-description>
+        <aqd:subquery-description>13.b.1
+Number of least developed countries and small island developing States that are receiving specialized support, and amount of support, including finance, technology and capacity-building, for mechanisms for raising capacities for effective climate change-related planning and management, including focusing on women, youth and local and marginalized communities
+                </aqd:subquery-description>
+      </aqd:subquery-descriptions>
+      <aqd:query-lines field="TITLE-ABS-KEY">
+        <aqd:query-line>(
+                    ( TITLE-ABS-KEY ( "climat*" W/3 "change*" ) )
+                    OR ( TITLE-ABS-KEY ( "climat*" W/3 "resilien*" ) )
+                    OR ( TITLE-ABS-KEY ( "climat*" W/3 "hazard*" ) )
+                    OR ( TITLE-ABS-KEY ( "climat*" W/3 "variabilit*" ) )
+                    OR ( TITLE-ABS-KEY ( "climat*" W/3 "anthropogenic*" ) )
+                    OR ( TITLE-ABS-KEY ( "climat*" W/3 "model*" ) )
+                    OR ( TITLE-ABS-KEY ( "climat*" W/3 "strategy*" ) )
+                    OR ( TITLE-ABS-KEY ( "climat*" W/3 "polic*" ) )
+                    )
+                    OR (
+                    ( TITLE-ABS-KEY ( "climat*" W/3 " regime*" ) )
+                    OR ( TITLE-ABS-KEY ( "climat*" W/3 "scenario*" ) )
+                    OR ( TITLE-ABS-KEY ( "climat*" W/3 "carbon*" ) )
+                    OR ( TITLE-ABS-KEY ( "climat*" W/3 "integrated assessment" ) )
+                    OR ( TITLE-ABS-KEY ( "climat*" W/3 "environment*" ) )
+                    OR ( TITLE-ABS-KEY ( "climat*" W/3 "reforestati*" ) )
+                    OR ( TITLE-ABS-KEY ( "climat*" W/3 "deforestati*" ) )
+                    )
+                    OR (
+                    ( TITLE-ABS-KEY ( "climat*" W/3 "desertificati*" ) )
+                    OR ( TITLE-ABS-KEY ( "climat*" W/3 "greenhouse gas*" ) )
+                    OR ( TITLE-ABS-KEY ( "climat*" W/3 "GHG" ) )
+                    OR ( TITLE-ABS-KEY ( "climat*" W/3 "ecolog*" ) )
+                    OR ( TITLE-ABS-KEY ( "climat*" W/3 "environment*" ) )
+                    OR ( TITLE-ABS-KEY ( "climat*" W/3 "biodiversity" ) )
+                    OR ( TITLE-ABS-KEY ( "climat*" W/3 "global change" ) )
+                    )
+                    OR (
+                    ( TITLE-ABS-KEY ( "climat*" W/3 "water stress" ) )
+                    OR ( TITLE-ABS-KEY ( "environmental change*" ) )
+                    OR ( TITLE-ABS-KEY ( "global warming" ) )
+                    OR ( TITLE-ABS-KEY ( "eco-innovation*" ) )
+                    OR ( TITLE-ABS-KEY ( "circular economy*" ) )
+                    OR ( TITLE-ABS-KEY ( ( "greenhouse" ) AND ( "emission*" ) )
+                    )
+                    OR ( TITLE-ABS-KEY ( "carbon economy*" ) )
+                    )
+                    OR (
+                    ( TITLE-ABS-KEY ( "carbon footprint*" ) )
+                    OR ( TITLE-ABS-KEY ( "natural disaster*" ) )
+                    OR ( TITLE-ABS-KEY ( "climate-driven" ) )
+                    OR ( TITLE-ABS-KEY ( "global warming" ) )
+                    OR ( TITLE-ABS-KEY ( "sea level*" AND ( "chang*" OR "rising" ) ) )
+                    OR ( TITLE-ABS-KEY ( "climate action*" ) )
+                    )
+                </aqd:query-line>
+      </aqd:query-lines>
+    </aqd:query-definition>
+    <aqd:filters>
+      <aqd:timerange field="PUBYEAR">
+        <aqd:start>2009</aqd:start>
+        <aqd:end>2019</aqd:end>
+      </aqd:timerange>
+    </aqd:filters>
+  </aqd:query-definitions>
+</aqd:query>
