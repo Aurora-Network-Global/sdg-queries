@@ -4,22 +4,22 @@
            xmlns:aqd="http://aurora-network.global/queries/namespace/">
     <dc:identifier type="sdg">13</dc:identifier>
     <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg13</dc:subject>
-    <dc:identifier type="version">2.0</dc:identifier>
-    <dc:identifier type="doi">10.5281/zenodo.3817433</dc:identifier>
-    <dc:source type="doi">10.5281/zenodo.3817352</dc:source>
+    <dc:identifier type="version">3.0</dc:identifier>
+    <dc:identifier type="doi">10.5281/zenodo.3817437</dc:identifier>
+    <dc:source type="doi">10.5281/zenodo.3817433</dc:source>
     <dc:relation type="uri">https://sustainabledevelopment.un.org/sdgs</dc:relation>
     <dc:title>SDG-13 climate action</dc:title>
-   <dc:description>Climate change is now affecting every country on every continent. It is disrupting national economies and affecting lives, costing people, communities and countries dearly today and even more tomorrow. Weather patterns are changing, sea levels are rising, weather events are becoming more extreme and greenhouse gas emissions are now at their highest levels in history. Without action, the world’s average surface temperature is likely to surpass 3 degrees centigrade this century. The poorest and most vulnerable people are being affected the most.
+     <dc:description>Climate change is now affecting every country on every continent. It is disrupting national economies and affecting lives, costing people, communities and countries dearly today and even more tomorrow. Weather patterns are changing, sea levels are rising, weather events are becoming more extreme and greenhouse gas emissions are now at their highest levels in history. Without action, the world’s average surface temperature is likely to surpass 3 degrees centigrade this century. The poorest and most vulnerable people are being affected the most.
 Affordable, scalable solutions are now available to enable countries to leapfrog to cleaner, more resilient economies. The pace of change is quickening as more people are turning to renewable energy and a range of other measures that will reduce emissions and increase adaptation efforts. Climate change, however, is a global challenge that does not respect national borders. It is an issue that requires solutions that need to be coordinated at the international level to help developing countries move toward a low-carbon economy.
 To strengthen the global response to the threat of climate change, countries adopted the Paris Agreement at the COP21 in Paris, which went into force in November of 2016. In the agreement, all countries agreed to work to limit global temperature rise to well below 2 degrees centigrade. As of April 2018, 175 parties had ratified the Paris Agreement and 10 developing countries had submitted their first iteration of their national adaptation plans for responding to climate change.</dc:description>
     <dc:rights href="http://creativecommons.org/licenses/by/4.0/">CC-BY v4 INT</dc:rights>
     <dc:creator>
-      Aurora Universities Network (AUR); Didier Vercueil (UGA); Nykohla Strong (UAB); Raf Guns (UAN); Susanne Mikki (UBE); Felix Schmidt (UDE); Jaqui Farrar (UEA); Lars Kullman (UGO); Baldvin Zarioh (UIC); René Otten (VUA); Maurice Vanderfeesten (VUA)
+       Aurora Universities Network (AUR); René Otten (VUA); Lars Kullman (UGO); Maurice Vanderfeesten (VUA); Didier Vercueil (UGA); Nykohla Strong (UAB); Raf Guns (UAN); Felix Schmidt (UDE); Ane Sesma (UEA); Baldvin Zarioh (UIC);
     </dc:creator>
     <dc:contributor>
       Eike Spielberg (UDE)
     </dc:contributor>
-    <dc:date>2018-03-31</dc:date>
+    <dc:date>2019-05-31</dc:date>
     <aqd:query-definitions syntax="SCOPUS">
         <aqd:query-definition>
             <aqd:subquery-identifier>0</aqd:subquery-identifier>
@@ -58,51 +58,58 @@ Number of least developed countries and small island developing States that are 
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines field="TITLE-ABS-KEY">
-                <aqd:query-line>(
-                    ( TITLE-ABS-KEY ( "climat*" W/3 "change*" ) )
-                    OR ( TITLE-ABS-KEY ( "climat*" W/3 "resilien*" ) )
-                    OR ( TITLE-ABS-KEY ( "climat*" W/3 "hazard*" ) )
-                    OR ( TITLE-ABS-KEY ( "climat*" W/3 "variabilit*" ) )
-                    OR ( TITLE-ABS-KEY ( "climat*" W/3 "anthropogenic*" ) )
-                    OR ( TITLE-ABS-KEY ( "climat*" W/3 "model*" ) )
-                    OR ( TITLE-ABS-KEY ( "climat*" W/3 "strategy*" ) )
-                    OR ( TITLE-ABS-KEY ( "climat*" W/3 "polic*" ) )
-                    )
-                    OR (
-                    ( TITLE-ABS-KEY ( "climat*" W/3 " regime*" ) )
-                    OR ( TITLE-ABS-KEY ( "climat*" W/3 "scenario*" ) )
-                    OR ( TITLE-ABS-KEY ( "climat*" W/3 "carbon*" ) )
-                    OR ( TITLE-ABS-KEY ( "climat*" W/3 "integrated assessment" ) )
-                    OR ( TITLE-ABS-KEY ( "climat*" W/3 "environment*" ) )
-                    OR ( TITLE-ABS-KEY ( "climat*" W/3 "reforestati*" ) )
-                    OR ( TITLE-ABS-KEY ( "climat*" W/3 "deforestati*" ) )
-                    )
-                    OR (
-                    ( TITLE-ABS-KEY ( "climat*" W/3 "desertificati*" ) )
-                    OR ( TITLE-ABS-KEY ( "climat*" W/3 "greenhouse gas*" ) )
-                    OR ( TITLE-ABS-KEY ( "climat*" W/3 "GHG" ) )
-                    OR ( TITLE-ABS-KEY ( "climat*" W/3 "ecolog*" ) )
-                    OR ( TITLE-ABS-KEY ( "climat*" W/3 "environment*" ) )
-                    OR ( TITLE-ABS-KEY ( "climat*" W/3 "biodiversity" ) )
-                    OR ( TITLE-ABS-KEY ( "climat*" W/3 "global change" ) )
-                    )
-                    OR (
-                    ( TITLE-ABS-KEY ( "climat*" W/3 "water stress" ) )
-                    OR ( TITLE-ABS-KEY ( "environmental change*" ) )
-                    OR ( TITLE-ABS-KEY ( "global warming" ) )
-                    OR ( TITLE-ABS-KEY ( "eco-innovation*" ) )
-                    OR ( TITLE-ABS-KEY ( "circular economy*" ) )
-                    OR ( TITLE-ABS-KEY ( ( "greenhouse" ) AND ( "emission*" ) )
-                    )
-                    OR ( TITLE-ABS-KEY ( "carbon economy*" ) )
-                    )
-                    OR (
-                    ( TITLE-ABS-KEY ( "carbon footprint*" ) )
-                    OR ( TITLE-ABS-KEY ( "natural disaster*" ) )
-                    OR ( TITLE-ABS-KEY ( "climate-driven" ) )
-                    OR ( TITLE-ABS-KEY ( "global warming" ) )
-                    OR ( TITLE-ABS-KEY ( "sea level*" AND ( "chang*" OR "rising" ) ) )
-                    OR ( TITLE-ABS-KEY ( "climate action*" ) )
+                <aqd:query-line>TITLE-ABS-KEY(
+
+                    ( "climat*" W/3 "anthropogenic*" )
+                    OR ( "climat*" W/3 "biodiversity" )
+                    OR ( "climat*" W/3 "carbon*" )
+                    OR ( "climat*" W/3 "change*" )
+                    OR ( "climat*" W/3 "deforestati*" )
+                    OR ( "climat*" W/3 "desertificati*" )
+                    OR ( "climat*" W/3 "ecolog*" )
+                    OR ( "climat*" W/3 "environment*" )
+                    OR ( "climat*" W/3 "environment*" )
+                    OR ( "climat*" W/3 "GHG" )
+                    OR ( "climat*" W/3 "global change" )
+                    OR ( "climat*" W/3 "greenhouse gas*" )
+                    OR ( "climat*" W/3 "hazard*" )
+                    OR ( "climat*" W/3 "integrated assessment" )
+                    OR ( "climat*" W/3 "model*" )
+                    OR ( "climat*" W/3 "polic*" )
+                    OR ( "climat*" W/3 "reforestati*" )
+                    OR ( "climat*" W/3 "regime*" )
+                    OR ( "climat*" W/3 "resilien*" )
+                    OR ( "climat*" W/3 "scenario*" )
+                    OR ( "climat*" W/3 "strategy*" )
+                    OR ( "climat*" W/3 "variabilit*" )
+                    OR ( "climat*" W/3 "water stress" )
+
+
+                    OR ( "carbon economy*" )
+                    OR ( "carbon footprint*" )
+                    OR ( "circular economy*" )
+                    OR ( "climate action*" )
+                    OR ( "Climate Effect*" )
+                    OR ( "Climate Model*” )
+                    OR ( "Climate Variability" )
+                    OR ( "Climate Variation*" )
+                    OR ( "climate-driven" )
+                    OR ( "Climatology" )
+                    OR ( "eco-innovation*" )
+                    OR ( "environmental change*" )
+                    OR ( "Environmental Impact" )
+                    OR ( "Global Change*" )
+                    OR ( "Global Climate" )
+                    OR ( "global warming" )
+                    OR ( "global warming" )
+                    OR ( "Greenhouse Effect*" )
+                    OR ( "Greenhouse Gas*" )
+                    OR ( "natural disaster*" )
+
+
+                    OR ( ( "greenhouse" ) AND ( "emission*" ) )
+                    OR ( ( "sea level*") AND ( "chang*" OR "rising" ) )
+
                     )
                 </aqd:query-line>
             </aqd:query-lines>

@@ -4,9 +4,9 @@
            xmlns:aqd="http://aurora-network.global/queries/namespace/">
     <dc:identifier type="sdg">11</dc:identifier>
     <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg11</dc:subject>
-    <dc:identifier type="version">2.0</dc:identifier>
-    <dc:identifier type="doi">10.5281/zenodo.3817433</dc:identifier>
-    <dc:source type="doi">10.5281/zenodo.3817352</dc:source>
+    <dc:identifier type="version">3.0</dc:identifier>
+    <dc:identifier type="doi">10.5281/zenodo.3817437</dc:identifier>
+    <dc:source type="doi">10.5281/zenodo.3817433</dc:source>
     <dc:relation type="uri">https://sustainabledevelopment.un.org/sdgs</dc:relation>
     <dc:title>SDG-11 sustainable cities and communities</dc:title>
     <dc:description>Cities are hubs for ideas, commerce, culture, science, productivity, social development and much more. At their best, cities have enabled people to advance socially and economically. With the number of people living within cities projected to rise to 5 billion people by 2030, it’s important that efficient urban planning and management practices are in place to deal with the challenges brought by urbanization.
@@ -14,12 +14,12 @@ Many challenges exist to maintaining cities in a way that continues to create jo
 Rapid urbanization challenges, such as the safe removal and management of solid waste within cities, can be overcome in ways that allow them to continue to thrive and grow, while improving resource use and reducing pollution and poverty. One such example is an increase in municipal waste collection. There needs to be a future in which cities provide opportunities for all, with access to basic services, energy, housing, transportation and more.</dc:description>
     <dc:rights href="http://creativecommons.org/licenses/by/4.0/">CC-BY v4 INT</dc:rights>
     <dc:creator>
-      Aurora Universities Network (AUR); Didier Vercueil (UGA); Nykohla Strong (UAB); Raf Guns (UAN); Susanne Mikki (UBE); Felix Schmidt (UDE); Jaqui Farrar (UEA); Lars Kullman (UGO); Baldvin Zarioh (UIC); René Otten (VUA); Maurice Vanderfeesten (VUA)
+       Aurora Universities Network (AUR); René Otten (VUA); Lars Kullman (UGO); Maurice Vanderfeesten (VUA); Didier Vercueil (UGA); Nykohla Strong (UAB); Raf Guns (UAN); Felix Schmidt (UDE); Ane Sesma (UEA); Baldvin Zarioh (UIC);
     </dc:creator>
     <dc:contributor>
       Eike Spielberg (UDE)
     </dc:contributor>
-    <dc:date>2018-03-31</dc:date>
+    <dc:date>2019-05-31</dc:date>
     <aqd:query-definitions syntax="SCOPUS">
         <aqd:query-definition>
             <aqd:subquery-identifier>1</aqd:subquery-identifier>
@@ -98,6 +98,8 @@ Proportion of financial support to the least developed countries that is allocat
                     OR "Sendai Framework"
                     OR "city safe*"
                     OR "Disaster risk reduction"
+                    OR "City Planning" OR "Smart City" OR "Urban Design" OR "Urban Development" OR "Urban Environments"
+                    OR "Urban Growth" OR "Urban Renewal" OR "Urbanization"
                     )
                 </aqd:query-line>
             </aqd:query-lines>

@@ -4,27 +4,27 @@
            xmlns:aqd="http://aurora-network.global/queries/namespace/">
     <dc:identifier type="sdg">2</dc:identifier>
     <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg2</dc:subject>
-    <dc:identifier type="version">2.0</dc:identifier>
-    <dc:identifier type="doi">10.5281/zenodo.3817433</dc:identifier>
-    <dc:source type="doi">10.5281/zenodo.3817352</dc:source>
+    <dc:identifier type="version">3.0</dc:identifier>
+    <dc:identifier type="doi">10.5281/zenodo.3817437</dc:identifier>
+    <dc:source type="doi">10.5281/zenodo.3817433</dc:source>
     <dc:relation type="uri">https://sustainabledevelopment.un.org/sdgs</dc:relation>
     <dc:title>SDG-02 zero hunger</dc:title>
-   <dc:description>It is time to rethink how we grow, share and consume our food. If done right, agriculture, forestry and fisheries can provide nutritious food for all and generate decent incomes, while supporting people-centered rural development and protecting the environment.
+    <dc:description>It is time to rethink how we grow, share and consume our food. If done right, agriculture, forestry and fisheries can provide nutritious food for all and generate decent incomes, while supporting people-centered rural development and protecting the environment.
 Right now, our soils, freshwater, oceans, forests and biodiversity are being rapidly degraded. Climate change is putting even more pressure on the resources we depend on, increasing risks associated with disasters, such as droughts and floods. Many rural women and men can no longer make ends meet on their land, forcing them to migrate to cities in search of opportunities. Poor food security is also causing millions of children to be stunted, or too short for the ages, due to severe malnutrition.
 A profound change of the global food and agriculture system is needed if we are to nourish the 821 million people who are hungry today and the additional 2 billion people expected to be undernourished by 2050. Investments in agriculture are crucial to increasing the capacity for agricultural productivity and sustainable food production systems are necessary to help alleviate the perils of hunger.</dc:description>
     <dc:rights href="http://creativecommons.org/licenses/by/4.0/">CC-BY v4 INT</dc:rights>
     <dc:creator>
-      Aurora Universities Network (AUR); Didier Vercueil (UGA); Nykohla Strong (UAB); Raf Guns (UAN); Susanne Mikki (UBE); Felix Schmidt (UDE); Jaqui Farrar (UEA); Lars Kullman (UGO); Baldvin Zarioh (UIC); René Otten (VUA); Maurice Vanderfeesten (VUA)
+       Aurora Universities Network (AUR); René Otten (VUA); Lars Kullman (UGO); Maurice Vanderfeesten (VUA); Didier Vercueil (UGA); Nykohla Strong (UAB); Raf Guns (UAN); Felix Schmidt (UDE); Ane Sesma (UEA); Baldvin Zarioh (UIC);
     </dc:creator>
     <dc:contributor>
       Eike Spielberg (UDE)
     </dc:contributor>
-    <dc:date>2018-03-31</dc:date>
+    <dc:date>2019-05-31</dc:date>
     <aqd:query-definitions syntax="SCOPUS">
         <aqd:query-definition>
             <aqd:subquery-identifier>1</aqd:subquery-identifier>
             <aqd:subquery-descriptions>
-                <aqd:subquery-description>
+              <aqd:subquery-description>
           <!---->
 By 2030, end hunger and ensure access by all people, in particular the poor and people in vulnerable situations, including infants, to safe, nutritious and sufficient food all year round </aqd:subquery-description>
         <aqd:subquery-description>2.1.1
@@ -79,31 +79,13 @@ Agricultural export subsidies </aqd:subquery-description>
                     Indicator of food price anomalies
 
                 </aqd:subquery-description>
-                <aqd:subquery-description>2.c.1
-                    Indicator of food price anomalies
-
-                </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines field="TITLE-ABS-KEY">
-                <aqd:query-line>TITLE-ABS-KEY (
-                    "Food security"
-                    OR "nutrition"
-                    OR "sustainable agriculture"
-                    OR "Rural Development"
-                    OR (("development")
-                    W/3 ("food" OR "aid"))
-                    OR (
-                    ("hunger")
-                    W/3 ("sustainab*"
-                    OR "malnutrition"
-                    OR "improved nutrition")
-                    )
-                    OR "child hunger"
-                    OR ("sustainable food production" W/3 "agricultur*")
-                    OR ("agricultur*" W/3 "sustainab*")
-                    OR ("food production" W/3 "sustainab*")
-                    OR "global food"
-                    )
+                <aqd:query-line>TITLE-ABS-KEY ( "Food security" OR "nutrition" OR "sustainable agriculture" OR "Rural
+                    Development" OR ( ( "development" ) W/3 ( "food" OR "aid" ) ) OR ( ( "hunger" ) W/3 ( "sustainab*"
+                    OR "malnutrition" OR "malnourish*" OR "undernourish*" OR "improved nutrition" ) ) OR "child hunger"
+                    OR ( "sustainable food production" W/3 "agricultur*" ) OR ( "agricultur*" W/3 "sustainab*" ) OR (
+                    "food production" W/3 "sustainab*" ) OR "global food" ) OR "vitamin deficienc*"
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
@@ -114,4 +96,4 @@ Agricultural export subsidies </aqd:subquery-description>
             </aqd:timerange>
         </aqd:filters>
     </aqd:query-definitions>
-</aqd:query>>
+</aqd:query>

@@ -4,27 +4,27 @@
            xmlns:aqd="http://aurora-network.global/queries/namespace/">
     <dc:identifier type="sdg">14</dc:identifier>
     <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg14</dc:subject>
-    <dc:identifier type="version">2.0</dc:identifier>
-    <dc:identifier type="doi">10.5281/zenodo.3817433</dc:identifier>
-    <dc:source type="doi">10.5281/zenodo.3817352</dc:source>
+    <dc:identifier type="version">3.0</dc:identifier>
+    <dc:identifier type="doi">10.5281/zenodo.3817437</dc:identifier>
+    <dc:source type="doi">10.5281/zenodo.3817433</dc:source>
     <dc:relation type="uri">https://sustainabledevelopment.un.org/sdgs</dc:relation>
     <dc:title>SDG-14 life below water</dc:title>
-   <dc:description>The world’s oceans – their temperature, chemistry, currents and life – drive global systems that make the Earth habitable for humankind. Our rainwater, drinking water, weather, climate, coastlines, much of our food, and even the oxygen in the air we breathe, are all ultimately provided and regulated by the sea. Throughout history, oceans and seas have been vital conduits for trade and transportation.
+    <dc:description>The world’s oceans – their temperature, chemistry, currents and life – drive global systems that make the Earth habitable for humankind. Our rainwater, drinking water, weather, climate, coastlines, much of our food, and even the oxygen in the air we breathe, are all ultimately provided and regulated by the sea. Throughout history, oceans and seas have been vital conduits for trade and transportation.
 Careful management of this essential global resource is a key feature of a sustainable future. However, at the current time, there is a continuous deterioration of coastal waters owing to pollution and ocean acidification is having an adversarial effect on the functioning of ecosystems and biodiversity. This is also negatively impacting small scale fisheries.
 Marine protected areas need to be effectively managed and well-resourced and regulations need to be put in place to reduce overfishing, marine pollution and ocean acidification.</dc:description>
     <dc:rights href="http://creativecommons.org/licenses/by/4.0/">CC-BY v4 INT</dc:rights>
     <dc:creator>
-      Aurora Universities Network (AUR); Didier Vercueil (UGA); Nykohla Strong (UAB); Raf Guns (UAN); Susanne Mikki (UBE); Felix Schmidt (UDE); Jaqui Farrar (UEA); Lars Kullman (UGO); Baldvin Zarioh (UIC); René Otten (VUA); Maurice Vanderfeesten (VUA)
+       Aurora Universities Network (AUR); René Otten (VUA); Lars Kullman (UGO); Maurice Vanderfeesten (VUA); Didier Vercueil (UGA); Nykohla Strong (UAB); Raf Guns (UAN); Felix Schmidt (UDE); Ane Sesma (UEA); Baldvin Zarioh (UIC);
     </dc:creator>
     <dc:contributor>
       Eike Spielberg (UDE)
     </dc:contributor>
-    <dc:date>2018-03-31</dc:date>
+    <dc:date>2019-05-31</dc:date>
     <aqd:query-definitions syntax="SCOPUS">
         <aqd:query-definition>
             <aqd:subquery-identifier>1</aqd:subquery-identifier>
             <aqd:subquery-descriptions>
-               <aqd:subquery-description>By 2025, prevent and significantly reduce marine pollution of all kinds, in particular from land-based activities, including marine debris and nutrient pollution </aqd:subquery-description>
+                <aqd:subquery-description>By 2025, prevent and significantly reduce marine pollution of all kinds, in particular from land-based activities, including marine debris and nutrient pollution </aqd:subquery-description>
         <aqd:subquery-description>14.1.1
 Index of coastal eutrophication and floating plastic debris density </aqd:subquery-description>
         <aqd:subquery-description>By 2020, sustainably manage and protect marine and coastal ecosystems to avoid significant adverse impacts, including by strengthening their resilience, and take action for their restoration in order to achieve healthy and productive oceans </aqd:subquery-description>
@@ -72,7 +72,8 @@ Number of countries making progress in ratifying, accepting and implementing thr
                     OR "coast*"
                     OR "sea"
                     OR "seawater*"
-                    OR "sea water'"
+                    OR "sea water*"
+                    OR “coral reef*”
                     )
                     AND ("sustainab*"
                     OR "ecosystem*"

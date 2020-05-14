@@ -4,27 +4,27 @@
            xmlns:aqd="http://aurora-network.global/queries/namespace/">
     <dc:identifier type="sdg">15</dc:identifier>
     <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg15</dc:subject>
-    <dc:identifier type="version">2.0</dc:identifier>
-    <dc:identifier type="doi">10.5281/zenodo.3817433</dc:identifier>
-    <dc:source type="doi">10.5281/zenodo.3817352</dc:source>
+    <dc:identifier type="version">3.0</dc:identifier>
+    <dc:identifier type="doi">10.5281/zenodo.3817437</dc:identifier>
+    <dc:source type="doi">10.5281/zenodo.3817433</dc:source>
     <dc:relation type="uri">https://sustainabledevelopment.un.org/sdgs</dc:relation>
     <dc:title>SDG-15 life on land</dc:title>
-    <dc:description>Forests cover 30.7 per cent of the Earth’s surface and, in addition to providing food security and shelter, they are key to combating climate change, protecting biodiversity and the homes of the indigenous population. By protecting forests, we will also be able to strengthen natural resource management and increase land productivity.
+     <dc:description>Forests cover 30.7 per cent of the Earth’s surface and, in addition to providing food security and shelter, they are key to combating climate change, protecting biodiversity and the homes of the indigenous population. By protecting forests, we will also be able to strengthen natural resource management and increase land productivity.
 At the current time, thirteen million hectares of forests are being lost every year while the persistent degradation of drylands has led to the desertification of 3.6 billion hectares. Even though up to 15% of land is currently under protection, biodiversity is still at risk. Deforestation and desertification – caused by human activities and climate change – pose major challenges to sustainable development and have affected the lives and livelihoods of millions of people in the fight against poverty.
 Efforts are being made to manage forests and combat desertification. There are two international agreements being implemented currently that promote the use of resources in an equitable way. Financial investments in support of biodiversity are also being provided.</dc:description>
     <dc:rights href="http://creativecommons.org/licenses/by/4.0/">CC-BY v4 INT</dc:rights>
     <dc:creator>
-      Aurora Universities Network (AUR); Didier Vercueil (UGA); Nykohla Strong (UAB); Raf Guns (UAN); Susanne Mikki (UBE); Felix Schmidt (UDE); Jaqui Farrar (UEA); Lars Kullman (UGO); Baldvin Zarioh (UIC); René Otten (VUA); Maurice Vanderfeesten (VUA)
+       Aurora Universities Network (AUR); René Otten (VUA); Lars Kullman (UGO); Maurice Vanderfeesten (VUA); Didier Vercueil (UGA); Nykohla Strong (UAB); Raf Guns (UAN); Felix Schmidt (UDE); Ane Sesma (UEA); Baldvin Zarioh (UIC);
     </dc:creator>
     <dc:contributor>
       Eike Spielberg (UDE)
     </dc:contributor>
-    <dc:date>2018-03-31</dc:date>
+    <dc:date>2019-05-31</dc:date>
     <aqd:query-definitions syntax="SCOPUS">
         <aqd:query-definition>
             <aqd:subquery-identifier>1</aqd:subquery-identifier>
             <aqd:subquery-descriptions>
-                <aqd:subquery-description>By 2020, ensure the conservation, restoration and sustainable use of terrestrial and inland freshwater ecosystems and their services, in particular forests, wetlands, mountains and drylands, in line with obligations under international agreements </aqd:subquery-description>
+                 <aqd:subquery-description>By 2020, ensure the conservation, restoration and sustainable use of terrestrial and inland freshwater ecosystems and their services, in particular forests, wetlands, mountains and drylands, in line with obligations under international agreements </aqd:subquery-description>
         <aqd:subquery-description>15.1.1
 Forest area as a proportion of total land area
                 </aqd:subquery-description>
@@ -89,11 +89,13 @@ Proportion of traded wildlife that was poached or illicitly trafficked
                     OR ({halt} OR {combat*} W/3 {deforest*})
                     OR ({increase} W/3 {*forestation} )
                     OR ("combat*" W/3 {poaching} OR {trafficking} OR {droughts} or {floods})
-                    OR (({degrodat*} OR {degrad*}) W/3 ({habitat} OR {land} OR {woodland} OR {forest} ))
+                    OR (({degrodat*} OR {degrad*} OR {fragmentat*}) W/3 ({habitat} OR {land} OR {woodland} OR {forest}
+                    ))
                     OR (({protect} OR {prevent}) W/3 ({threat*} OR {extinct}) AND (species))
                     OR ({ecosystem} W/3 {biodiversity})
                     OR {red list index}
                     OR {mountain green cover index}
+                    OR {species diversity}
                     AND NOT ({marine}
                     OR {reef})
                     )

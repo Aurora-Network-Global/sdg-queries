@@ -4,9 +4,9 @@
            xmlns:aqd="http://aurora-network.global/queries/namespace/">
     <dc:identifier type="sdg">3</dc:identifier>
     <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg3</dc:subject>
-    <dc:identifier type="version">2.0</dc:identifier>
-    <dc:identifier type="doi">10.5281/zenodo.3817433</dc:identifier>
-    <dc:source type="doi">10.5281/zenodo.3817352</dc:source>
+    <dc:identifier type="version">3.0</dc:identifier>
+    <dc:identifier type="doi">10.5281/zenodo.3817437</dc:identifier>
+    <dc:source type="doi">10.5281/zenodo.3817433</dc:source>
     <dc:relation type="uri">https://sustainabledevelopment.un.org/sdgs</dc:relation>
     <dc:title>SDG-03 good health and well-being</dc:title>
     <dc:description>Ensuring healthy lives and promoting the well-being at all ages is essential to sustainable development.
@@ -15,17 +15,17 @@ Achieving the target of reducing premature deaths due to incommunicable diseases
 Many more efforts are needed to fully eradicate a wide range of diseases and address many different persistent and emerging health issues. By focusing on providing more efficient funding of health systems, improved sanitation and hygiene, increased access to physicians and more tips on ways to reduce ambient pollution, significant progress can be made in helping to save the lives of millions.</dc:description>
     <dc:rights href="http://creativecommons.org/licenses/by/4.0/">CC-BY v4 INT</dc:rights>
     <dc:creator>
-      Aurora Universities Network (AUR); Didier Vercueil (UGA); Nykohla Strong (UAB); Raf Guns (UAN); Susanne Mikki (UBE); Felix Schmidt (UDE); Jaqui Farrar (UEA); Lars Kullman (UGO); Baldvin Zarioh (UIC); René Otten (VUA); Maurice Vanderfeesten (VUA)
+       Aurora Universities Network (AUR); René Otten (VUA); Lars Kullman (UGO); Maurice Vanderfeesten (VUA); Didier Vercueil (UGA); Nykohla Strong (UAB); Raf Guns (UAN); Felix Schmidt (UDE); Ane Sesma (UEA); Baldvin Zarioh (UIC);
     </dc:creator>
     <dc:contributor>
       Eike Spielberg (UDE)
     </dc:contributor>
-    <dc:date>2018-03-31</dc:date>
+    <dc:date>2019-05-31</dc:date>
     <aqd:query-definitions syntax="SCOPUS">
         <aqd:query-definition>
             <aqd:subquery-identifier>1</aqd:subquery-identifier>
             <aqd:subquery-descriptions>
-                <aqd:subquery-description>
+                 <aqd:subquery-description>
           <!---->By 2030, reduce the global maternal mortality ratio to less than 70 per 100,000 live births </aqd:subquery-description>
         <aqd:subquery-description>3.1.1
 Maternal mortality ratio
@@ -117,154 +117,24 @@ Health worker density and distribution
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines field="TITLE-ABS-KEY">
-                <aqd:query-line>(
-                    (TITLE-ABS-KEY
-                    (
-                    (
-                    ( {reduce}
-                    W/3 (
-                    ( {maternal}
-                    OR {neonatal}
-                    OR {under-five}
-                    OR ( {under}
-                    W/2 ({5} OR {five})
-                    )
-                    OR {before fifth}
-                    )
-                    W/3 {mortality} )
-                    )
-                    )
-                    )
-                    )
-                    OR (TITLE-ABS-KEY
-                    (
-                    (
-                    ( {epidemic} OR {combat})
-                    W/3 ( {tuberculos*}
-                    OR {malaria}
-                    OR {hepatit*}
-                    OR {HIV}
-                    OR {AIDS}
-                    OR {tropical disease*}
-                    OR {Zika*}
-                    OR {Ebola*}
-                    )
-                    )
-                    )
-                    )
-                    OR (TITLE-ABS-KEY
-                    (
-                    (
-                    ( {abuse}
-                    W/3 ({substance*}
-                    OR {drug*}
-                    OR {alcohol}
-                    )
-                    )
-                    AND ( {prevention} AND {treatment} )
-                    )
-                    )
-                    )
-                    OR (TITLE-ABS-KEY
-                    (
-                    (
-                    ( "road" W/3 "traffic" )
-                    W/3 ( "injur*"
-                    OR "death*"
-                    OR "accident*"
-                    )
-                    )
-                    )
-                    )
-                    OR (TITLE-ABS-KEY
-                    (
-                    (
-                    ( "Access"
-                    OR "national strategy*"
-                    OR "national program*"
-                    )
-                    W/3 ( "reproductive healthcare*"
-                    OR "reproductive health-care*"
-                    OR "sexual healthcare*"
-                    OR "sexual health-care*"
-                    )
-                    )
-                    )
-                    )
-                    OR (TITLE-ABS-KEY
-                    (
-                    ( {family planning}
-                    OR {adolescent birth rate}
-                    OR {adolescent mother*}
-                    OR ( {teen*}
-                    W/3 ( {mother*}
-                    OR {pregnan*}
-                    OR {birth rate*}
-                    )
-                    )
-                    )
-                    )
-                    )
-                    OR (TITLE-ABS-KEY
-                    (
-                    (
-                    ( {universal access}
-                    W/3 ( {healthcare}
-                    OR {health-care} )
-                    )
-                    OR (
-                    ({affordable} OR {quality})
-                    W/3 ( {medicine*} OR {vaccin*})
-                    )
-                    )
-                    )
-                    )
-                    OR (TITLE-ABS-KEY
-                    (
-                    ( "mortality"
-                    AND ( "hazardous chemical*"
-                    OR (
-                    ( "pollut*"
-                    OR "contaminat*"
-                    OR "poison*" )
-                    W/3 ( "water"
-                    OR "air"
-                    OR "soil" )
-                    )
-                    )
-                    )
-                    )
-                    )
-                    OR (TITLE-ABS-KEY
-                    (
-                    ( "tobacco" W/6 "control*" )
-                    )
-                    )
-                    OR (TITLE-ABS-KEY
-                    (
-                    (
-                    ( "health"
-                    W/3 ( "financing"
-                    OR "recruit*"
-                    OR "training" )
-                    )
-                    AND "developing countr*"
-                    )
-                    )
-                    )
-                    OR (TITLE-ABS-KEY
-                    (
-                    (
-                    ( "early" W/3 "warning" )
-                    OR ( "risk" W/3 "reduction" )
-                    OR ( "risk" W/3 "management" )
-                    )
-                    W/3 ("health risk*")
-                    )
-                    )
-
-
-                    )
+                <aqd:query-line>( ( TITLE-ABS-KEY ( ( ( {reduce} W/3 ( ( {maternal} OR {neonatal} OR {under-five} OR (
+                    {under} W/2 ( {5} OR {five} ) ) OR {before fifth} ) W/3 {mortality} ) ) ) ) ) OR ( TITLE-ABS-KEY ( (
+                    ( {epidemic} OR {combat} ) W/3 ( {tuberculos*} OR {malaria} OR {hepatit*} OR {HIV} OR {AIDS} OR
+                    {tropical disease*} OR {Zika*} OR {Ebola*} OR {water-borne disease*} OR {communicable disease*} OR
+                    {neglected diseases*} ) ) ) ) OR ( TITLE-ABS-KEY ( ( ( {abuse} W/3 ( {substance*} OR {drug*} OR
+                    {alcohol} ) ) AND ( {prevention} AND {treatment} ) ) ) ) OR ( TITLE-ABS-KEY ( ( ( "road" W/3
+                    "traffic" ) W/3 ( "injur*" OR "death*" OR "accident*" ) ) ) ) OR ( TITLE-ABS-KEY ( ( ( "Access" OR
+                    "national strategy*" OR "national program*" ) W/3 ( "reproductive healthcare*" OR "reproductive
+                    health-care*" OR "sexual healthcare*" OR "sexual health-care*" ) ) ) ) OR ( TITLE-ABS-KEY ( (
+                    {family planning} OR {adolescent birth rate} OR {adolescent mother*} OR ( {teen*} W/3 ( {mother*} OR
+                    {pregnan*} OR {birth rate*} ) ) ) ) ) OR ( TITLE-ABS-KEY ( ( ( {universal access} W/3 ( {healthcare}
+                    OR {health-care} ) ) OR ( ( {affordable} OR {quality} ) W/3 ( {medicine*} OR {vaccin*} ) ) ) ) ) OR
+                    ( TITLE-ABS-KEY ( ( "mortality" AND ( "hazardous chemical*" OR ( ( "pollut*" OR "contaminat*" OR
+                    "poison*" ) W/3 ( "water" OR "air" OR "soil" ) ) ) ) ) ) OR ( TITLE-ABS-KEY ( ( "tobacco" W/6
+                    "control*" ) ) ) OR ( TITLE-ABS-KEY ( ( ( "health" W/3 ( "financing" OR "recruit*" OR "training" ) )
+                    AND "developing countr*" ) ) ) OR ( TITLE-ABS-KEY ( ( ( "early" W/3 "warning" ) OR ( "risk" W/3
+                    "reduction" ) OR ( "risk" W/3 "management" ) ) W/3 ( "health risk*" ) ) ) ) OR ( TITLE-ABS-KEY (
+                    "health" W/3 "smoking" ) )
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>

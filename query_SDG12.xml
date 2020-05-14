@@ -4,23 +4,22 @@
            xmlns:aqd="http://aurora-network.global/queries/namespace/">
     <dc:identifier type="sdg">12</dc:identifier>
     <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg12</dc:subject>
-    <dc:identifier type="version">2.0</dc:identifier>
-    <dc:identifier type="doi">10.5281/zenodo.3817433</dc:identifier>
-    <dc:source type="doi">10.5281/zenodo.3817352</dc:source>
+    <dc:identifier type="version">3.0</dc:identifier>
+    <dc:identifier type="doi">10.5281/zenodo.3817437</dc:identifier>
+    <dc:source type="doi">10.5281/zenodo.3817433</dc:source>
     <dc:relation type="uri">https://sustainabledevelopment.un.org/sdgs</dc:relation>
     <dc:title>SDG-12 responsible consumption and production</dc:title>
-   <dc:description>Sustainable consumption and production is about promoting resource and energy efficiency, sustainable infrastructure, and providing access to basic services, green and decent jobs and a better quality of life for all. Its implementation helps to achieve overall development plans, reduce future economic, environmental and social costs, strengthen economic competitiveness and reduce poverty.
+    <dc:description>Sustainable consumption and production is about promoting resource and energy efficiency, sustainable infrastructure, and providing access to basic services, green and decent jobs and a better quality of life for all. Its implementation helps to achieve overall development plans, reduce future economic, environmental and social costs, strengthen economic competitiveness and reduce poverty.
 At the current time, material consumption of natural resources is increasing, particularly within Eastern Asia. Countries are also continuing to address challenges regarding air, water and soil pollution.
 Since sustainable consumption and production aims at “doing more and better with less,” net welfare gains from economic activities can increase by reducing resource use, degradation and pollution along the whole life cycle, while increasing quality of life. There also needs to be significant focus on operating on supply chain, involving everyone from producer to final consumer. This includes educating consumers on sustainable consumption and lifestyles, providing them with adequate information through standards and labels and engaging in sustainable public procurement, among others.</dc:description>
-    </dc:description>
     <dc:rights href="http://creativecommons.org/licenses/by/4.0/">CC-BY v4 INT</dc:rights>
     <dc:creator>
-      Aurora Universities Network (AUR); Didier Vercueil (UGA); Nykohla Strong (UAB); Raf Guns (UAN); Susanne Mikki (UBE); Felix Schmidt (UDE); Jaqui Farrar (UEA); Lars Kullman (UGO); Baldvin Zarioh (UIC); René Otten (VUA); Maurice Vanderfeesten (VUA)
+       Aurora Universities Network (AUR); René Otten (VUA); Lars Kullman (UGO); Maurice Vanderfeesten (VUA); Didier Vercueil (UGA); Nykohla Strong (UAB); Raf Guns (UAN); Felix Schmidt (UDE); Ane Sesma (UEA); Baldvin Zarioh (UIC);
     </dc:creator>
     <dc:contributor>
       Eike Spielberg (UDE)
     </dc:contributor>
-    <dc:date>2018-03-31</dc:date>
+    <dc:date>2019-05-31</dc:date>
     <aqd:query-definitions syntax="SCOPUS">
         <aqd:query-definition>
             <aqd:subquery-identifier>1</aqd:subquery-identifier>
@@ -86,7 +85,6 @@ Amount of fossil-fuel subsidies per unit of GDP (production and consumption) and
                     OR (( "sustainab*" OR "efficen*" )
                     W/3 ( "manage*" OR "managing" OR "natural resource*" ) )
 
-
                     OR (( "reduc*" )
                     W/3 ( " postharvest loss*" OR " post-harvest loss*" ) )
 
@@ -122,6 +120,14 @@ Amount of fossil-fuel subsidies per unit of GDP (production and consumption) and
                     OR "National recycling rate"
                     OR "tons of material recycled"
                     OR "fossil-fuel subsidies per unit of GDP" )
+
+                    OR ( "Alternative Agriculture"
+                    OR "Conservation Of Natural Resources"
+                    OR "Energy Conservation"
+                    OR "Life Cycle Analysis"
+                    OR "Life Cycle Assessment"
+                    OR "Recycling"
+                    OR "Sustainable Consumption")
                     )
                     )
                 </aqd:query-line>
