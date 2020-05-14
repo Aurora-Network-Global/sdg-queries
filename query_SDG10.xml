@@ -1,29 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="queries.xsl"?>
-<aqd:query xmlns:dc="http://dublincore.org/documents/dcmi-namespace/" xmlns:aqd="http://aurora-network.global/queries/namespace/">
-  <dc:identifier type="sdg">10</dc:identifier>
-  <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg10</dc:subject>
-  <dc:identifier type="version">1.0</dc:identifier>
-  <dc:identifier type="doi">10.5281/zenodo.3817352</dc:identifier>
-  <dc:source type="uri">https://sustainabledevelopment.un.org/sdgs</dc:source>
-  <dc:relation type="uri">https://sustainabledevelopment.un.org/sdgs</dc:relation>
-  <dc:title>SDG-10 reduce inequalities</dc:title>
-  <dc:description>The international community has made significant strides towards lifting people out of poverty.  The most vulnerable nations – the least developed countries, the landlocked developing countries and the small island developing states – continue to make inroads into poverty reduction.  However, inequality persists and large disparities remain regarding access to health and education services and other assets.
+<aqd:query xmlns:dc="http://dublincore.org/documents/dcmi-namespace/"
+           xmlns:aqd="http://aurora-network.global/queries/namespace/">
+    <dc:identifier type="sdg">10</dc:identifier>
+    <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg10</dc:subject>
+    <dc:identifier type="version">2.0</dc:identifier>
+    <dc:identifier type="doi">10.5281/zenodo.3817433</dc:identifier>
+    <dc:source type="doi">10.5281/zenodo.3817352</dc:source>
+    <dc:relation type="uri">https://sustainabledevelopment.un.org/sdgs</dc:relation>
+    <dc:title>SDG-10 reduce inequalities</dc:title>
+    <dc:description>The international community has made significant strides towards lifting people out of poverty.  The most vulnerable nations – the least developed countries, the landlocked developing countries and the small island developing states – continue to make inroads into poverty reduction.  However, inequality persists and large disparities remain regarding access to health and education services and other assets.
 There is growing consensus that economic growth is not sufﬁcient to reduce poverty if it is not inclusive and if it does not involve the three dimensions of sustainable development – economic, social and environmental. Fortunately, income inequality has been reduced both between and within countries. At the current time, the per capita income of 60 out of 94 countries with data has risen more rapidly than the national average. There has been some progress regarding creating favorable access conditions for exports from least developing countries as well.
 To reduce inequality, policies should be universal in principle, paying attention to the needs of disadvantaged and marginalized populations. There needs to be an increase in duty-free treatment and continuation of favoring exports from developing countries, in addition to increasing the share of developing countries’ vote within the IMF. Finally, innovations in technology can help reduce the cost of transferring money for migrant workers.</dc:description>
-  <dc:rights href="http://creativecommons.org/licenses/by/4.0/">CC-BY v4 INT</dc:rights>
-  <dc:creator>
-    Aurora Universities Network (AUR); Didier Vercueil (UGA); Nykohla Strong (UAB); Felix Schmidt (UDE); Adam Green (UEA); Jaqui Farrar (UEA); Lars Kullman (UGO); René Otten (VUA); Maurice Vanderfeesten (VUA)
-  </dc:creator>
-  <dc:contributor>
-    Eike Spielberg (UDE)
-  </dc:contributor>
-  <dc:date>2018-01-31</dc:date>
-  <aqd:query-definitions syntax="SCOPUS">
-    <aqd:query-definition>
-      <aqd:subquery-identifier>1</aqd:subquery-identifier>
-      <aqd:subquery-descriptions>
-        <aqd:subquery-description>
+    <dc:rights href="http://creativecommons.org/licenses/by/4.0/">CC-BY v4 INT</dc:rights>
+    <dc:creator>
+      Aurora Universities Network (AUR); Didier Vercueil (UGA); Nykohla Strong (UAB); Raf Guns (UAN); Susanne Mikki (UBE); Felix Schmidt (UDE); Jaqui Farrar (UEA); Lars Kullman (UGO); Baldvin Zarioh (UIC); René Otten (VUA); Maurice Vanderfeesten (VUA)
+    </dc:creator>
+    <dc:contributor>
+      Eike Spielberg (UDE)
+    </dc:contributor>
+    <dc:date>2018-03-31</dc:date>
+    <aqd:query-definitions syntax="SCOPUS">
+        <aqd:query-definition>
+            <aqd:subquery-identifier>1</aqd:subquery-identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
           <!---->By 2030, progressively achieve and sustain income growth of the bottom 40 per cent of the population at a rate higher than the national average</aqd:subquery-description>
         <aqd:subquery-description>10.1.1
 Growth rates of household expenditure or income per capita among the bottom 40 per cent of the population and the total population
@@ -68,54 +69,54 @@ Total resource flows for development, by recipient and donor countries and type 
         <aqd:subquery-description>10.c.1
 Remittance costs as a proportion of the amount remitted
 </aqd:subquery-description>
-      </aqd:subquery-descriptions>
-      <aqd:query-lines field="TITLE-ABS-KEY">
-        <aqd:query-line>(
-TITLE-ABS-KEY(
-(income* AND growth* AND "bottom 40 per cent")
-OR ((social* OR economic* OR politic*) AND inclusion)
-OR (
-((reduc*) W/3 "inequalit*")
-W/3 (legislation OR polic* OR action)
-)
-OR (
-(polic* W/3 (fiscal OR wage OR "social protection"))
-AND {equality}
-)
-OR (
-(regulation OR monitoring)
-W/3 (global*
-W/1 (financial
-W/1 (market* OR institution*)
-)
-)
-OR (
-("strength*" OR "implement*")
-W/3 "regulations"
-)
-)
-OR {Financial Soundness Indicator*}
-OR (
-({enhanc* representation} W/3 {develop* countr*})
-AND (
-(global W/3 "economic OR financial")
-W/1 "Institution*"
-)
-)
-OR ("managed" W/3 {migration polic*})
-OR ( ("developing countr*")
-AND ("World Trade Organization" OR "WTO" OR "World Trade Organisation")
-)
-)
-)
-</aqd:query-line>
-      </aqd:query-lines>
-    </aqd:query-definition>
-    <aqd:filters>
-      <aqd:timerange field="PUBYEAR">
-        <aqd:start>2009</aqd:start>
-        <aqd:end>2019</aqd:end>
-      </aqd:timerange>
-    </aqd:filters>
-  </aqd:query-definitions>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines field="TITLE-ABS-KEY">
+                <aqd:query-line>(
+                    TITLE-ABS-KEY(
+                    (income* AND growth* AND "bottom 40 per cent")
+                    OR ((social* OR economic* OR politic*) AND inclusion)
+                    OR (
+                    ((reduc*) W/3 "inequalit*")
+                    W/3 (legislation OR polic* OR action)
+                    )
+                    OR (
+                    (polic* W/3 (fiscal OR wage OR "social protection"))
+                    AND {equality}
+                    )
+                    OR (
+                    (regulation OR monitoring)
+                    W/3 (global*
+                    W/1 (financial
+                    W/1 (market* OR institution*)
+                    )
+                    )
+                    OR (
+                    ("strength*" OR "implement*")
+                    W/3 "regulations"
+                    )
+                    )
+                    OR {Financial Soundness Indicator*}
+                    OR (
+                    ({enhanc* representation} W/3 {develop* countr*})
+                    AND (
+                    (global W/3 "economic OR financial")
+                    W/1 "Institution*"
+                    )
+                    )
+                    OR ("managed" W/3 {migration polic*})
+                    OR ( ("developing countr*")
+                    AND ("World Trade Organization" OR "WTO" OR "World Trade Organisation")
+                    )
+                    )
+                    )
+                </aqd:query-line>
+            </aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:filters>
+            <aqd:timerange field="PUBYEAR">
+                <aqd:start>2009</aqd:start>
+                <aqd:end>2019</aqd:end>
+            </aqd:timerange>
+        </aqd:filters>
+    </aqd:query-definitions>
 </aqd:query>

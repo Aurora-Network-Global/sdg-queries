@@ -1,30 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="queries.xsl"?>
-<aqd:query xmlns:dc="http://dublincore.org/documents/dcmi-namespace/" xmlns:aqd="http://aurora-network.global/queries/namespace/">
-  <dc:identifier type="sdg">3</dc:identifier>
-  <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg3</dc:subject>
-  <dc:identifier type="version">1.0</dc:identifier>
-  <dc:identifier type="doi">10.5281/zenodo.3817352</dc:identifier>
-  <dc:source type="uri">https://sustainabledevelopment.un.org/sdgs</dc:source>
-  <dc:relation type="uri">https://sustainabledevelopment.un.org/sdgs</dc:relation>
-  <dc:title>SDG-03 good health and well-being</dc:title>
-  <dc:description>Ensuring healthy lives and promoting the well-being at all ages is essential to sustainable development.
+<aqd:query xmlns:dc="http://dublincore.org/documents/dcmi-namespace/"
+           xmlns:aqd="http://aurora-network.global/queries/namespace/">
+    <dc:identifier type="sdg">3</dc:identifier>
+    <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg3</dc:subject>
+    <dc:identifier type="version">2.0</dc:identifier>
+    <dc:identifier type="doi">10.5281/zenodo.3817433</dc:identifier>
+    <dc:source type="doi">10.5281/zenodo.3817352</dc:source>
+    <dc:relation type="uri">https://sustainabledevelopment.un.org/sdgs</dc:relation>
+    <dc:title>SDG-03 good health and well-being</dc:title>
+    <dc:description>Ensuring healthy lives and promoting the well-being at all ages is essential to sustainable development.
 Significant strides have been made in increasing life expectancy and reducing some of the common killers associated with child and maternal mortality, but working towards achieving the target of less than 70 maternal deaths per 100,000 live births by 2030 would require improvements in skilled delivery care.
 Achieving the target of reducing premature deaths due to incommunicable diseases by 1/3 by the year 2030 would also require more efficient technologies for clean fuel use during cooking and education on the risks of tobacco.
 Many more efforts are needed to fully eradicate a wide range of diseases and address many different persistent and emerging health issues. By focusing on providing more efficient funding of health systems, improved sanitation and hygiene, increased access to physicians and more tips on ways to reduce ambient pollution, significant progress can be made in helping to save the lives of millions.</dc:description>
-  <dc:rights href="http://creativecommons.org/licenses/by/4.0/">CC-BY v4 INT</dc:rights>
-  <dc:creator>
-    Aurora Universities Network (AUR); Didier Vercueil (UGA); Nykohla Strong (UAB); Felix Schmidt (UDE); Adam Green (UEA); Jaqui Farrar (UEA); Lars Kullman (UGO); René Otten (VUA); Maurice Vanderfeesten (VUA)
-  </dc:creator>
-  <dc:contributor>
-    Eike Spielberg (UDE)
-  </dc:contributor>
-  <dc:date>2018-01-31</dc:date>
-  <aqd:query-definitions syntax="SCOPUS">
-    <aqd:query-definition>
-      <aqd:subquery-identifier>1</aqd:subquery-identifier>
-      <aqd:subquery-descriptions>
-        <aqd:subquery-description>
+    <dc:rights href="http://creativecommons.org/licenses/by/4.0/">CC-BY v4 INT</dc:rights>
+    <dc:creator>
+      Aurora Universities Network (AUR); Didier Vercueil (UGA); Nykohla Strong (UAB); Raf Guns (UAN); Susanne Mikki (UBE); Felix Schmidt (UDE); Jaqui Farrar (UEA); Lars Kullman (UGO); Baldvin Zarioh (UIC); René Otten (VUA); Maurice Vanderfeesten (VUA)
+    </dc:creator>
+    <dc:contributor>
+      Eike Spielberg (UDE)
+    </dc:contributor>
+    <dc:date>2018-03-31</dc:date>
+    <aqd:query-definitions syntax="SCOPUS">
+        <aqd:query-definition>
+            <aqd:subquery-identifier>1</aqd:subquery-identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
           <!---->By 2030, reduce the global maternal mortality ratio to less than 70 per 100,000 live births </aqd:subquery-description>
         <aqd:subquery-description>3.1.1
 Maternal mortality ratio
@@ -114,9 +115,9 @@ Health worker density and distribution
         <aqd:subquery-description>3.d.1
                     International Health Regulations (IHR) capacity and health emergency preparedness
                 </aqd:subquery-description>
-      </aqd:subquery-descriptions>
-      <aqd:query-lines field="TITLE-ABS-KEY">
-        <aqd:query-line>(
+            </aqd:subquery-descriptions>
+            <aqd:query-lines field="TITLE-ABS-KEY">
+                <aqd:query-line>(
                     (TITLE-ABS-KEY
                     (
                     (
@@ -265,13 +266,13 @@ Health worker density and distribution
 
                     )
                 </aqd:query-line>
-      </aqd:query-lines>
-    </aqd:query-definition>
-    <aqd:filters>
-      <aqd:timerange field="PUBYEAR">
-        <aqd:start>2009</aqd:start>
-        <aqd:end>2019</aqd:end>
-      </aqd:timerange>
-    </aqd:filters>
-  </aqd:query-definitions>
+            </aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:filters>
+            <aqd:timerange field="PUBYEAR">
+                <aqd:start>2009</aqd:start>
+                <aqd:end>2019</aqd:end>
+            </aqd:timerange>
+        </aqd:filters>
+    </aqd:query-definitions>
 </aqd:query>

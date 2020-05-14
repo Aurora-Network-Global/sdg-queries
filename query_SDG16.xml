@@ -1,29 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="queries.xsl"?>
-<aqd:query xmlns:dc="http://dublincore.org/documents/dcmi-namespace/" xmlns:aqd="http://aurora-network.global/queries/namespace/">
-  <dc:identifier type="sdg">16</dc:identifier>
-  <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg16</dc:subject>
-  <dc:identifier type="version">1.0</dc:identifier>
-  <dc:identifier type="doi">10.5281/zenodo.3817352</dc:identifier>
-  <dc:source type="uri">https://sustainabledevelopment.un.org/sdgs</dc:source>
-  <dc:relation type="uri">https://sustainabledevelopment.un.org/sdgs</dc:relation>
-  <dc:title>SDG-16 peace, justice and strong institutions</dc:title>
-  <dc:description>The threats of international homicide, violence against children, human trafficking and sexual violence are important to address to promote peaceful and inclusive societies for sustainable development. They pave the way for the provision of access to justice for all and for building effective, accountable institutions at all levels.
+<aqd:query xmlns:dc="http://dublincore.org/documents/dcmi-namespace/"
+           xmlns:aqd="http://aurora-network.global/queries/namespace/">
+    <dc:identifier type="sdg">16</dc:identifier>
+    <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg16</dc:subject>
+    <dc:identifier type="version">2.0</dc:identifier>
+    <dc:identifier type="doi">10.5281/zenodo.3817433</dc:identifier>
+    <dc:source type="doi">10.5281/zenodo.3817352</dc:source>
+    <dc:relation type="uri">https://sustainabledevelopment.un.org/sdgs</dc:relation>
+    <dc:title>SDG-16 peace, justice and strong institutions</dc:title>
+    <dc:description>The threats of international homicide, violence against children, human trafficking and sexual violence are important to address to promote peaceful and inclusive societies for sustainable development. They pave the way for the provision of access to justice for all and for building effective, accountable institutions at all levels.
 While homicide and trafficking cases have seen significant progress over the past decade, there are still thousands of people at greater risk of intentional murder within Latin America, Sub-Saharan Africa and around Asia. Children’s rights violations through aggression and sexual violence continue to plague many countries around the world, especially as under-reporting and lack of data aggravate the problem.
 To tackle these challenges and build a more peaceful, inclusive societies, there needs to be more efficient and transparent regulations put in place and comprehensive, realistic government budgets. One of the first steps towards protecting individual rights is the implementation of worldwide birth registration and the creation of more independent national human rights institutions around the world.</dc:description>
-  <dc:rights href="http://creativecommons.org/licenses/by/4.0/">CC-BY v4 INT</dc:rights>
-  <dc:creator>
-    Aurora Universities Network (AUR); Didier Vercueil (UGA); Nykohla Strong (UAB); Felix Schmidt (UDE); Adam Green (UEA); Jaqui Farrar (UEA); Lars Kullman (UGO); René Otten (VUA); Maurice Vanderfeesten (VUA)
-  </dc:creator>
-  <dc:contributor>
-    Eike Spielberg (UDE)
-  </dc:contributor>
-  <dc:date>2018-01-31</dc:date>
-  <aqd:query-definitions syntax="SCOPUS">
-    <aqd:query-definition>
-      <aqd:subquery-identifier>1</aqd:subquery-identifier>
-      <aqd:subquery-descriptions>
-        <aqd:subquery-description>Significantly reduce all forms of violence and related death rates everywhere </aqd:subquery-description>
+    <dc:rights href="http://creativecommons.org/licenses/by/4.0/">CC-BY v4 INT</dc:rights>
+    <dc:creator>
+      Aurora Universities Network (AUR); Didier Vercueil (UGA); Nykohla Strong (UAB); Raf Guns (UAN); Susanne Mikki (UBE); Felix Schmidt (UDE); Jaqui Farrar (UEA); Lars Kullman (UGO); Baldvin Zarioh (UIC); René Otten (VUA); Maurice Vanderfeesten (VUA)
+    </dc:creator>
+    <dc:contributor>
+      Eike Spielberg (UDE)
+    </dc:contributor>
+    <dc:date>2018-03-31</dc:date>
+    <aqd:query-definitions syntax="SCOPUS">
+        <aqd:query-definition>
+            <aqd:subquery-identifier>1</aqd:subquery-identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>Significantly reduce all forms of violence and related death rates everywhere </aqd:subquery-description>
         <aqd:subquery-description>16.1.1
 Number of victims of intentional homicide per 100,000 population, by sex and age</aqd:subquery-description>
         <aqd:subquery-description>16.1.2
@@ -91,9 +92,9 @@ Existence of independent national human rights institutions in compliance with t
         <aqd:subquery-description>Promote and enforce non-discriminatory laws and policies for sustainable development </aqd:subquery-description>
         <aqd:subquery-description>16.b.1
 Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law </aqd:subquery-description>
-      </aqd:subquery-descriptions>
-      <aqd:query-lines field="TITLE-ABS-KEY">
-        <aqd:query-line>TITLE-ABS-KEY (
+            </aqd:subquery-descriptions>
+            <aqd:query-lines field="TITLE-ABS-KEY">
+                <aqd:query-line>TITLE-ABS-KEY (
                     (
                     ("armed conflict"
                     OR "civil conflict"
@@ -122,13 +123,13 @@ Proportion of population reporting having personally felt discriminated against 
                     )
                     )
                 </aqd:query-line>
-      </aqd:query-lines>
-    </aqd:query-definition>
-    <aqd:filters>
-      <aqd:timerange field="PUBYEAR">
-        <aqd:start>2009</aqd:start>
-        <aqd:end>2019</aqd:end>
-      </aqd:timerange>
-    </aqd:filters>
-  </aqd:query-definitions>
+            </aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:filters>
+            <aqd:timerange field="PUBYEAR">
+                <aqd:start>2009</aqd:start>
+                <aqd:end>2019</aqd:end>
+            </aqd:timerange>
+        </aqd:filters>
+    </aqd:query-definitions>
 </aqd:query>

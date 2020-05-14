@@ -1,29 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="queries.xsl"?>
-<aqd:query xmlns:dc="http://dublincore.org/documents/dcmi-namespace/" xmlns:aqd="http://aurora-network.global/queries/namespace/">
-  <dc:identifier type="sdg">6</dc:identifier>
-  <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg6</dc:subject>
-  <dc:identifier type="version">1.0</dc:identifier>
-  <dc:identifier type="doi">10.5281/zenodo.3817352</dc:identifier>
-  <dc:source type="uri">https://sustainabledevelopment.un.org/sdgs</dc:source>
-  <dc:relation type="uri">https://sustainabledevelopment.un.org/sdgs</dc:relation>
-  <dc:title>SDG-06 clean water and sanitation</dc:title>
-  <dc:description>Clean, accessible water for all is an essential part of the world we want to live in and there is sufficient fresh water on the planet to achieve this. However, due to bad economics or poor infrastructure, millions of people including children die every year from diseases associated with inadequate water supply, sanitation and hygiene.
+<aqd:query xmlns:dc="http://dublincore.org/documents/dcmi-namespace/"
+           xmlns:aqd="http://aurora-network.global/queries/namespace/">
+    <dc:identifier type="sdg">6</dc:identifier>
+    <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg6</dc:subject>
+    <dc:identifier type="version">2.0</dc:identifier>
+    <dc:identifier type="doi">10.5281/zenodo.3817433</dc:identifier>
+    <dc:source type="doi">10.5281/zenodo.3817352</dc:source>
+    <dc:relation type="uri">https://sustainabledevelopment.un.org/sdgs</dc:relation>
+    <dc:title>SDG-06 clean water and sanitation</dc:title>
+    <dc:description>Clean, accessible water for all is an essential part of the world we want to live in and there is sufficient fresh water on the planet to achieve this. However, due to bad economics or poor infrastructure, millions of people including children die every year from diseases associated with inadequate water supply, sanitation and hygiene.
 Water scarcity, poor water quality and inadequate sanitation negatively impact food security, livelihood choices and educational opportunities for poor families across the world. At the current time, more than 2 billion people are living with the risk of reduced access to freshwater resources and by 2050, at least one in four people is likely to live in a country affected by chronic or recurring shortages of fresh water. Drought in specific afflicts some of the world’s poorest countries, worsening hunger and malnutrition. Fortunately, there has been great progress made in the past decade regarding drinking sources and sanitation, whereby over 90% of the world’s population now has access to improved sources of drinking water.
 To improve sanitation and access to drinking water, there needs to be increased investment in management of freshwater ecosystems and sanitation facilities on a local level in several developing countries within Sub-Saharan Africa, Central Asia, Southern Asia, Eastern Asia and South-Eastern Asia.</dc:description>
-  <dc:rights href="http://creativecommons.org/licenses/by/4.0/">CC-BY v4 INT</dc:rights>
-  <dc:creator>
-    Aurora Universities Network (AUR); Didier Vercueil (UGA); Nykohla Strong (UAB); Felix Schmidt (UDE); Adam Green (UEA); Jaqui Farrar (UEA); Lars Kullman (UGO); René Otten (VUA); Maurice Vanderfeesten (VUA)
-  </dc:creator>
-  <dc:contributor>
-    Eike Spielberg (UDE)
-  </dc:contributor>
-  <dc:date>2018-01-31</dc:date>
-  <aqd:query-definitions syntax="SCOPUS">
-    <aqd:query-definition>
-      <aqd:subquery-identifier>1</aqd:subquery-identifier>
-      <aqd:subquery-descriptions>
-        <aqd:subquery-description>
+    </dc:description>
+    <dc:rights href="http://creativecommons.org/licenses/by/4.0/">CC-BY v4 INT</dc:rights>
+    <dc:creator>
+      Aurora Universities Network (AUR); Didier Vercueil (UGA); Nykohla Strong (UAB); Raf Guns (UAN); Susanne Mikki (UBE); Felix Schmidt (UDE); Jaqui Farrar (UEA); Lars Kullman (UGO); Baldvin Zarioh (UIC); René Otten (VUA); Maurice Vanderfeesten (VUA)
+    </dc:creator>
+    <dc:contributor>
+      Eike Spielberg (UDE)
+    </dc:contributor>
+    <dc:date>2018-03-31</dc:date>
+    <aqd:query-definitions syntax="SCOPUS">
+        <aqd:query-definition>
+            <aqd:subquery-identifier>1</aqd:subquery-identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
           <!---->By 2030, achieve universal and equitable access to safe and affordable drinking water for all</aqd:subquery-description>
         <aqd:subquery-description>6.1.1
 Proportion of population using safely managed drinking water services
@@ -64,9 +66,9 @@ Amount of water- and sanitation-related official development assistance that is 
         <aqd:subquery-description>6.b.1
 Proportion of local administrative units with established and operational policies and procedures for participation of local communities in water and sanitation management
                 </aqd:subquery-description>
-      </aqd:subquery-descriptions>
-      <aqd:query-lines field="TITLE-ABS-KEY">
-        <aqd:query-line>TITLE-ABS-KEY (
+            </aqd:subquery-descriptions>
+            <aqd:query-lines field="TITLE-ABS-KEY">
+                <aqd:query-line>TITLE-ABS-KEY (
                     (water)
                     W/3 (
                     quality
@@ -79,13 +81,13 @@ Proportion of local administrative units with established and operational polici
                     )
                     )
                 </aqd:query-line>
-      </aqd:query-lines>
-    </aqd:query-definition>
-    <aqd:filters>
-      <aqd:timerange field="PUBYEAR">
-        <aqd:start>2009</aqd:start>
-        <aqd:end>2019</aqd:end>
-      </aqd:timerange>
-    </aqd:filters>
-  </aqd:query-definitions>
+            </aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:filters>
+            <aqd:timerange field="PUBYEAR">
+                <aqd:start>2009</aqd:start>
+                <aqd:end>2019</aqd:end>
+            </aqd:timerange>
+        </aqd:filters>
+    </aqd:query-definitions>
 </aqd:query>

@@ -1,29 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="queries.xsl"?>
-<aqd:query xmlns:dc="http://dublincore.org/documents/dcmi-namespace/" xmlns:aqd="http://aurora-network.global/queries/namespace/">
-  <dc:identifier type="sdg">5</dc:identifier>
-  <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg5</dc:subject>
-  <dc:identifier type="version">1.0</dc:identifier>
-  <dc:identifier type="doi">10.5281/zenodo.3817352</dc:identifier>
-  <dc:source type="uri">https://sustainabledevelopment.un.org/sdgs</dc:source>
-  <dc:relation type="uri">https://sustainabledevelopment.un.org/sdgs</dc:relation>
-  <dc:title>SDG-05 gender equality</dc:title>
-  <dc:description>While the world has achieved progress towards gender equality and women’s empowerment under the Millennium Development Goals (including equal access to primary education between girls and boys), women and girls continue to suffer discrimination and violence in every part of the world.
+<aqd:query xmlns:dc="http://dublincore.org/documents/dcmi-namespace/"
+           xmlns:aqd="http://aurora-network.global/queries/namespace/">
+    <dc:identifier type="sdg">5</dc:identifier>
+    <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg5</dc:subject>
+    <dc:identifier type="version">2.0</dc:identifier>
+    <dc:identifier type="doi">10.5281/zenodo.3817433</dc:identifier>
+    <dc:source type="doi">10.5281/zenodo.3817352</dc:source>
+    <dc:relation type="uri">https://sustainabledevelopment.un.org/sdgs</dc:relation>
+    <dc:title>SDG-05 gender equality</dc:title>
+    <dc:description>While the world has achieved progress towards gender equality and women’s empowerment under the Millennium Development Goals (including equal access to primary education between girls and boys), women and girls continue to suffer discrimination and violence in every part of the world.
 Gender equality is not only a fundamental human right, but a necessary foundation for a peaceful, prosperous and sustainable world. Unfortunately, at the current time, 1 in 5 women and girls between the ages of 15-49 have reported experiencing physical or sexual violence by an intimate partner within a 12-month period and 49 countries currently have no laws protecting women from domestic violence. Progress is occurring regarding harmful practices such as child marriage and FGM (Female Genital Mutilation), which has declined by 30% in the past decade, but there is still much work to be done to completely eliminate such practices.
 Providing women and girls with equal access to education, health care, decent work, and representation in political and economic decision-making processes will fuel sustainable economies and benefit societies and humanity at large. Implementing new legal frameworks regarding female equality in the workplace and the eradication of harmful practices targeted at women is crucial to ending the gender-based discrimination prevalent in many countries around the world.</dc:description>
-  <dc:rights href="http://creativecommons.org/licenses/by/4.0/">CC-BY v4 INT</dc:rights>
-  <dc:creator>
-    Aurora Universities Network (AUR); Didier Vercueil (UGA); Nykohla Strong (UAB); Felix Schmidt (UDE); Adam Green (UEA); Jaqui Farrar (UEA); Lars Kullman (UGO); René Otten (VUA); Maurice Vanderfeesten (VUA)
-  </dc:creator>
-  <dc:contributor>
-    Eike Spielberg (UDE)
-  </dc:contributor>
-  <dc:date>2018-01-31</dc:date>
-  <aqd:query-definitions syntax="SCOPUS">
-    <aqd:query-definition>
-      <aqd:subquery-identifier>1</aqd:subquery-identifier>
-      <aqd:subquery-descriptions>
-        <aqd:subquery-description>
+    <dc:rights href="http://creativecommons.org/licenses/by/4.0/">CC-BY v4 INT</dc:rights>
+    <dc:creator>
+      Aurora Universities Network (AUR); Didier Vercueil (UGA); Nykohla Strong (UAB); Raf Guns (UAN); Susanne Mikki (UBE); Felix Schmidt (UDE); Jaqui Farrar (UEA); Lars Kullman (UGO); Baldvin Zarioh (UIC); René Otten (VUA); Maurice Vanderfeesten (VUA)
+    </dc:creator>
+    <dc:contributor>
+      Eike Spielberg (UDE)
+    </dc:contributor>
+    <dc:date>2018-03-31</dc:date>
+    <aqd:query-definitions syntax="SCOPUS">
+        <aqd:query-definition>
+            <aqd:subquery-identifier>1</aqd:subquery-identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
           <!---->End all forms of discrimination against all women and girls everywhere </aqd:subquery-description>
         <aqd:subquery-description>5.1.1
 Whether or not legal frameworks are in place to promote, enforce and monitor equality and non‑discrimination on the basis of sex             </aqd:subquery-description>
@@ -75,9 +76,9 @@ Adopt and strengthen sound policies and enforceable legislation for the promotio
         <aqd:subquery-description>5.c.1
 Proportion of countries with systems to track and make public allocations for gender equality and women’s empowerment
                 </aqd:subquery-description>
-      </aqd:subquery-descriptions>
-      <aqd:query-lines field="TITLE-ABS-KEY">
-        <aqd:query-line>TITLE-ABS-KEY
+            </aqd:subquery-descriptions>
+            <aqd:query-lines field="TITLE-ABS-KEY">
+                <aqd:query-line>TITLE-ABS-KEY
                     (
                     (
                     ("gender discrimination*"
@@ -109,13 +110,13 @@ Proportion of countries with systems to track and make public allocations for ge
                     )
                     )
                 </aqd:query-line>
-      </aqd:query-lines>
-    </aqd:query-definition>
-    <aqd:filters>
-      <aqd:timerange field="PUBYEAR">
-        <aqd:start>2009</aqd:start>
-        <aqd:end>2019</aqd:end>
-      </aqd:timerange>
-    </aqd:filters>
-  </aqd:query-definitions>
+            </aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:filters>
+            <aqd:timerange field="PUBYEAR">
+                <aqd:start>2009</aqd:start>
+                <aqd:end>2019</aqd:end>
+            </aqd:timerange>
+        </aqd:filters>
+    </aqd:query-definitions>
 </aqd:query>

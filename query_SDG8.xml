@@ -1,29 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="queries.xsl"?>
-<aqd:query xmlns:dc="http://dublincore.org/documents/dcmi-namespace/" xmlns:aqd="http://aurora-network.global/queries/namespace/">
-  <dc:identifier type="sdg">8</dc:identifier>
-  <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg8</dc:subject>
-  <dc:identifier type="version">1.0</dc:identifier>
-  <dc:identifier type="doi">10.5281/zenodo.3817352</dc:identifier>
-  <dc:source type="uri">https://sustainabledevelopment.un.org/sdgs</dc:source>
-  <dc:relation type="uri">https://sustainabledevelopment.un.org/sdgs</dc:relation>
-  <dc:title>SDG-08 decent work and economic growth</dc:title>
-  <dc:description>Roughly half the world’s population still lives on the equivalent of about US$2 a day with global unemployment rates of 5.7% and having a job doesn’t guarantee the ability to escape from poverty in many places. This slow and uneven progress requires us to rethink and retool our economic and social policies aimed at eradicating poverty.
+<aqd:query xmlns:dc="http://dublincore.org/documents/dcmi-namespace/"
+           xmlns:aqd="http://aurora-network.global/queries/namespace/">
+    <dc:identifier type="sdg">8</dc:identifier>
+    <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg8</dc:subject>
+    <dc:identifier type="version">2.0</dc:identifier>
+    <dc:identifier type="doi">10.5281/zenodo.3817433</dc:identifier>
+    <dc:source type="doi">10.5281/zenodo.3817352</dc:source>
+    <dc:relation type="uri">https://sustainabledevelopment.un.org/sdgs</dc:relation>
+    <dc:title>SDG-08 decent work and economic growth</dc:title>
+    <dc:description>Roughly half the world’s population still lives on the equivalent of about US$2 a day with global unemployment rates of 5.7% and having a job doesn’t guarantee the ability to escape from poverty in many places. This slow and uneven progress requires us to rethink and retool our economic and social policies aimed at eradicating poverty.
 A continued lack of decent work opportunities, insufficient investments and under-consumption lead to an erosion of the basic social contract underlying democratic societies: that all must share in progress. Even though the average annual growth rate of real GDP per capita worldwide is increasing year on year, there are still many countries in the developing world that are decelerating in their growth rates and moving farther from the 7% growth rate target set for 2030. As labor productivity decreases and unemployment rates rise, standards of living begin to decline due to lower wages.
 Sustainable economic growth will require societies to create the conditions that allow people to have quality jobs that stimulate the economy while not harming the environment. Job opportunities and decent working conditions are also required for the whole working age population. There needs to be increased access to financial services to manage incomes, accumulate assets and make productive investments. Increased commitments to trade, banking and agriculture infrastructure will also help increase productivity and reduce unemployment levels in the world’s most impoverished regions.</dc:description>
-  <dc:rights href="http://creativecommons.org/licenses/by/4.0/">CC-BY v4 INT</dc:rights>
-  <dc:creator>
-    Aurora Universities Network (AUR); Didier Vercueil (UGA); Nykohla Strong (UAB); Felix Schmidt (UDE); Adam Green (UEA); Jaqui Farrar (UEA); Lars Kullman (UGO); René Otten (VUA); Maurice Vanderfeesten (VUA)
-  </dc:creator>
-  <dc:contributor>
-    Eike Spielberg (UDE)
-  </dc:contributor>
-  <dc:date>2018-01-31</dc:date>
-  <aqd:query-definitions syntax="SCOPUS">
-    <aqd:query-definition>
-      <aqd:subquery-identifier>1</aqd:subquery-identifier>
-      <aqd:subquery-descriptions>
-        <aqd:subquery-description>
+    <dc:rights href="http://creativecommons.org/licenses/by/4.0/">CC-BY v4 INT</dc:rights>
+    <dc:creator>
+      Aurora Universities Network (AUR); Didier Vercueil (UGA); Nykohla Strong (UAB); Raf Guns (UAN); Susanne Mikki (UBE); Felix Schmidt (UDE); Jaqui Farrar (UEA); Lars Kullman (UGO); Baldvin Zarioh (UIC); René Otten (VUA); Maurice Vanderfeesten (VUA)
+    </dc:creator>
+    <dc:contributor>
+      Eike Spielberg (UDE)
+    </dc:contributor>
+    <dc:date>2018-03-31</dc:date>
+    <aqd:query-definitions syntax="SCOPUS">
+        <aqd:query-definition>
+            <aqd:subquery-identifier>1</aqd:subquery-identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
           <!---->Sustain per capita economic growth in accordance with national circumstances and, in particular, at least 7 per cent gross domestic product growth per annum in the least developed countries </aqd:subquery-description>
         <aqd:subquery-description>8.1.1
 Annual growth rate of real GDP per capita
@@ -86,9 +87,9 @@ Aid for Trade commitments and disbursements
         <aqd:subquery-description>By 2020, develop and operationalize a global strategy for youth employment and implement the Global Jobs Pact of the International Labour Organization </aqd:subquery-description>
         <aqd:subquery-description>8.b.1
 Total government spending in social protection and employment programmes as a proportion of the national budgets and GDP       </aqd:subquery-description>
-      </aqd:subquery-descriptions>
-      <aqd:query-lines field="TITLE-ABS-KEY">
-        <aqd:query-line>(
+            </aqd:subquery-descriptions>
+            <aqd:query-lines field="TITLE-ABS-KEY">
+                <aqd:query-line>(
                     ( TITLE-ABS-KEY ( "economic" W/3 "growth*" ) )
                     OR ( TITLE-ABS-KEY ( "gross domestic product growth" ) )
                     OR ( TITLE-ABS-KEY ( "GDP growth" ) )
@@ -128,13 +129,13 @@ Total government spending in social protection and employment programmes as a pr
                     OR ( TITLE-ABS-KEY ( {Global Jobs Pact} ) )
                     )
                 </aqd:query-line>
-      </aqd:query-lines>
-    </aqd:query-definition>
-    <aqd:filters>
-      <aqd:timerange field="PUBYEAR">
-        <aqd:start>2009</aqd:start>
-        <aqd:end>2019</aqd:end>
-      </aqd:timerange>
-    </aqd:filters>
-  </aqd:query-definitions>
+            </aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:filters>
+            <aqd:timerange field="PUBYEAR">
+                <aqd:start>2009</aqd:start>
+                <aqd:end>2019</aqd:end>
+            </aqd:timerange>
+        </aqd:filters>
+    </aqd:query-definitions>
 </aqd:query>
