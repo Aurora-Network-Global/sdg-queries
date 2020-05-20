@@ -1,6 +1,9 @@
 # Search Queries for "Mapping Research Output to the Sustainable Development Goals (SDGs)"
 __This package contains machine readable (xml) search queries, for the Scopus publications database, to find domain specific research output that are related to the 17 Sustainable Development Goals (SDGs).__
 
+___[Click here for HUMAN READABLE version](https://aurora-network-global.github.io/sdg-queries/)___ | 
+___[Click here for PROJECT WEBSITE](https://aurora-network.global/project/sdg-analysis-bibliometrics-relevance/)___
+
 ![A global effort in "Mapping research output to the Sustainable Development Goals". An initiative by the Aurora Universities Network ](./images/survey-logo-header-mapping-research-to-sdgs.png)
 ![illustration of XML and translation in HTML](./images/aurora-sdg-queries-xml-html.png)
 
@@ -9,6 +12,14 @@ __This package contains machine readable (xml) search queries, for the Scopus pu
 The initiative started from the Aurora Universities Network in 2017, in the working group "[Societal Impact and Relevance of Research](https://aurora-network.global/activity/societal-impact-and-relevance-of-research-sirr/)", to investigate and to make visible 1. what research is done that are relevant to topics or challenges that live in society (for the proof of practice this has been scoped down to the SDGs), and 2. what the effect or impact is of implementing those research outcomes to those societal challenges (this also have been scoped down to research output being cited in policy documents from national and local governments an NGO's).
 
 The classification model we have used are 17 different search queries on the Scopus database. The search queries are elegant constructions with keyword combinations and boolean operators, in the syntax specific to the Scopus Query Language. We have used Scopus because it covers more research area's that are relevant to the SDG's, and we could filter much easier the Aurora Institutions.
+
+## SDG Search queries
+Select one of the SDG icons to go to the latest Search Query.
+
+[![SDG01](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-01.png)](query_SDG1.xml) | [![SDG02](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-02.png)](query_SDG2.xml) | [![SDG03](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-03.png)](query_SDG3.xml) | [![SDG04](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-04.png)](query_SDG4.xml) | [![SDG05](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-05.png)](query_SDG5.xml) | [![SDG06](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-06.png)](query_SDG6.xml)
+--- | --- | --- | --- | --- | ---
+[![SDG07](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-07.png)](query_SDG7.xml) | [![SDG08](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-08.png)](query_SDG8.xml) | [![SDG09](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-09.png)](query_SDG9.xml) | [![SDG10](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-10.png)](query_SDG10.xml) | [![SDG11](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-11.png)](query_SDG11.xml) | [![SDG12](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-12.png)](query_SDG12.xml)
+[![SDG13](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-13.png)](query_SDG13.xml) | [![SDG14](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-14.png)](query_SDG14.xml) | [![SDG15](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-15.png)](query_SDG15.xml) | [![SDG16](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-16.png)](query_SDG16.xml) | [![SDG17](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-17.png)](query_SDG17.xml) |  
 
 ## Versions
 Different versions of the search queries have been made over the past years to improve the precision (soundness) and recall (completeness) of the results. The queries have been made in a team effort by several bibliometric experts from the Aurora Universities. Each one did two or 3  SDG's, and than reviewed each other's work.
