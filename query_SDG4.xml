@@ -3,10 +3,11 @@
 <aqd:query xmlns:dc="http://dublincore.org/documents/dcmi-namespace/"
            xmlns:aqd="http://aurora-network.global/queries/namespace/">
     <dc:identifier type="sdg">4</dc:identifier>
+    <icon>https://sustainabledevelopment.un.org/content/images/E_SDG_Icons-04.jpg</icon>
     <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg4</dc:subject>
-    <dc:identifier type="version">4.0</dc:identifier>
-    <dc:identifier type="doi">10.5281/zenodo.3817443</dc:identifier>
-    <dc:source type="doi">10.5281/zenodo.3817437</dc:source>
+    <dc:identifier type="version">5.0</dc:identifier>
+    <dc:identifier type="doi">10.5281/zenodo.3817445</dc:identifier>
+    <dc:source type="doi">10.5281/zenodo.3817443</dc:source>
     <dc:relation type="uri">https://sustainabledevelopment.un.org/sdgs</dc:relation>
     <dc:title>SDG-04 quality education</dc:title>
     <dc:description>
@@ -26,13 +27,10 @@
         training workshops, school building and improvement of water and electricity access to schools.
     </dc:description>
     <dc:rights href="http://creativecommons.org/licenses/by/4.0/">CC-BY v4 INT</dc:rights>
-    <dc:creator>
-      Aurora Universities Network (AUR); René Otten (VUA); Maurice Vanderfeesten (VUA); Didier Vercueil (UGA); Nykohla Strong (UAB); Raf Guns (UAN); Eike Spielberg (UDE); Felix Schmidt (UDE); Linda Hasse (UDE); Lars Kullman (UGO); Baldvin Zarioh (UIC);
-    </dc:creator>
-    <dc:contributor>
-      Eike Spielberg (UDE)
+    <dc:creator>Aurora Universities Network (AUR); René Otten (VUA); Eike Spielberg (UDE); Felix Schmidt (UDE); Maurice Vanderfeesten (VUA); Alessandro Arienzo (UNA); Roberto delle Donne (UNA); Ignasi Salvadó Estivill (URV); José Luis González Ugarte (URV); Didier Vercueil (UGA); Nykohla Strong (UAB); Eike Spielberg (UDE); Linda Hasse (UDE); Ane Sesma (UEA); Baldvin Zarioh (UIC); Friedrich Gaigg (UIN); Nicolien van der Grijp (VUA); Yasin Gunes (VUA); </dc:creator>
+    <dc:contributor>Eike Spielberg (UDE); Peter van den Besselaar (VUA)
     </dc:contributor>
-    <dc:date>2019-08-21</dc:date>
+    <dc:date>2020-06-30</dc:date>
     <aqd:query-definitions syntax="SCOPUS">
         <aqd:query-definition>
             <aqd:subquery-identifier>1</aqd:subquery-identifier>
@@ -50,12 +48,14 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    (( "inclusi*" OR "equitabl*" ) AND
+                    (( "inclusi*" OR "equit*" ) AND
                     ( "quality education" ))
-                    OR
-                    (( "Quality" OR "equitabl*" OR "free" OR "access" ) W/3
+                 </aqd:query-line>
+				 <aqd:query-line field="TITLE-ABS-KEY">
+                    (( "Quality" OR "equitabl*" OR "free" OR "access" OR "affordab*") W/3
                     ( "Primary education" OR "primary school" OR "secondary education" OR "secondary school"))
-                    OR
+                 </aqd:query-line>
+				 <aqd:query-line field="TITLE-ABS-KEY">
                     ( "proficiency level" W/3
                     ( "reading" OR "mathematics" ))
                 </aqd:query-line>
@@ -80,8 +80,8 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ( "Quality" OR "equitabl*" OR "free" OR "access" ) W/3
-                    ( "pre-primary education" OR "pre-primary school" )
+                    ( "Quality" OR "equitabl*" OR "free" OR "access" OR "affordab*") W/3
+                    ( "preschool" OR "pre-school" OR"pre-primary education" OR "pre-primary school" OR "preprimary education" OR "preprimary school")
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
@@ -100,10 +100,9 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    "equal access" W/3
-                    ( "tertiary education" OR "university" OR "vocational education" )
+				("equal" OR "equit*") W/3 ("access") W/3 ("tertiary education" OR "university" OR "vocational education" )
                 </aqd:query-line>
-            </aqd:query-lines>
+        </aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>4</aqd:subquery-identifier>
@@ -121,8 +120,7 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ( "increas*" W/3 "skills" ) AND
-                    ( "employe*" OR "decent jobs" OR "entrepreneur*" )
+                    (( "increas*" W/3 ("skills" OR "competenc*")) AND ( "employ*" OR "decent job*" OR "entrepreneur*" ))
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
@@ -143,12 +141,13 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ( ("gender disparit*" OR "gender inequalit*" OR "gender equalit*")
-                    AND
-                    "educat*")
-
-                    OR ( ( "vulnerable" OR "disabilit*" OR "disabled" OR "indigen*" ) W/3
-                    "educat*" )
+                ( ("gender disparit*" OR "gender parit*" OR "gender inequalit*" OR "gender equalit*") AND "educat*")
+				</aqd:query-line>
+                 <aqd:query-line field="TITLE-ABS-KEY">  
+                 ( ( "vulnerable" OR "disabilit*" OR "disabled" OR "indigen*" ) W/3 "educat*" )
+				</aqd:query-line>	
+                <aqd:query-line field="TITLE-ABS-KEY">
+				( ( "girl*"  OR  "women" )  AND  ( "equal*"  W/3  "educat*" ) )  
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
@@ -166,7 +165,8 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY">"literacy" OR "numeracy"</aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">"literacy" OR "numeracy" OR  "reading skill*"  OR  "writing skill*"
+				</aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
@@ -187,7 +187,8 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY"/>
+                <aqd:query-line field="TITLE-ABS-KEY">( ( "sustainable development" )  W/3  ( "educat*"  OR  "teach*" OR  "learn*" ) )
+				</aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
@@ -206,8 +207,13 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY"/>
-            </aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">("school facilit*")
+				</aqd:query-line>
+			  <aqd:query-line field="TITLE-ABS-KEY">( "school*" )  W/3  ( "access" )  W/3  ( "electricity"  OR  "internet"  OR  "computer*" )
+				</aqd:query-line>
+			  <aqd:query-line field="TITLE-ABS-KEY">( "school*" )  W/3  ( "drinking water"  OR  "sanitation"  OR  "handwashing*" OR  "hand washing*")
+				</aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>b</aqd:subquery-identifier>
@@ -221,12 +227,16 @@
                 </aqd:subquery-description>
                 <aqd:subquery-description>
                     4.b.1
+                    4.b.1
                     Volume of official development assistance flows for scholarships by sector and type of study
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY"/>
-            </aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">( "scholarships" )  AND  ( "develop* countr*"  OR "least developed countr*" OR  "small island*" )
+				</aqd:query-line>
+                 <aqd:query-line field="TITLE-ABS-KEY">( "scholarships" )  W/6  ( "South Africa"  OR  "Sub-Saharan Africa"  OR  "Equatorial Africa"  OR  "West Africa" )
+				</aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>c</aqd:subquery-identifier>
@@ -246,8 +256,7 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ( "scholarship*" OR "qualified teacher*" OR "educat*" ) W/3
-                    ( "develop* countr*" OR "Africa*" OR "small island*" )
+				(( "teacher*" ) W/3 ("training" OR "qualified" OR "education") ) AND ( "develop* countr*" OR "least developed countr*" OR "small island*" )
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
@@ -255,7 +264,7 @@
             <aqd:filter type="affilation" field="AF-ID"></aqd:filter>
             <aqd:timerange field="PUBYEAR">
                 <aqd:start>2009</aqd:start>
-                <aqd:end>2019</aqd:end>
+                <aqd:end>2020</aqd:end>
             </aqd:timerange>
         </aqd:filters>
     </aqd:query-definitions>

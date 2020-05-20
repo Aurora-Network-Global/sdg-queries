@@ -3,32 +3,32 @@
 <aqd:query xmlns:dc="http://dublincore.org/documents/dcmi-namespace/"
            xmlns:aqd="http://aurora-network.global/queries/namespace/">
     <dc:identifier type="sdg">3</dc:identifier>
+    <icon>https://sustainabledevelopment.un.org/content/images/E_SDG_Icons-03.jpg</icon>
     <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg3</dc:subject>
-    <dc:identifier type="version">4.0</dc:identifier>
-    <dc:identifier type="doi">10.5281/zenodo.3817443</dc:identifier>
-    <dc:source type="doi">10.5281/zenodo.3817437</dc:source>
+    <dc:identifier type="version">5.0</dc:identifier>
+    <dc:identifier type="doi">10.5281/zenodo.3817445</dc:identifier>
+    <dc:source type="doi">10.5281/zenodo.3817443</dc:source>
     <dc:relation type="uri">https://sustainabledevelopment.un.org/sdgs</dc:relation>
     <dc:title>SDG-03 good health and well-being</dc:title>
     <dc:description>
-        Ensuring healthy lives and promoting the well-being at all ages is essential to sustainable development.
+        Ensuring healthy lives and promoting the well-being at all ages is essential to sustainable
+        development.
         Significant strides have been made in increasing life expectancy and reducing some of the common killers
         associated with child and maternal mortality, but working towards achieving the target of less than 70 maternal
         deaths per 100,000 live births by 2030 would require improvements in skilled delivery care.
         Achieving the target of reducing premature deaths due to incommunicable diseases by 1/3 by the year 2030 would
-        also require more efficient technologies for clean fuel use during cooking and education on the risks of tobacco.
+        also require more efficient technologies for clean fuel use during cooking and education on the risks of
+        tobacco.
         Many more efforts are needed to fully eradicate a wide range of diseases and address many different persistent
         and emerging health issues. By focusing on providing more efficient funding of health systems, improved
         sanitation and hygiene, increased access to physicians and more tips on ways to reduce ambient pollution,
         significant progress can be made in helping to save the lives of millions.
     </dc:description>
     <dc:rights href="http://creativecommons.org/licenses/by/4.0/">CC-BY v4 INT</dc:rights>
-    <dc:creator>
-      Aurora Universities Network (AUR); René Otten (VUA); Maurice Vanderfeesten (VUA); Didier Vercueil (UGA); Nykohla Strong (UAB); Raf Guns (UAN); Eike Spielberg (UDE); Felix Schmidt (UDE); Linda Hasse (UDE); Lars Kullman (UGO); Baldvin Zarioh (UIC);
-    </dc:creator>
-    <dc:contributor>
-      Eike Spielberg (UDE)
+    <dc:creator>Aurora Universities Network (AUR); René Otten (VUA); Eike Spielberg (UDE); Felix Schmidt (UDE); Maurice Vanderfeesten (VUA); Alessandro Arienzo (UNA); Roberto delle Donne (UNA); Ignasi Salvadó Estivill (URV); José Luis González Ugarte (URV); Didier Vercueil (UGA); Nykohla Strong (UAB); Eike Spielberg (UDE); Linda Hasse (UDE); Ane Sesma (UEA); Baldvin Zarioh (UIC); Friedrich Gaigg (UIN); Nicolien van der Grijp (VUA); Yasin Gunes (VUA); </dc:creator>
+    <dc:contributor>Eike Spielberg (UDE); Peter van den Besselaar (VUA)
     </dc:contributor>
-    <dc:date>2019-08-21</dc:date>
+    <dc:date>2020-06-30</dc:date>
     <aqd:query-definitions syntax="SCOPUS">
         <aqd:query-definition>
             <aqd:subquery-identifier>1</aqd:subquery-identifier>
@@ -47,11 +47,7 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ( ({reduce} OR {end})
-                    W/3 (
-                    ( {maternal}
-                    W/3 ({mortality} OR “death?”) )
-                    )
+                    ("reduce" OR "end" OR "ending" OR "ratio") W/3 ( ( "maternal" W/3 ("mortality" OR “death*”) ) )
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
@@ -74,18 +70,8 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ( ({reduce} OR {end})
-                    W/3 (
-                    (
-                    OR {neonatal}
-                    OR {under-five}
-                    OR ( {under}
-                    W/2 ({5} OR {five})
-                    )
-                    OR {before fifth}
-                    )
-                    W/3 ({mortality} OR “death?”) )
-                    )
+                    ( ("reduce" OR "end" OR "ending" OR "prevent*" OR "ratio*") W/3 (("neonatal" OR "under-five" OR ( "under" W/2 ("5" OR "five") )
+                    OR "before fifth") W/3 ("mortality" OR “death*”) ) )
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
@@ -119,19 +105,21 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ({epidemic} OR {combat})
-                    W/3 ( {tuberculos*}
-                    OR {malaria}
-                    OR {hepatit*}
-                    OR {HIV}
-                    OR {AIDS}
-                    OR {tropical disease*}
-                    OR {Zika*}
-                    OR {Ebola*}
-                    OR {water-borne disease*}
-                    OR {communicable disease*}
-                    OR {neglected disease*}
-                    OR {dengue}
+                    ("epidemic" OR "pandemic" OR "combat" OR "fight")
+                    W/3 ( "tuberculos*"
+                    OR "malaria"
+                    OR "hepatit*"
+                    OR "HIV"
+                    OR "AIDS"
+                    OR "tropical disease*"
+                    OR "Zika*" OR "Zikv*"
+                    OR "Ebola*"
+                    OR "water-borne disease*"
+                    OR "communicable disease*"
+                    OR "neglected disease*"
+                    OR "dengue"
+					OR "Chagas*" OR "trypanosom*"
+					OR "Coronavirus*" OR "COVID19" OR "Covid-19"
                     )
                 </aqd:query-line>
             </aqd:query-lines>
@@ -153,7 +141,27 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY"/>
+                <aqd:query-line field="TITLE-ABS-KEY">
+				(“cardiovascular disease* “ OR “heart attack*” OR “stroke” OR “myocard* infarct*” OR “cerebrovascular accident*” OR
+				“cva” OR “cva” OR “cancer*” OR “neoplasm*” OR “tumor*” OR “tumour*” OR “carcinoma*” OR “chronic obstructive pulmonary disease*” OR
+				“copd” OR “coad” OR “lung emphysema*” OR (“bronchitis” W/3 “chronic”) OR “asthma*” OR “diabetes mellitus” OR “diabetes insipidus”)
+				AND
+				("premature" W/3 ("mortality" OR "death*"))
+				</aqd:query-line>
+				 <aqd:query-line field="TITLE-ABS-KEY">
+				(“cardiovascular disease* “ OR “heart attack*” OR “stroke” OR “myocard* infarct*” OR “cerebrovascular accident*” OR
+				“cva” OR “cva” OR “cancer*” OR “neoplasm*” OR “tumor*” OR “tumour*” OR “carcinoma*” OR “chronic obstructive pulmonary disease*” OR
+				“copd” OR “coad” OR “lung emphysema*” OR (“bronchitis” W/3 “chronic”) OR “asthma*” OR “diabetes mellitus” OR “diabetes insipidus”)
+				AND
+				("mortality rate")
+				</aqd:query-line>
+				 <aqd:query-line field="TITLE-ABS-KEY">
+				(“cardiovascular disease* “ OR “heart attack*” OR “stroke” OR “myocard* infarct*” OR “cerebrovascular accident*” OR
+				“cva” OR “cva” OR “cancer*” OR “neoplasm*” OR “tumor*” OR “tumour*” OR “carcinoma*” OR “chronic obstructive pulmonary disease*” OR
+				“copd” OR “coad” OR “lung emphysema*” OR (“bronchitis” W/3 “chronic”) OR “asthma*” OR “diabetes mellitus” OR “diabetes insipidus”)
+				AND
+				("suicid*")
+				</aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
@@ -176,15 +184,22 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ( {abuse}
-                    W/3 ({substance*}
-                    OR {drug*}
-                    OR {alcohol}
-                    )
-                    )
-                    AND ( {prevention} AND {treatment} )
+                    ( ("abuse" OR "harmful use" OR "addict*")
+                     W/3 ("substance*" OR "drug*" OR "alcohol" ) )
+                     W/3 ( "prevention" OR "treatment" )
                 </aqd:query-line>
-            </aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                    ("binge drinking")
+                     W/3 ( "prevention" OR "treatment" )
+                </aqd:query-line>
+				<aqd:query-line field="TITLE-ABS-KEY">
+                    ( ("abuse" OR "harmful use" OR "addict*")
+                     W/3 ("alcohol"
+                    )
+                    )
+                     AND ( "per capita" )
+                </aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>6</aqd:subquery-identifier>
@@ -200,10 +215,8 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ( "road" W/3 "traffic" )
-                    W/3 ( "injur*"
-                    OR "death*"
-                    OR "accident*"
+                    (( "road" W/3 "traffic" ) OR ("drunk driv*"))
+                    W/3 ( "injur*" OR "death*" OR "accident*" OR "trauma*"
                     )
                 </aqd:query-line>
             </aqd:query-lines>
@@ -228,17 +241,15 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    {family planning}
-                    OR {adolescent birth rate}
-                    OR {adolescent mother*}
-                    OR ( {teen*}
-                    W/3 ( {mother*}
-                    OR {pregnan*}
-                    OR {birth rate*}
-                    )
-                    )
+                (“Access” OR (“national” W/3 “strategy*” OR “program*”)) AND (“Sexual health care” OR “Sexual healthcare” OR “Reproductive health care” OR “Reproductive healthcare”)
                 </aqd:query-line>
-            </aqd:query-lines>
+                 <aqd:query-line field="TITLE-ABS-KEY">
+                (“family planning” OR “unintended pregnanc*” OR “unwanted pregnanc*” OR “unintended motherhood”)
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                (“adolescen*” OR “teen*”) W/3 (“birth rate” OR “pregnan” OR “mother*”)
+                </aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>8</aqd:subquery-identifier>
@@ -263,16 +274,12 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ( {universal access}
-                    W/3 ( {healthcare}
-                    OR {health-care} )
-                    )
-                    OR (
-                    ({affordable} OR {quality})
-                    W/3 ( {medicine*} OR {vaccin*})
-                    )
+                   (“universal health coverage” OR (("essential ") W/3 ("healthcare" OR "health care" OR "medicine*" OR "vaccine*")))
                 </aqd:query-line>
-            </aqd:query-lines>
+				<aqd:query-line field="TITLE-ABS-KEY">
+                   ( ( "household expenditure" )  W/3  ( "health" ) )
+                </aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>9</aqd:subquery-identifier>
@@ -297,18 +304,20 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ( "hazardous chemical*"
-                    OR (
-                    ( "pollut*"
-                    OR "contaminat*"
-                    OR "poison*" )
-                    W/3 ( "water"
-                    OR "air"
-                    OR "soil" )
-                    )
-                    )
+                (("mortality" OR "death*" OR "illness*")
+				 W/3 ("poison*" OR "pollut*" OR "contaminat*")
+				 W/3 ("air" OR "water" OR "soil" OR "hazardous chemical*") )
                 </aqd:query-line>
-            </aqd:query-lines>
+                 <aqd:query-line field="TITLE-ABS-KEY">
+                (("mortality" OR "death*" OR "illness*")
+				 W/6 ("unsafe" OR "inadequate")
+				 W/3 ("water" OR "sanitation") )
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                (("mortality" OR "death*" OR "illness*")
+				 W/3 ("uninten*") W/3 ("poison*" ) )
+                </aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>a</aqd:subquery-identifier>
@@ -326,9 +335,12 @@
                 <aqd:query-line field="TITLE-ABS-KEY">
                     ( "tobacco" W/6 "control*" )
                     OR ( "health" W/3 "smoking" )
-                    OR (tobacco W/3 (“young age” OR “under 15” OR “under fifteen”)
+                    OR (("smoking") W/3 (“cessation" OR "quit*”) W/3 ( "health"  OR  "benefit*" ))
                 </aqd:query-line>
-            </aqd:query-lines>
+                 <aqd:query-line field="TITLE-ABS-KEY">
+                    (("tobacco" OR "smoking") W/3 ("age") W/3 ("prevalen*" OR "number*"))
+                </aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>b</aqd:subquery-identifier>
@@ -352,7 +364,14 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY"/>
+                <aqd:query-line field="TITLE-ABS-KEY">("research and development" OR "R-D") W/3 ("medicine*"OR "vaccin*")
+				</aqd:query-line>
+				<aqd:query-line field="TITLE-ABS-KEY">("affordab*") W/3 ("medicine*"OR "vaccin*")
+				</aqd:query-line>
+				<aqd:query-line field="TITLE-ABS-KEY">("access*") W/3 ("essential") W/3 ("medicine*"OR "vaccin*")
+				</aqd:query-line>
+				<aqd:query-line field="TITLE-ABS-KEY">(("develop* W/3 assist*") W/3 (("medical research") OR ("health sector*")) )
+				</aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
@@ -370,14 +389,14 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ( "health"
-                    W/3 ( "financing"
-                    OR "recruit*"
-                    OR "training" )
-                    )
-                    AND "developing countr*"
+                    ( "health" W/3 ( "financing" OR "recruit*" OR "development" OR "training" ))
+                     AND ("developing countr*")
                 </aqd:query-line>
-            </aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                    ( "health worker*" W/3 ( "density"OR "distribution" ))
+                     AND ("developing countr*")
+                </aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>d</aqd:subquery-identifier>
@@ -398,15 +417,19 @@
                     OR ( "risk" W/3 "reduction" )
                     OR ( "risk" W/3 "management" )
                     )
-                    W/3 ("health risk*")
+                    W/3 ("health")
                 </aqd:query-line>
-            </aqd:query-lines>
+                 <aqd:query-line field="TITLE-ABS-KEY">
+                    ("International Health Regulations")
+                     OR (("health emergenc*") W/3 ("prepar*"))
+                </aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:filters>
             <aqd:filter type="affilation" field="AF-ID"></aqd:filter>
             <aqd:timerange field="PUBYEAR">
                 <aqd:start>2009</aqd:start>
-                <aqd:end>2019</aqd:end>
+                <aqd:end>2020</aqd:end>
             </aqd:timerange>
         </aqd:filters>
     </aqd:query-definitions>

@@ -46,13 +46,16 @@
     </xsl:template>
 
     <xsl:template match="aqd:query">
-        <h2><xsl:value-of select="dc:title/."/> </h2>
-		<p><xsl:value-of select="dc:subject"/> </p>
+      <div style="display:table">
+        <div style="display:table-cell"><img src="{icon}" height="100px"/></div>
+        <div style="display:table-cell"><a href="{dc:subject}"><h2><xsl:value-of select="dc:title/."/> </h2></a> </div>
+      </div>
 		<p><xsl:value-of select="dc:description"/></p>
         <p>Version: <strong><xsl:value-of select="dc:identifier[@type='version']" /></strong> | doi:<xsl:value-of select="dc:identifier[@type='doi']" /></p>
 		<p>Last updated: <xsl:value-of select="dc:date"/> </p>
 		<p>Created by: <xsl:value-of select="dc:creator" /></p>
 		<p>License: <xsl:value-of select="dc:rights" /> | <xsl:value-of select="dc:rights/@href" /> </p>
+		<p>Usage: Go to <a href="https://scopus.com">www.scopus.com</a> , and copy-paste the search queries in "Advanced Search". For the combined search string, scroll to bottom. </p>
         <xsl:apply-templates select="aqd:query-definitions"/>
     </xsl:template>
 
@@ -91,10 +94,13 @@
             </tbody>
         </table>
 
+		<hr/>
         <div>
             (<xsl:apply-templates select="aqd:query-definition" mode="query"/>)
             <xsl:apply-templates select="aqd:filters"/>
         </div>
+
+
     </xsl:template>
 
     <xsl:template match="aqd:query-definition" mode="table">
@@ -143,7 +149,7 @@
     </xsl:template>
 
     <xsl:template match="aqd:query-lines">
-        <font face="arial,helvetica">
+        <font face="Courier, monospace">
             <xsl:if test="@field">
                 <xsl:value-of select="@field"/>(
             </xsl:if>
@@ -156,7 +162,7 @@
 
     <xsl:template match="aqd:query-line">
         <p>
-            <font face="arial,helvetica">
+            <font face="Courier, monospace">
                 <xsl:if test="@field">
                     <xsl:value-of select="@field"/>
                 </xsl:if>
@@ -172,7 +178,7 @@
     <xsl:template match="aqd:filters">
         <xsl:if test="aqd:timerange">
             <p>
-                <font face="arial,helvetica">
+                <font face="Courier, monospace">
                      AND (
                     <xsl:value-of select="aqd:timerange/@field"/>
                     &gt;
@@ -187,7 +193,7 @@
         </xsl:if>
         <xsl:if test="aqd:filter">
             <xsl:if test="aqd:filter !=''">
-                <font face="arial,helvetica">
+                <font face="Courier, monospace">
                     <xsl:if test="position() != last()">
                         AND
                     </xsl:if>
@@ -200,7 +206,7 @@
     </xsl:template>
 
     <xsl:template match="aqd:filter">
-        <font face="arial,helvetica">
+        <font face="Courier, monospace">
             <xsl:value-of select="@field"/>(<xsl:value-of select="."/>)
         </font>
     </xsl:template>

@@ -3,10 +3,11 @@
 <aqd:query xmlns:dc="http://dublincore.org/documents/dcmi-namespace/"
            xmlns:aqd="http://aurora-network.global/queries/namespace/">
     <dc:identifier type="sdg">8</dc:identifier>
+    <icon>https://sustainabledevelopment.un.org/content/images/E_SDG_Icons-08.jpg</icon>
     <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg8</dc:subject>
-    <dc:identifier type="version">4.0</dc:identifier>
-    <dc:identifier type="doi">10.5281/zenodo.3817443</dc:identifier>
-    <dc:source type="doi">10.5281/zenodo.3817437</dc:source>
+    <dc:identifier type="version">5.0</dc:identifier>
+    <dc:identifier type="doi">10.5281/zenodo.3817445</dc:identifier>
+    <dc:source type="doi">10.5281/zenodo.3817443</dc:source>
     <dc:relation type="uri">https://sustainabledevelopment.un.org/sdgs</dc:relation>
     <dc:title>SDG-08 decent work and economic growth</dc:title>
     <dc:description>
@@ -28,13 +29,10 @@
         levels in the world’s most impoverished regions.
     </dc:description>
     <dc:rights href="http://creativecommons.org/licenses/by/4.0/">CC-BY v4 INT</dc:rights>
-    <dc:creator>
-      Aurora Universities Network (AUR); René Otten (VUA); Maurice Vanderfeesten (VUA); Didier Vercueil (UGA); Nykohla Strong (UAB); Raf Guns (UAN); Eike Spielberg (UDE); Felix Schmidt (UDE); Linda Hasse (UDE); Lars Kullman (UGO); Baldvin Zarioh (UIC);
-    </dc:creator>
-    <dc:contributor>
-      Eike Spielberg (UDE)
+    <dc:creator>Aurora Universities Network (AUR); René Otten (VUA); Eike Spielberg (UDE); Felix Schmidt (UDE); Maurice Vanderfeesten (VUA); Alessandro Arienzo (UNA); Roberto delle Donne (UNA); Ignasi Salvadó Estivill (URV); José Luis González Ugarte (URV); Didier Vercueil (UGA); Nykohla Strong (UAB); Eike Spielberg (UDE); Linda Hasse (UDE); Ane Sesma (UEA); Baldvin Zarioh (UIC); Friedrich Gaigg (UIN); Nicolien van der Grijp (VUA); Yasin Gunes (VUA); </dc:creator>
+    <dc:contributor>Eike Spielberg (UDE); Peter van den Besselaar (VUA)
     </dc:contributor>
-    <dc:date>2019-08-21</dc:date>
+    <dc:date>2020-06-30</dc:date>
     <aqd:query-definitions syntax="SCOPUS">
         <aqd:query-definition>
             <aqd:subquery-identifier>1</aqd:subquery-identifier>
@@ -51,9 +49,13 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ("economic" W/3 "growth*")
-                    OR ( "gross domestic product growth" )
-                    OR ( "GDP growth" )
+				( "economic"  W/3  "growth*" )  W/3  ("per capita" OR "sustain")
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+				( "economic"  W/3  "growth*" )  W/3  ( "develop* countr*"  OR  "least developed countr*"  OR  "small island*" )
+                </aqd:query-line>
+				<aqd:query-line field="TITLE-ABS-KEY">
+				( "growth*" )  W/3  ( "gross domestic product"  OR  "GDP" )
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
@@ -71,11 +73,13 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ( "economic productivity" )
-                    OR ( ( "econom*" )
-                    AND ( "productivi*" )
-                    AND ( "diversification" OR "innovation" )
-                    )
+				( "economic productivity" )
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ("economic" )  AND  ( "productivity" )  AND  ( "diversif*"  OR  "upgrad*"  OR  "innovat*" )
+                </aqd:query-line>
+				<aqd:query-line field="TITLE-ABS-KEY">
+				( "growth*" )  W/3  ( "gross domestic product"  OR  "GDP" )
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
@@ -95,14 +99,15 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ( "product* activit*" )
-                    OR ( "labor produc*" )
-                    OR ( "decent job" ) )
-                    OR ( "decent work" )
-                    OR ( "job creat*" )
-                    OR ( "entrepreneurship" )
+				 ( "decent job" )  OR  ( "decent work" )  OR  ( "job creat*" )  OR  ( "quality job*" )
                 </aqd:query-line>
-            </aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+				( "develop*" )  W/3  ( ( "product* activit*" )  OR  ( "labor produc*" )  OR  ( "entrepreneurship" ) )
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+				 ( "informal*" )  W/3  ( "employment*" )
+                </aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>4</aqd:subquery-identifier>
@@ -125,8 +130,15 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ( "global resource efficiency" )</aqd:query-line>
-            </aqd:query-lines>
+                    ( "resource efficiency" )
+					</aqd:query-line>
+                  <aqd:query-line field="TITLE-ABS-KEY">
+                     ( "material*")  W/3  ("footprint*" )
+					</aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                    ( "domestic")  W/3  ("material*")  W/3  ("consumption*" )
+					</aqd:query-line>
+					</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>5</aqd:subquery-identifier>
@@ -148,10 +160,24 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ( "full employment" )
-                    OR ( "equal pay for work" )
+                ( "full employment" )  OR  ( ( "equal pay*" )  W/3  ( "work*" ) )
                 </aqd:query-line>
-            </aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( "decent job" )  OR  ( "decent work" )
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( "hourly earning*" )
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( "equal*"  OR  "inequal*" )  W/3  ( "pay*" )  W/3  ( "work*" )
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( "wage*" )  W/3  ( "gap"  OR  "differen*" )
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                 ( "unemployment rate*" )  W/3  ( "sex"  OR  "gender"  OR  "age"  OR  "disability" )
+                </aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>6</aqd:subquery-identifier>
@@ -167,9 +193,7 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ( "youth employment" )
-                    OR ( "child* labo*" )
-                    OR ( "youth" OR "young people" ) W/3 ( "employment" OR "unemployment" )
+                ( ( "youth"  OR  "young people" )  W/3  ( "employ*"  OR  "unemploy*" ) )
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
@@ -189,11 +213,8 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ( "child* labo*" )
-                    OR ( "human* traffic* " )
-                    OR ( "force* labo*" )
-                    OR ( "labo* force*" )
-                    OR ( "modern slavery")
+                 ( "force* labo*" )  OR  ( "modern slavery" )  OR  ( "human* traffic* " )  OR  ( "child* labo*" )  
+				 OR  ( "child* slavery" )  OR  ( "child* traffick*" )  OR  ( "child* work*" )  
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
@@ -217,13 +238,18 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ( "labour right*" )
-                    OR ( "labor right*" ) )
-                    OR ( "safe working environment*" )
-                    OR ( "secure working environment*" )
-                    OR ( "employ*" W/3 ( "safe" OR "secure" ) )
+                ( "labour right*" )  OR  ( "labor right*" )
                 </aqd:query-line>
-            </aqd:query-lines>
+                 <aqd:query-line field="TITLE-ABS-KEY">
+                ( "safe"  OR  "secure" )  W/3  ( "work* environment*" )
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( "occupational injur*" )  W/3  ( "rate*"  OR  "frequen*" )
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( "international labor organization" )
+                </aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>9</aqd:subquery-identifier>
@@ -243,10 +269,15 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ( "sustaina* tourism" )
-                    OR ( "domestic material consumption" )
+                ("sustaina*") W/3 ("tourism")
                 </aqd:query-line>
-            </aqd:query-lines>
+                 <aqd:query-line field="TITLE-ABS-KEY">
+                 ( "GDP"  OR  "Gross Domestic Product" )  W/3  ( "tourism" )
+				 </aqd:query-line>
+                 <aqd:query-line field="TITLE-ABS-KEY">
+                 ( "job*" )  W/3  ( "tourism" )
+                </aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>10</aqd:subquery-identifier>
@@ -267,14 +298,10 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ( "micro financ*" )
-                    OR ( "microfinanc*" )
-                    OR ( "access"
-                    W/3 ( "financial service*"
-                    OR "banking"
-                    OR "insurance"
-                    )
-                    )
+                ( "micro-financ*" ) OR ( "microfinanc*" )
+                </aqd:query-line>
+				<aqd:query-line field="TITLE-ABS-KEY">
+                "access" W/3 ( "financial service*" OR "banking" OR "insurance*")
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
@@ -292,8 +319,13 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY">( "trade support" )</aqd:query-line>
-            </aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+				((("trad*") W/3 ("support*" OR "assist*" OR "aid")) AND ( "develop* countr*" OR "least developed countr*" ))
+                 </aqd:query-line>
+				 <aqd:query-line field="TITLE-ABS-KEY">
+				( "aid for trade" )
+                 </aqd:query-line>
+				 </aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>b</aqd:subquery-identifier>
@@ -310,16 +342,21 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ( "social polic* " )
-                    OR ( {Global Jobs Pact} )
+                ( "Global Jobs Pact" )
                 </aqd:query-line>
-            </aqd:query-lines>
+                 <aqd:query-line field="TITLE-ABS-KEY">
+                ( "strateg*"  OR  "polic*" )  AND  ( ( "youth"  OR  "young people" )  W/3  ( "employ*"  OR  "unemploy*" ) )
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( "social protection"  OR  "employment program*" )  AND  ( "GDP"  OR  "Gross Domestic Product" )
+                </aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:filters>
             <aqd:filter type="affilation" field="AF-ID"></aqd:filter>
             <aqd:timerange field="PUBYEAR">
                 <aqd:start>2009</aqd:start>
-                <aqd:end>2019</aqd:end>
+                <aqd:end>2020</aqd:end>
             </aqd:timerange>
         </aqd:filters>
     </aqd:query-definitions>

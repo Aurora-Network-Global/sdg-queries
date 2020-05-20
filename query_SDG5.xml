@@ -3,10 +3,11 @@
 <aqd:query xmlns:dc="http://dublincore.org/documents/dcmi-namespace/"
            xmlns:aqd="http://aurora-network.global/queries/namespace/">
     <dc:identifier type="sdg">5</dc:identifier>
+    <icon>https://sustainabledevelopment.un.org/content/images/E_SDG_Icons-05.jpg</icon>
     <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg5</dc:subject>
-    <dc:identifier type="version">4.0</dc:identifier>
-    <dc:identifier type="doi">10.5281/zenodo.3817443</dc:identifier>
-    <dc:source type="doi">10.5281/zenodo.3817437</dc:source>
+    <dc:identifier type="version">5.0</dc:identifier>
+    <dc:identifier type="doi">10.5281/zenodo.3817445</dc:identifier>
+    <dc:source type="doi">10.5281/zenodo.3817443</dc:source>
     <dc:relation type="uri">https://sustainabledevelopment.un.org/sdgs</dc:relation>
     <dc:title>SDG-05 gender equality</dc:title>
     <dc:description>
@@ -26,13 +27,10 @@
         prevalent in many countries around the world.
     </dc:description>
     <dc:rights href="http://creativecommons.org/licenses/by/4.0/">CC-BY v4 INT</dc:rights>
-    <dc:creator>
-      Aurora Universities Network (AUR); René Otten (VUA); Maurice Vanderfeesten (VUA); Didier Vercueil (UGA); Nykohla Strong (UAB); Raf Guns (UAN); Eike Spielberg (UDE); Felix Schmidt (UDE); Linda Hasse (UDE); Lars Kullman (UGO); Baldvin Zarioh (UIC);
-    </dc:creator>
-    <dc:contributor>
-      Eike Spielberg (UDE)
+    <dc:creator>Aurora Universities Network (AUR); René Otten (VUA); Eike Spielberg (UDE); Felix Schmidt (UDE); Maurice Vanderfeesten (VUA); Alessandro Arienzo (UNA); Roberto delle Donne (UNA); Ignasi Salvadó Estivill (URV); José Luis González Ugarte (URV); Didier Vercueil (UGA); Nykohla Strong (UAB); Eike Spielberg (UDE); Linda Hasse (UDE); Ane Sesma (UEA); Baldvin Zarioh (UIC); Friedrich Gaigg (UIN); Nicolien van der Grijp (VUA); Yasin Gunes (VUA); </dc:creator>
+    <dc:contributor>Eike Spielberg (UDE); Peter van den Besselaar (VUA)
     </dc:contributor>
-    <dc:date>2019-08-21</dc:date>
+    <dc:date>2020-06-30</dc:date>
     <aqd:query-definitions syntax="SCOPUS">
         <aqd:query-definition>
             <aqd:subquery-identifier>1</aqd:subquery-identifier>
@@ -47,10 +45,11 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY">
-                    "gender discrimination*"
-                    OR "sexual discrimination*"
-                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">("discrimination") W/3 ( "sexual" OR "gender*" OR "women" OR "female" OR "girl*" )
+ 				</aqd:query-line>
+				<aqd:query-line field="TITLE-ABS-KEY">( "law*"  OR  "legislation*"  OR  "legal*" )
+				AND  (( "equality" )  W/3  ( "sexual"  OR  "gender*"  OR  "women"  OR  "female"  OR  "girl*" ) )
+				</aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition>
@@ -73,15 +72,9 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY">
-                    "sexual violence"
-                    OR "sexual violence"
-                    OR "violence against girls"
-                    OR "violence against women"
-                    OR "partner violence"
-                    OR "human trafficking"
-                    OR "sexual and reproductive health"
-                    OR "sexual exploitation*"
+                <aqd:query-line field="TITLE-ABS-KEY">( ( "violence" )  W/3  ( "sexual"  OR  "physical"  OR  "psychological" ) )  AND  ( "gender*"  OR  "women"  OR  "female"  OR  "girl*" )
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">"human trafficking"
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
@@ -103,12 +96,15 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY">OR "child marriage*"
-                    OR "genital mutilation"
-                    OR "genital cutting"
-                    OR "forced marriage*"
+                <aqd:query-line field="TITLE-ABS-KEY">( "genital mutilation"  OR  "genital cutting" )  AND  ( "gender*"  OR  "women"  OR  "female"  OR  "girl*" )
                 </aqd:query-line>
-            </aqd:query-lines>
+				<aqd:query-line field="TITLE-ABS-KEY">( "female circumcision*" )
+                </aqd:query-line>
+                 <aqd:query-line field="TITLE-ABS-KEY">"child* marriage*"
+                </aqd:query-line>
+                  <aqd:query-line field="TITLE-ABS-KEY">("forced marriage*"  OR  "early marriage*" )   W/3  ( "women"  OR  "female"  OR  "girl*" )
+                </aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>4</aqd:subquery-identifier>
@@ -124,8 +120,13 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY">(gender AND "domestic work")</aqd:query-line>
-            </aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">( "domestic work" OR "household work")  AND  ( "gender"  OR  "women"  OR  "female"  OR  "girl*" )
+				</aqd:query-line>
+                 <aqd:query-line field="TITLE-ABS-KEY">( "unpaid care" OR "unpaid work")  AND  ( "gender"  OR  "women"  OR  "female"  OR  "girl*" )
+				</aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">(( "shared responsibility" )  W/3  ( "household" ) )  AND  ( "gender"  OR  "women"  OR  "female"  OR  "girl*" )
+				</aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>5</aqd:subquery-identifier>
@@ -144,8 +145,15 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY"/>
-            </aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">( ( "participati*"  OR  "opportuni*" )  W/3  ( "leadership*" ) )  AND  ( "gender"  OR  "women"  OR  "female"  OR  "girl*" )
+				</aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY"> ( ( "seat*"  OR  "number*" )  W/3  ( "parliament*"  OR  "government*" ) )  AND  ( "gender"  OR  "women*"  OR  "female"  OR  "girl*" )
+				</aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY"> ( ( "seat*"  OR  "number*" )  W/3  ( "manager*" ) )  AND  ( "gender"  OR  "women*"  OR  "female"  OR  "girl*" )
+				</aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY"> ( ( "glass ceiling*" ) )  AND  ( "gender"  OR  "women*"  OR  "female"  OR  "girl*" )
+				</aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>6</aqd:subquery-identifier>
@@ -168,8 +176,15 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY">"reproductive rights"</aqd:query-line>
-            </aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">"reproductive rights"
+				</aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">( "Access" )  AND  ( "Sexual health care"  OR  "Sexual healthcare"  OR  "Reproductive health care"  OR  "Reproductive healthcare" )
+				</aqd:query-line>
+				<aqd:query-line field="TITLE-ABS-KEY">( ( "own"  OR  "informed" )  W/3  ( "decision" )  W/3  ( "sexual"  OR  "contracepti*"  OR  "reproducti*"  OR  "family planning"  OR  "parentiong plan*"  OR  "abortion" ) )  
+				</aqd:query-line>
+				<aqd:query-line field="TITLE-ABS-KEY">( "Access" )  AND  ( "Sexual information"  OR  "Sexual education"  OR  "Reproductive information"  OR  "Reproductive education" )
+				</aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>a</aqd:subquery-identifier>
@@ -192,12 +207,15 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY">
-                    "women's property rights"
-                    OR ((women OR female) W/3
-                    ("land owner*" OR "landowner*"))
+                <aqd:query-line field="TITLE-ABS-KEY">"women's property rights"
                 </aqd:query-line>
-            </aqd:query-lines>
+                 <aqd:query-line field="TITLE-ABS-KEY">(("property" OR "ownership*" OR "right*" OR "control*") W/3 ("land")) AND ( "gender" OR "women*" OR "female" OR "girl*" )
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">("landowner*" OR “land owner*”) AND ( "gender" OR "women*" OR "female" OR "girl*" )
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">( ("property" OR "ownership*" OR "right*" OR "control*" ) W/3 ("natural resource*" OR "economic resource*")) AND ("gender" OR "women*" OR "female" OR "girl*")
+                </aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>b</aqd:subquery-identifier>
@@ -212,7 +230,8 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY"/>
+                <aqd:query-line field="TITLE-ABS-KEY">(("technolog*") AND (("empower*") W/3 ("women*" OR "female" OR "girl*")))
+				</aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
@@ -230,27 +249,19 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    "empowerment of women"
-                    OR "empower women"
-                    OR "women's empowerment"
-                    OR "women’s rights"
-                    OR "governance and gender"
-                    OR "gender discrimination"
-                    OR "gender equalit*"
-                    OR "gender inequalit*"
-                    OR "gender parity"
-                    OR "gender disparity"
-                    OR "gender diversity"
-                    OR "third wave feminism"
-                    OR "sexism"
+				( ( "empower*"  OR "discrimination*"  OR  "equalit*"  OR  "inequalit*"  OR  "disparity"  OR  "indisparity"  OR  "diversity" )
+				W/3  ( "gender"  OR  "women*"  OR  "female"  OR  "girl*" ) )  AND  ( "policy"  OR  "policies" OR  "legislation*"  OR  "law*" )
                 </aqd:query-line>
-            </aqd:query-lines>
+                 <aqd:query-line field="TITLE-ABS-KEY">( "women's rights"  OR  "governance and gender"  OR  "third wave feminism"  OR  "sexism" )
+				 AND  ( "policy"  OR  "policies" OR  "legislation*"  OR  "law*" )
+				 </aqd:query-line>
+				 </aqd:query-lines>
         </aqd:query-definition>
         <aqd:filters>
             <aqd:filter type="affilation" field="AF-ID"></aqd:filter>
             <aqd:timerange field="PUBYEAR">
                 <aqd:start>2009</aqd:start>
-                <aqd:end>2019</aqd:end>
+                <aqd:end>2020</aqd:end>
             </aqd:timerange>
         </aqd:filters>
     </aqd:query-definitions>

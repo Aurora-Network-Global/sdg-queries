@@ -3,10 +3,11 @@
 <aqd:query xmlns:dc="http://dublincore.org/documents/dcmi-namespace/"
            xmlns:aqd="http://aurora-network.global/queries/namespace/">
     <dc:identifier type="sdg">9</dc:identifier>
+    <icon>https://sustainabledevelopment.un.org/content/images/E_SDG_Icons-09.jpg</icon>
     <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg9</dc:subject>
-    <dc:identifier type="version">4.0</dc:identifier>
-    <dc:identifier type="doi">10.5281/zenodo.3817443</dc:identifier>
-    <dc:source type="doi">10.5281/zenodo.3817437</dc:source>
+    <dc:identifier type="version">5.0</dc:identifier>
+    <dc:identifier type="doi">10.5281/zenodo.3817445</dc:identifier>
+    <dc:source type="doi">10.5281/zenodo.3817443</dc:source>
     <dc:relation type="uri">https://sustainabledevelopment.un.org/sdgs</dc:relation>
     <dc:title>SDG-09 industry, innovation and infrastructure</dc:title>
     <dc:description>
@@ -26,13 +27,10 @@
         increase connections between people.
     </dc:description>
     <dc:rights href="http://creativecommons.org/licenses/by/4.0/">CC-BY v4 INT</dc:rights>
-    <dc:creator>
-      Aurora Universities Network (AUR); René Otten (VUA); Maurice Vanderfeesten (VUA); Didier Vercueil (UGA); Nykohla Strong (UAB); Raf Guns (UAN); Eike Spielberg (UDE); Felix Schmidt (UDE); Linda Hasse (UDE); Lars Kullman (UGO); Baldvin Zarioh (UIC);
-    </dc:creator>
-    <dc:contributor>
-      Eike Spielberg (UDE)
+    <dc:creator>Aurora Universities Network (AUR); René Otten (VUA); Eike Spielberg (UDE); Felix Schmidt (UDE); Maurice Vanderfeesten (VUA); Alessandro Arienzo (UNA); Roberto delle Donne (UNA); Ignasi Salvadó Estivill (URV); José Luis González Ugarte (URV); Didier Vercueil (UGA); Nykohla Strong (UAB); Eike Spielberg (UDE); Linda Hasse (UDE); Ane Sesma (UEA); Baldvin Zarioh (UIC); Friedrich Gaigg (UIN); Nicolien van der Grijp (VUA); Yasin Gunes (VUA); </dc:creator>
+    <dc:contributor>Eike Spielberg (UDE); Peter van den Besselaar (VUA)
     </dc:contributor>
-    <dc:date>2019-08-21</dc:date>
+    <dc:date>2020-06-30</dc:date>
     <aqd:query-definitions syntax="SCOPUS">
         <aqd:query-definition>
             <aqd:subquery-identifier>1</aqd:subquery-identifier>
@@ -51,39 +49,18 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ( (quality
-                    OR reliab*
-                    OR sustainab*
-                    OR resilient
-                    )
-                    AND (infrastructure
-                    OR "regional infrastructure"
-                    OR "transborder infrastructure"
-                    ) )
-
-                    OR ( ("economic development"
-                    OR "human well-being")
-                    AND (
-                    ( ( afford* OR equitable)
-                    AND access
-                    )
-                    OR innovat*
-                    )
-                    )
-
-                    OR (Proportion
-                    AND "rural population"
-                    AND "within 2 km"
-                    AND "all-season road"
-                    )
-
-                    OR (Passenger*
-                    AND freight
-                    AND volume*
-                    AND "mode of transport"
-                    )
+                 ( "quality"  OR  "reliab*"  OR  "sustainab*"  OR  "resilient" )  W/3  ( "infrastructure" )
                 </aqd:query-line>
-            </aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( "economic development"  OR  "human well-being" )  AND  ( afford*  OR  equitable )
+                 </aqd:query-line>
+				 <aqd:query-line field="TITLE-ABS-KEY">
+                ( "rural"  W/3  "population*"  W/3  "road*" )
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( ( "passenger*"  OR  "freight" )  W/3  ( "transport" ) )  AND  ( "volume*" )
+                </aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition>
             <aqd:subquery-identifier>2</aqd:subquery-identifier>
@@ -104,23 +81,18 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ( (inclusi* OR sustainab*)
-                    AND industr*
-                    )
-                    OR ( ("share of employment" OR "gross domestic product")
-                    AND industr*
-                    )
-                    OR (Manufactur*
-                    AND value
-                    AND "GDP and per capita"
-                    )
-                    OR (Manufactur*
-                    AND employment
-                    AND proportion
-                    AND "total employment"
-                    )
+                ( "inclusi*"  OR  "sustainab*" )  W/3  ( "industr*" )
                 </aqd:query-line>
-            </aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( "share" )  W/3  ( "employment"  OR  "GDP"  OR  "gross domestic product" )  W/3  ( "industr*" )
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( "manufacturing"  W/3  "value" )  W/3  ( "per capita"  OR  "GDP"  OR  "gross domestic product" )
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( "manufacturing employment" )
+                </aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>3</aqd:subquery-identifier>
@@ -141,22 +113,14 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    (access
-                    AND ("financial servic*" OR "credit" OR "value chain*" OR market*)
-                    AND (industr* OR enterprise*)
-                    )
-                    OR (Proportion
-                    AND "small-scale"
-                    AND industr*
-                    AND "total industry value"
-                    )
-                    OR (Proportion
-                    AND "small-scale"
-                    AND industr*
-                    AND ("loan" OR "line of credit")
-                    )
+                 ( "small-scale industry*"  OR  "small enterprise*"  OR  "small entrepren*"  OR  "microenterprise*"  OR  "micro-enterprise*" )
+				 AND  ( "financ*"  OR  "credit*"  OR  "microcredit*"  OR  "micro-credit*"  OR  "micro-financ*"  OR  "microfinanc*"  OR  "loan*" )
                 </aqd:query-line>
-            </aqd:query-lines>
+                 <aqd:query-line field="TITLE-ABS-KEY">
+                 ( "small-scale industry*"  OR  "small enterprise*"  OR  "small entrepren*"  OR  "microenterprise*"  OR  "micro-enterprise*" )
+				  AND  ( "share"  OR  "proportion" )
+                </aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>4</aqd:subquery-identifier>
@@ -174,21 +138,18 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    (
-                    ( (upgrade AND infrastructur*)
-                    OR (retrofit AND industr*)
-                    )
-                    AND (sustainab*)
-                    )
-                    OR (
-                    ( (increase* AND "resource-use efficiency")
-                    OR (clean OR "environmentally sound")
-                    )
-                    AND (technolog* OR industr*)
-                    )
-                    OR ("CO2 emission" AND "per unit of value")
+                ( "upgrade"  OR  "retrofit*" )  AND  ( "infrastructur*"  OR  "industr*" )   AND  ( "sustainab*" )
                 </aqd:query-line>
-            </aqd:query-lines>
+                 <aqd:query-line field="TITLE-ABS-KEY">
+                ( "increas*" )  W/3  ( "resource*" )  W/3  ( "efficien*" )
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( "clean"  OR  "environmentally sound" )  W/3  ( "technolog*"  OR  "industr*" )
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                 ( "CO2 emission"  AND  "per unit" )
+                </aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>5</aqd:subquery-identifier>
@@ -210,17 +171,18 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    (enhance AND scien* AND research AND "developing countries")
-                    OR (upgrade AND "technological capabilities" AND "developing countries")
-                    OR "encouraging innovation"
-                    OR ( (Research OR development)
-                    AND expenditure
-                    AND "proportion of GDP"
-                    )
-                    OR (Researcher*
-                    AND "full-time equivalent"
-                    AND inhabitants
-                    )
+                ( "enhance*"  OR  "upgrad*"  OR  "encourag*" )
+				AND  ( "research*"  OR "R-D" OR  "research and development"  OR  "innovation"  OR  "technol* capabilit*" )
+				AND  ( "develop* countr*"  OR  "least developed countr*" )
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( "enhance*"  OR  "encourag*" )  W/3  ( "innovation" )
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( "research and development" OR "R-D")  W/3  ( "spending"  OR  "expenditure"  OR  "GDP"  OR  "gross domestic product" )
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( "researcher*" )  AND  ( "per million inhabitant*" )
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
@@ -240,16 +202,8 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ( (sustainable OR resilient)
-                    AND infrastructur*
-                    AND develop*
-                    )
-                    OR ("international support"
-                    AND (official*
-                    AND ("development assistance" OR flow*)
-                    )
-                    AND infrastructure*
-                    )
+                 ( ( "sustainab*"  OR  "resilien*" )  AND  ( "infrastructur*" )  AND  ( "develop*" ) )
+				 AND  ( "develop* countr*"  OR  "least developed countr*"  OR  "small island*"  OR  "Africa*" )
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
@@ -268,17 +222,15 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ("domestic technology development")
-                    OR (support*
-                    AND (research OR innovation)
-                    AND "developing countries")
-                    OR (Proportion
-                    AND (medium OR high-tech)
-                    AND industr*
-                    AND "value added"
-                    )
+                    ( ( "support"  OR  "assist*"  OR  "aid*" )  W/3  ( "research*"  OR  "research and development"  OR  "R-D"  OR  "innovati*" ) )  AND  ( "develop* countr*" )
                 </aqd:query-line>
-            </aqd:query-lines>
+                  <aqd:query-line field="TITLE-ABS-KEY">
+				 ( "technology transfer" )  W/3  ( "develop* countr*"  OR  "least developed countr*" )  
+                </aqd:query-line> 
+				<aqd:query-line field="TITLE-ABS-KEY">
+				  ( ( "medium-tech"  OR  "high-tech" )  W/3  ( "industr*" ))  AND  ( "value*" )
+                </aqd:query-line>
+				  </aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>c</aqd:subquery-identifier>
@@ -295,27 +247,19 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    (access
-                    AND (internet
-                    OR inform*
-                    OR (communication AND technolog*)
-                    )
-                    AND develop*
-                    )
-                    OR (Proportion
-                    AND population
-                    AND mobile
-                    AND network*
-                    AND technolog*
-                    )
+                 ( "access" )  W/3  ( "ICT"  OR  "information*"  OR  "communication*"  OR  "internet"  OR  "mobile" OR "wireless" )
+				 AND  ( "develop* countr*"  OR  "least developed countr*"  OR  "small island*" )
                 </aqd:query-line>
-            </aqd:query-lines>
+                 <aqd:query-line field="TITLE-ABS-KEY">
+                ( ( "proportion" )  W/3  ( "population" ) )  AND  ( ( "mobile" )  W/3  ( "network*"  OR  "technolog*" ) )
+                </aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:filters>
             <aqd:filter type="affilation" field="AF-ID"></aqd:filter>
             <aqd:timerange field="PUBYEAR">
                 <aqd:start>2009</aqd:start>
-                <aqd:end>2019</aqd:end>
+                <aqd:end>2020</aqd:end>
             </aqd:timerange>
         </aqd:filters>
     </aqd:query-definitions>
