@@ -1,7 +1,7 @@
 # Search Queries for "Mapping Research Output to the Sustainable Development Goals (SDGs)"
 __This package contains machine readable (xml) search queries, for the Scopus publications database, to find domain specific research output that are related to the 17 Sustainable Development Goals (SDGs).__
 
-___[Click here for HUMAN READABLE version](https://aurora-network-global.github.io/sdg-queries/)___ | 
+___[Click here for HUMAN READABLE version](https://aurora-network-global.github.io/sdg-queries/)___ |
 ___[Click here for PROJECT WEBSITE](https://aurora-network.global/project/sdg-analysis-bibliometrics-relevance/)___
 
 ![A global effort in "Mapping research output to the Sustainable Development Goals". An initiative by the Aurora Universities Network ](./images/survey-logo-header-mapping-research-to-sdgs.png)
@@ -139,6 +139,7 @@ Kouwenaar, Kees | AURORA University Network | AUR |  | Sponsor | x | x | x | x |
 Beukering, Pieter van | Vrije Universiteit Amsterdam | VUA | 0000-0001-7146-4409 | Sponsor | x | x | x | x |
 
 ## Related works
+
 works | related
 --- | ---
 http://ap-unsdsn.org/webinar-mapping-university-contributions-to-the-sdgs/ | A compiled list of keyword used by the Sustainable Development Solutions Network in the pacific to mapping university contributions to the Sustainable Development Goals (SDGs)
