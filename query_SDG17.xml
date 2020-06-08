@@ -3,10 +3,12 @@
 <aqd:query xmlns:dc="http://dublincore.org/documents/dcmi-namespace/"
            xmlns:aqd="http://aurora-network.global/queries/namespace/">
     <dc:identifier type="sdg">17</dc:identifier>
+	<dc:identifier type="uri">http://metadata.un.org/sdg/17</dc:identifier>
+    <icon>https://sustainabledevelopment.un.org/content/images/E_SDG_Icons-17.jpg</icon>
     <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg17</dc:subject>
-    <dc:identifier type="version">4.0</dc:identifier>
-    <dc:identifier type="doi">10.5281/zenodo.3817443</dc:identifier>
-    <dc:source type="doi">10.5281/zenodo.3817437</dc:source>
+    <dc:identifier type="version">5.0</dc:identifier>
+    <dc:identifier type="doi">10.5281/zenodo.3817445</dc:identifier>
+    <dc:source type="doi">10.5281/zenodo.3817443</dc:source>
     <dc:relation type="uri">https://sustainabledevelopment.un.org/sdgs</dc:relation>
     <dc:title>SDG-17 partnerships for the goals</dc:title>
     <dc:description>
@@ -24,16 +26,14 @@
         strengthened.
     </dc:description>
     <dc:rights href="http://creativecommons.org/licenses/by/4.0/">CC-BY v4 INT</dc:rights>
-    <dc:creator>
-      Aurora Universities Network (AUR); René Otten (VUA); Maurice Vanderfeesten (VUA); Didier Vercueil (UGA); Nykohla Strong (UAB); Raf Guns (UAN); Eike Spielberg (UDE); Felix Schmidt (UDE); Linda Hasse (UDE); Lars Kullman (UGO); Baldvin Zarioh (UIC);
-    </dc:creator>
-    <dc:contributor>
-      Eike Spielberg (UDE)
+    <dc:creator>Aurora Universities Network (AUR); René Otten (VUA); Eike Spielberg (UDE); Felix Schmidt (UDE); Maurice Vanderfeesten (VUA); Alessandro Arienzo (UNA); Roberto delle Donne (UNA); Ignasi Salvadó Estivill (URV); José Luis González Ugarte (URV); Didier Vercueil (UGA); Nykohla Strong (UAB); Eike Spielberg (UDE); Linda Hasse (UDE); Ane Sesma (UEA); Baldvin Zarioh (UIC); Friedrich Gaigg (UIN); Nicolien van der Grijp (VUA); Yasin Gunes (VUA); </dc:creator>
+    <dc:contributor>Eike Spielberg (UDE); Peter van den Besselaar (VUA)
     </dc:contributor>
-    <dc:date>2019-08-21</dc:date>
+    <dc:date>2020-06-30</dc:date>
     <aqd:query-definitions syntax="SCOPUS">
         <aqd:query-definition>
             <aqd:subquery-identifier>1</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/17.1</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Strengthen domestic resource mobilization, including through international support to
@@ -57,6 +57,7 @@
         </aqd:query-definition>
         <aqd:query-definition>
             <aqd:subquery-identifier>2</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/17.2</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Developed countries to implement fully their official development assistance commitments,
@@ -80,6 +81,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>3</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/17.3</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Mobilize additional financial resources for developing countries from multiple
@@ -101,6 +103,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>4</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/17.4</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Assist developing countries in attaining long-term debt sustainability through
@@ -118,6 +121,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>5</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/17.5</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Adopt and implement investment promotion regimes for least developed
@@ -135,6 +139,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>6</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/17.6</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Enhance North-South, South-South and triangular regional and international
@@ -158,6 +163,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>7</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/17.7</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Promote the development, transfer, dissemination and diffusion of
@@ -176,6 +182,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>8</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/17.8</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Fully operationalize the technology bank and science, technology and
@@ -192,6 +199,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>9</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/17.9</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Enhance international support for implementing effective and targeted
@@ -210,6 +218,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>10</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/17.10</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Promote a universal, rules-based, open, non-discriminatory and equitable
@@ -231,6 +240,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>11</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/17.11</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Significantly increase the exports of developing countries, in particular with
@@ -247,6 +257,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>12</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/17.12</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Realize timely implementation of duty-free and quota-free market access on a
@@ -265,6 +276,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>13</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/17.13</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Enhance global macroeconomic stability, including through policy coordination
@@ -280,6 +292,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>14</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/17.14</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Enhance policy coherence for sustainable development
@@ -298,6 +311,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>15</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/17.15</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Respect each country’s policy space and leadership to establish and implement
@@ -315,6 +329,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>16</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/17.16</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Enhance the global partnership for sustainable development, complemented by
@@ -339,6 +354,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>17</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/17.17</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Encourage and promote effective public, public-private and civil society
@@ -355,6 +371,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>18</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/17.18</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     By 2020, enhance capacity-building support to developing countries, including
@@ -391,6 +408,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>19</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/17.19</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     By 2030, build on existing initiatives to develop measurements of progress on

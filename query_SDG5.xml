@@ -3,6 +3,7 @@
 <aqd:query xmlns:dc="http://dublincore.org/documents/dcmi-namespace/"
            xmlns:aqd="http://aurora-network.global/queries/namespace/">
     <dc:identifier type="sdg">5</dc:identifier>
+    <dc:identifier type="uri">http://metadata.un.org/sdg/5</dc:identifier>
     <icon>https://sustainabledevelopment.un.org/content/images/E_SDG_Icons-05.jpg</icon>
     <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg5</dc:subject>
     <dc:identifier type="version">5.0</dc:identifier>
@@ -34,6 +35,7 @@
     <aqd:query-definitions syntax="SCOPUS">
         <aqd:query-definition>
             <aqd:subquery-identifier>1</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/5.1</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     End all forms of discrimination against all women and girls everywhere
@@ -54,6 +56,7 @@
         </aqd:query-definition>
         <aqd:query-definition>
             <aqd:subquery-identifier>2</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/5.2</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Eliminate all forms of violence against all women and girls in the public and private
@@ -80,6 +83,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>3</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/5.3</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Eliminate all harmful practices, such as child, early and forced marriage and
@@ -108,6 +112,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>4</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/5.4</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Recognize and value unpaid care and domestic work through the provision of
@@ -130,6 +135,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>5</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/5.5</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Ensure women’s full and effective participation and equal opportunities for
@@ -157,6 +163,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>6</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/5.6</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Ensure universal access to sexual and reproductive health and reproductive
@@ -188,6 +195,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>a</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/5.a</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Undertake reforms to give women equal rights to economic resources, as well as
@@ -219,6 +227,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>b</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/5.b</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Enhance the use of enabling technology, in particular information and
@@ -236,6 +245,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>c</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/5.c</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Adopt and strengthen sound policies and enforceable legislation for the

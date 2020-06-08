@@ -3,6 +3,7 @@
 <aqd:query xmlns:dc="http://dublincore.org/documents/dcmi-namespace/"
            xmlns:aqd="http://aurora-network.global/queries/namespace/">
     <dc:identifier type="sdg">4</dc:identifier>
+    <dc:identifier type="uri">http://metadata.un.org/sdg/4</dc:identifier>
     <icon>https://sustainabledevelopment.un.org/content/images/E_SDG_Icons-04.jpg</icon>
     <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg4</dc:subject>
     <dc:identifier type="version">5.0</dc:identifier>
@@ -34,6 +35,7 @@
     <aqd:query-definitions syntax="SCOPUS">
         <aqd:query-definition>
             <aqd:subquery-identifier>1</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/4.1</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     By 2030, ensure that all girls and boys complete free, equitable and quality primary and
@@ -63,6 +65,7 @@
         </aqd:query-definition>
         <aqd:query-definition>
             <aqd:subquery-identifier>2</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/4.2</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     By 2030, ensure that all girls and boys have access to quality early childhood development,
@@ -87,6 +90,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>3</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/4.3</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     By 2030, ensure equal access for all women and men to affordable and quality
@@ -106,6 +110,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>4</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/4.4</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     By 2030, substantially increase the number of youth and adults who have
@@ -126,6 +131,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>5</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/4.5</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     By 2030, eliminate gender disparities in education and ensure equal access to
@@ -153,6 +159,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>6</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/4.6</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     By 2030, ensure that all youth and a substantial proportion of adults, both
@@ -171,6 +178,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>7</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/4.7</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     By 2030, ensure that all learners acquire the knowledge and skills needed to
@@ -193,6 +201,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>a</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/4.a</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Build and upgrade education facilities that are child, disability and gender
@@ -217,6 +226,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>b</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/4.b</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     By 2020, substantially expand globally the number of scholarships available to
@@ -240,6 +250,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>c</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/4.c</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     By 2030, substantially increase the supply of qualified teachers, including

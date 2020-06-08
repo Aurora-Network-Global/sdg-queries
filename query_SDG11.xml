@@ -1,12 +1,14 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="queries.xsl"?>
 <aqd:query xmlns:dc="http://dublincore.org/documents/dcmi-namespace/"
            xmlns:aqd="http://aurora-network.global/queries/namespace/">
     <dc:identifier type="sdg">11</dc:identifier>
+	<dc:identifier type="uri">http://metadata.un.org/sdg/11</dc:identifier>
+	<icon>https://sustainabledevelopment.un.org/content/images/E_SDG_Icons-11.jpg</icon>
     <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg11</dc:subject>
-    <dc:identifier type="version">4.0</dc:identifier>
-    <dc:identifier type="doi">10.5281/zenodo.3817443</dc:identifier>
-    <dc:source type="doi">10.5281/zenodo.3817437</dc:source>
+    <dc:identifier type="version">5.0</dc:identifier>
+    <dc:identifier type="doi">10.5281/zenodo.3817445</dc:identifier>
+    <dc:source type="doi">10.5281/zenodo.3817443</dc:source>
     <dc:relation type="uri">https://sustainabledevelopment.un.org/sdgs</dc:relation>
     <dc:title>SDG-11 sustainable cities and communities</dc:title>
     <dc:description>
@@ -24,16 +26,14 @@
         and more.
     </dc:description>
     <dc:rights href="http://creativecommons.org/licenses/by/4.0/">CC-BY v4 INT</dc:rights>
-    <dc:creator>
-      Aurora Universities Network (AUR); René Otten (VUA); Maurice Vanderfeesten (VUA); Didier Vercueil (UGA); Nykohla Strong (UAB); Raf Guns (UAN); Eike Spielberg (UDE); Felix Schmidt (UDE); Linda Hasse (UDE); Lars Kullman (UGO); Baldvin Zarioh (UIC);
-    </dc:creator>
-    <dc:contributor>
-      Eike Spielberg (UDE)
+    <dc:creator>Aurora Universities Network (AUR); René Otten (VUA); Eike Spielberg (UDE); Felix Schmidt (UDE); Maurice Vanderfeesten (VUA); Alessandro Arienzo (UNA); Roberto delle Donne (UNA); Ignasi Salvadó Estivill (URV); José Luis González Ugarte (URV); Didier Vercueil (UGA); Nykohla Strong (UAB); Eike Spielberg (UDE); Linda Hasse (UDE); Ane Sesma (UEA); Baldvin Zarioh (UIC); Friedrich Gaigg (UIN); Nicolien van der Grijp (VUA); Yasin Gunes (VUA); </dc:creator>
+    <dc:contributor>Eike Spielberg (UDE); Peter van den Besselaar (VUA)
     </dc:contributor>
-    <dc:date>2019-08-21</dc:date>
+    <dc:date>2020-06-30</dc:date>
     <aqd:query-definitions syntax="SCOPUS">
         <aqd:query-definition>
             <aqd:subquery-identifier>1</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/11.1</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     <!---->By 2030, ensure access for all to adequate, safe and affordable housing and basic services
@@ -43,12 +43,21 @@
                     Proportion of urban population living in slums, informal settlements or inadequate housing
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
-            <aqd:query-lines field="TITLE-ABS-KEY">
-                <aqd:query-line>"safe housing"</aqd:query-line>
-            </aqd:query-lines>
+            <aqd:query-lines >
+                <aqd:query-line field="TITLE-ABS-KEY">
+                  ( "safe"  OR  "affordab*"  OR  "adequat*" )  W/3  ( "housing" )   
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                 ( "upgrade"  OR  "improv*" )  W/3  ( "slum"  OR  "slums" )  
+                </aqd:query-line>                
+				<aqd:query-line field="TITLE-ABS-KEY">
+                 ( "population" )  W/3  ( "living" )  W/3  ( "slum"  OR  "slums" )  
+                </aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition>
             <aqd:subquery-identifier>2</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/11.2</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     <!---->By 2030, provide access to safe, affordable, accessible and sustainable transport systems for
@@ -61,14 +70,21 @@
                     with disabilities
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
-            <aqd:query-lines field="TITLE-ABS-KEY">
-                <aqd:query-line>"sustainable transport" OR "urban transport"
-                    OR "road safety"
+            <aqd:query-lines >
+                <aqd:query-line field="TITLE-ABS-KEY">
+				( "sustainab*"  W/3  "transport" )  
                 </aqd:query-line>
-            </aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+				( "access" )  W/3  ( "safe"  OR  "affordab*"  OR  "public"  OR  "urban" )  W/3  ( "transport*" )  
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+				( "improv*" )  W/3  ( "road safety" )  
+                </aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>3</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/11.3</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>By 2030, enhance inclusive and sustainable urbanization and capacity for
                     participatory, integrated and sustainable human settlement planning and management in all countries
@@ -82,13 +98,20 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY">"sustainable urbanisation" OR "inclusive urbanisation" OR
-                    "sustainable settlement*" OR "sustainable city"
+                <aqd:query-line field="TITLE-ABS-KEY">
+				( "sustainab*"  OR  "inclusi*" )  W/3  ( "urbanisation"  OR  "urbanization"  OR  "settlement*"  OR  "city"  OR  "cities" )  
                 </aqd:query-line>
-            </aqd:query-lines>
+                 <aqd:query-line field="TITLE-ABS-KEY">
+				 ( ( "land"  W/3  "consumption" )  AND  ( "population"  W/3  "growth " ) )  
+                </aqd:query-line>
+                 <aqd:query-line field="TITLE-ABS-KEY">
+				 ( "urban"  OR  "city" )  W/3  ( "planning "  OR  "management" )  W/3  ( "participat*" )  
+                </aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>4</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/11.4</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>Strengthen efforts to protect and safeguard the world’s cultural and natural
                     heritage
@@ -102,11 +125,15 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY"></aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+				( "conservat*"  OR  "preservat*"  OR  "protect*"  OR  "safeguard" )  W/3  ( "heritage" )  
+
+				</aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>5</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/11.5</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>By 2030, significantly reduce the number of deaths and the number of people
                     affected and substantially decrease the direct economic losses relative to global gross domestic
@@ -122,11 +149,17 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY">"Disaster risk reduction"</aqd:query-line>
-            </aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+				("disaster*") W/3 (( "number"  W/3  ( "death*"  OR  "people" ) ) OR ( "missing person*" ) OR ( "human loss*" ) )  
+				</aqd:query-line>
+                 <aqd:query-line field="TITLE-ABS-KEY">
+				("disaster*") W/3 ( ( "economic loss*" ) OR ( "GDP*"  OR  "gross domestic product*" ) OR ( "infrastructure*" ) OR ( "basic service*" ))
+				</aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>6</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/11.6</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>By 2030, reduce the adverse per capita environmental impact of cities,
                     including by paying special attention to air quality and municipal and other waste management
@@ -140,13 +173,14 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY">"solid waste collection" OR "city pollution"
-                    OR "smog"
+                <aqd:query-line field="TITLE-ABS-KEY">
+				( "city"  OR  "cities"  OR  "urban"  OR  "municipalit*" )  W/3 (( "air quality" OR "smog") OR ( "waste management" ) OR ( "solid waste " ) OR ( "PM10" OR   "PM2.5" )) 
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>7</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/11.7</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>By 2030, provide universal access to safe, inclusive and accessible, green and
                     public spaces, in particular for women and children, older persons and persons with disabilities
@@ -161,11 +195,20 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY">"city safe*" OR "green space"</aqd:query-line>
-            </aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+				( "safe"  OR  "inclusive"  OR  "access*" )  W/3  (( "green"  OR  "public" )  W/3  ( "space*" ) )  
+				</aqd:query-line>
+				<aqd:query-line field="TITLE-ABS-KEY">
+				 ( "city"  OR  "cities"  OR  "urban"  OR  "municipalit*" )  W/3  (( "green"  OR  "public" )  W/3  ( "space*" ) )  
+				</aqd:query-line>
+				<aqd:query-line field="TITLE-ABS-KEY">
+				 ( "city"  OR  "cities"  OR  "urban"  OR  "municipalit*" )  W/3  ( ( "victim*" )  W/3  ( ( "physical"  OR  "sexual" )  W/3  ( "harass*" ) ) )  
+				</aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>a</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/11.a</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>Support positive economic, social and environmental links between urban,
                     per-urban and rural areas by strengthening national and regional development planning
@@ -176,14 +219,17 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY">"urban development plan*" OR "urban planning" OR "City Planning"
-                    OR "Smart City" OR "Urban Design" OR "Urban Development" OR "Urban Environments" OR "Urban Growth"
-                    OR "Urban Renewal" OR "Urbanization"
+                <aqd:query-line field="TITLE-ABS-KEY">
+				 ( "city"  OR  "cities"  OR  "urban"  OR  "regional"  OR  "national" )  W/3  (( "development" )  W/3  ( "plan*" ) )  
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+				"urban planning" OR "City Planning" OR "Urban Design" OR "Urban Development" OR "Urban Growth" OR "Urban Renewal" OR "Urbanization"
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>b</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/11.b</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>By 2020, substantially increase the number of cities and human settlements
                     adopting and implementing integrated policies and plans towards inclusion, resource efficiency,
@@ -200,11 +246,14 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY">"Sendai Framework"</aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+				( ( "reduc*" )  W/3  ( "Disaster*" )  W/3  ( "risk*" ) )  OR "Sendai Framework"
+				</aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>c</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/11.c</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>Support least developed countries, including through financial and technical
                     assistance, in building sustainable and resilient buildings utilizing local materials
@@ -216,14 +265,16 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY"></aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+				( "develop* countr*"  OR  "least developed countr*"  OR  "small island*" )  AND  ( "building*" )  
+				</aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
         <aqd:filters>
-            <aqd:filter type="affilation" field="AF-ID">62012345</aqd:filter>
             <aqd:timerange field="PUBYEAR">
                 <aqd:start>2009</aqd:start>
-                <aqd:end>2019</aqd:end>
+                <aqd:end>2020
+				</aqd:end>
             </aqd:timerange>
         </aqd:filters>
     </aqd:query-definitions>

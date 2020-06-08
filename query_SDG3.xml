@@ -3,6 +3,7 @@
 <aqd:query xmlns:dc="http://dublincore.org/documents/dcmi-namespace/"
            xmlns:aqd="http://aurora-network.global/queries/namespace/">
     <dc:identifier type="sdg">3</dc:identifier>
+    <dc:identifier type="uri">http://metadata.un.org/sdg/3</dc:identifier>
     <icon>https://sustainabledevelopment.un.org/content/images/E_SDG_Icons-03.jpg</icon>
     <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg3</dc:subject>
     <dc:identifier type="version">5.0</dc:identifier>
@@ -32,6 +33,7 @@
     <aqd:query-definitions syntax="SCOPUS">
         <aqd:query-definition>
             <aqd:subquery-identifier>1</aqd:subquery-identifier>
+			<dc:identifier type="uri">http://metadata.un.org/sdg/3.1</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     By 2030, reduce the global maternal mortality ratio to less than 70 per 100,000 live births
@@ -53,6 +55,7 @@
         </aqd:query-definition>
         <aqd:query-definition>
             <aqd:subquery-identifier>2</aqd:subquery-identifier>
+			<dc:identifier type="uri">http://metadata.un.org/sdg/3.2</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     By 2030, end preventable deaths of newborns and children under 5 years of age, with all
@@ -77,6 +80,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>3</aqd:subquery-identifier>
+			<dc:identifier type="uri">http://metadata.un.org/sdg/3.3</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected
@@ -119,13 +123,14 @@
                     OR "neglected disease*"
                     OR "dengue"
 					OR "Chagas*" OR "trypanosom*"
-					OR "Coronavirus*" OR "COVID19" OR "Covid-19"
+					OR ("COVID19" OR "COVID-19" OR "2019-nCoV" OR “SARS-CoV-2” OR "HCoV-2019" OR "hcov" OR "NCOVID-19" OR "severe acute respiratory syndrome coronavirus 2" OR "severe acute respiratory syndrome corona virus 2" OR (("coronavirus" OR "corona virus") W/3 (Wuhan OR China OR novel)))
                     )
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>4</aqd:subquery-identifier>
+			<dc:identifier type="uri">http://metadata.un.org/sdg/3.4</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     By 2030, reduce by one third premature mortality from non-communicable
@@ -166,6 +171,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>5</aqd:subquery-identifier>
+			<dc:identifier type="uri">http://metadata.un.org/sdg/3.5</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Strengthen the prevention and treatment of substance abuse, including narcotic
@@ -203,6 +209,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>6</aqd:subquery-identifier>
+			<dc:identifier type="uri">http://metadata.un.org/sdg/3.6</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     By 2020, halve the number of global deaths and injuries from road traffic
@@ -223,6 +230,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>7</aqd:subquery-identifier>
+			<dc:identifier type="uri">http://metadata.un.org/sdg/3.7</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     By 2030, ensure universal access to sexual and reproductive health-care
@@ -253,6 +261,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>8</aqd:subquery-identifier>
+			<dc:identifier type="uri">http://metadata.un.org/sdg/3.8</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Achieve universal health coverage, including financial risk protection, access
@@ -283,6 +292,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>9</aqd:subquery-identifier>
+			<dc:identifier type="uri">http://metadata.un.org/sdg/3.9</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     By 2030, substantially reduce the number of deaths and illnesses from
@@ -321,6 +331,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>a</aqd:subquery-identifier>
+			<dc:identifier type="uri">http://metadata.un.org/sdg/3.a</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Strengthen the implementation of the World Health Organization Framework
@@ -344,6 +355,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>b</aqd:subquery-identifier>
+			<dc:identifier type="uri">http://metadata.un.org/sdg/3.b</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Support the research and development of vaccines and medicines for the
@@ -376,6 +388,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>c</aqd:subquery-identifier>
+			<dc:identifier type="uri">http://metadata.un.org/sdg/3c</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Substantially increase health financing and the recruitment, development,
@@ -400,6 +413,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>d</aqd:subquery-identifier>
+			<dc:identifier type="uri">http://metadata.un.org/sdg/3.d</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Strengthen the capacity of all countries, in particular developing countries,

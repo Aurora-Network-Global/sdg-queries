@@ -3,6 +3,7 @@
 <aqd:query xmlns:dc="http://dublincore.org/documents/dcmi-namespace/"
            xmlns:aqd="http://aurora-network.global/queries/namespace/">
     <dc:identifier type="sdg">2</dc:identifier>
+	<dc:identifier type="uri">http://metadata.un.org/sdg/2</dc:identifier>
     <icon>https://sustainabledevelopment.un.org/content/images/E_SDG_Icons-02.jpg</icon>
     <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg2</dc:subject>
     <dc:identifier type="version">5.0</dc:identifier>
@@ -32,6 +33,7 @@
     <aqd:query-definitions syntax="SCOPUS">
         <aqd:query-definition>
             <aqd:subquery-identifier>1</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/2.1</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     By 2030, end hunger and ensure access by all people, in particular the poor and people in
@@ -59,6 +61,7 @@
         </aqd:query-definition>
         <aqd:query-definition>
             <aqd:subquery-identifier>2</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/2.2</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     By 2030, end all forms of malnutrition, including achieving, by 2025, the internationally
@@ -84,6 +87,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>3</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/2.3</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     By 2030, double the agricultural productivity and incomes of small-scale food
@@ -109,6 +113,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>4</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/2.4</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     By 2030, ensure sustainable food production systems and implement resilient
@@ -129,6 +134,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>5</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/2.5</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     By 2020, maintain the genetic diversity of seeds, cultivated plants and farmed
@@ -155,6 +161,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>a</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/2.a</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Increase investment, including through enhanced international cooperation, in
@@ -180,6 +187,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>b</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/2.b</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Correct and prevent trade restrictions and distortions in world agricultural
@@ -209,6 +217,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>c</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/2.c</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Adopt measures to ensure the proper functioning of food commodity markets and

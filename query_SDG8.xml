@@ -3,6 +3,7 @@
 <aqd:query xmlns:dc="http://dublincore.org/documents/dcmi-namespace/"
            xmlns:aqd="http://aurora-network.global/queries/namespace/">
     <dc:identifier type="sdg">8</dc:identifier>
+	<dc:identifier type="uri">http://metadata.un.org/sdg/8</dc:identifier>
     <icon>https://sustainabledevelopment.un.org/content/images/E_SDG_Icons-08.jpg</icon>
     <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg8</dc:subject>
     <dc:identifier type="version">5.0</dc:identifier>
@@ -36,6 +37,7 @@
     <aqd:query-definitions syntax="SCOPUS">
         <aqd:query-definition>
             <aqd:subquery-identifier>1</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/8.1</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Sustain per capita economic growth in accordance with national circumstances and, in
@@ -61,6 +63,7 @@
         </aqd:query-definition>
         <aqd:query-definition>
             <aqd:subquery-identifier>2</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/8.2</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Achieve higher levels of economic productivity through diversification, technological
@@ -85,6 +88,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>3</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/8.3</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Promote development-oriented policies that support productive activities,
@@ -111,6 +115,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>4</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/8.4</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Improve progressively, through 2030, global resource efficiency in consumption
@@ -142,6 +147,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>5</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/8.5</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     By 2030, achieve full and productive employment and decent work for all women
@@ -181,6 +187,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>6</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/8.6</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     By 2020, substantially reduce the proportion of youth not in employment,
@@ -199,6 +206,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>7</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/8.7</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Take immediate and effective measures to eradicate forced labour, end modern
@@ -220,6 +228,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>8</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/8.8</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Protect labour rights and promote safe and secure working environments for all
@@ -253,6 +262,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>9</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/8.9</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     By 2030, devise and implement policies to promote sustainable tourism that
@@ -281,6 +291,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>10</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/8.10</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Strengthen the capacity of domestic financial institutions to encourage and
@@ -307,6 +318,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>a</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/8.a</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Increase Aid for Trade support for developing countries, in particular least
@@ -329,6 +341,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>b</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/8.b</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     By 2020, develop and operationalize a global strategy for youth employment and

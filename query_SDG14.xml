@@ -3,10 +3,12 @@
 <aqd:query xmlns:dc="http://dublincore.org/documents/dcmi-namespace/"
            xmlns:aqd="http://aurora-network.global/queries/namespace/">
     <dc:identifier type="sdg">14</dc:identifier>
+	<dc:identifier type="uri">http://metadata.un.org/sdg/14</dc:identifier>
+    <icon>https://sustainabledevelopment.un.org/content/images/E_SDG_Icons-14.jpg</icon>
     <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg14</dc:subject>
-    <dc:identifier type="version">4.0</dc:identifier>
-    <dc:identifier type="doi">10.5281/zenodo.3817443</dc:identifier>
-    <dc:source type="doi">10.5281/zenodo.3817437</dc:source>
+    <dc:identifier type="version">5.0</dc:identifier>
+    <dc:identifier type="doi">10.5281/zenodo.3817445</dc:identifier>
+    <dc:source type="doi">10.5281/zenodo.3817443</dc:source>
     <dc:relation type="uri">https://sustainabledevelopment.un.org/sdgs</dc:relation>
     <dc:title>SDG-14 life below water</dc:title>
     <dc:description>
@@ -22,16 +24,14 @@
         to reduce overfishing, marine pollution and ocean acidification.
     </dc:description>
     <dc:rights href="http://creativecommons.org/licenses/by/4.0/">CC-BY v4 INT</dc:rights>
-    <dc:creator>
-      Aurora Universities Network (AUR); René Otten (VUA); Maurice Vanderfeesten (VUA); Didier Vercueil (UGA); Nykohla Strong (UAB); Raf Guns (UAN); Eike Spielberg (UDE); Felix Schmidt (UDE); Linda Hasse (UDE); Lars Kullman (UGO); Baldvin Zarioh (UIC);
-    </dc:creator>
-    <dc:contributor>
-      Eike Spielberg (UDE)
+    <dc:creator>Aurora Universities Network (AUR); René Otten (VUA); Eike Spielberg (UDE); Felix Schmidt (UDE); Maurice Vanderfeesten (VUA); Alessandro Arienzo (UNA); Roberto delle Donne (UNA); Ignasi Salvadó Estivill (URV); José Luis González Ugarte (URV); Didier Vercueil (UGA); Nykohla Strong (UAB); Eike Spielberg (UDE); Linda Hasse (UDE); Ane Sesma (UEA); Baldvin Zarioh (UIC); Friedrich Gaigg (UIN); Nicolien van der Grijp (VUA); Yasin Gunes (VUA); </dc:creator>
+    <dc:contributor>Eike Spielberg (UDE); Peter van den Besselaar (VUA)
     </dc:contributor>
-    <dc:date>2019-08-21</dc:date>
+    <dc:date>2020-06-30</dc:date>
     <aqd:query-definitions syntax="SCOPUS">
         <aqd:query-definition>
             <aqd:subquery-identifier>1</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/14.1</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     By 2025, prevent and significantly reduce marine pollution of all kinds, in particular from
@@ -51,6 +51,7 @@
         </aqd:query-definition>
         <aqd:query-definition>
             <aqd:subquery-identifier>2</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/14.2</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     By 2020, sustainably manage and protect marine and coastal ecosystems to avoid significant
@@ -72,6 +73,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>3</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/14.3</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Minimize and address the impacts of ocean acidification, including through
@@ -91,6 +93,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>4</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/14.4</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     By 2020, effectively regulate harvesting and end overfishing, illegal,
@@ -113,6 +116,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>5</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/14.5</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     By 2020, conserve at least 10 per cent of coastal and marine areas, consistent
@@ -132,6 +136,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>6</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/14.6</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     By 2020, prohibit certain forms of fisheries subsidies which contribute to
@@ -152,6 +157,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>7</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/14.7</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     By 2030, increase the economic benefits to Small Island developing States and
@@ -173,6 +179,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>a</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/14.a</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Increase scientific knowledge, develop research capacity and transfer marine
@@ -192,6 +199,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>b</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/14.b</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Provide access for small-scale artisanal fishers to marine resources and
@@ -212,6 +220,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>c</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/14.c</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Enhance the conservation and sustainable use of oceans and their resources by

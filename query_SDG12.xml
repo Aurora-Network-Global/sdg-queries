@@ -3,10 +3,12 @@
 <aqd:query xmlns:dc="http://dublincore.org/documents/dcmi-namespace/"
            xmlns:aqd="http://aurora-network.global/queries/namespace/">
     <dc:identifier type="sdg">12</dc:identifier>
+	<dc:identifier type="uri">http://metadata.un.org/sdg/12</dc:identifier>
+    <icon>https://sustainabledevelopment.un.org/content/images/E_SDG_Icons-12.jpg</icon>
     <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg12</dc:subject>
-    <dc:identifier type="version">4.0</dc:identifier>
-    <dc:identifier type="doi">10.5281/zenodo.3817443</dc:identifier>
-    <dc:source type="doi">10.5281/zenodo.3817437</dc:source>
+    <dc:identifier type="version">5.0</dc:identifier>
+    <dc:identifier type="doi">10.5281/zenodo.3817445</dc:identifier>
+    <dc:source type="doi">10.5281/zenodo.3817443</dc:source>
     <dc:relation type="uri">https://sustainabledevelopment.un.org/sdgs</dc:relation>
     <dc:title>SDG-12 responsible consumption and production</dc:title>
     <dc:description>
@@ -24,16 +26,14 @@
         sustainable public procurement, among others.
     </dc:description>
     <dc:rights href="http://creativecommons.org/licenses/by/4.0/">CC-BY v4 INT</dc:rights>
-    <dc:creator>
-      Aurora Universities Network (AUR); René Otten (VUA); Maurice Vanderfeesten (VUA); Didier Vercueil (UGA); Nykohla Strong (UAB); Raf Guns (UAN); Eike Spielberg (UDE); Felix Schmidt (UDE); Linda Hasse (UDE); Lars Kullman (UGO); Baldvin Zarioh (UIC);
-    </dc:creator>
-    <dc:contributor>
-      Eike Spielberg (UDE)
+    <dc:creator>Aurora Universities Network (AUR); René Otten (VUA); Eike Spielberg (UDE); Felix Schmidt (UDE); Maurice Vanderfeesten (VUA); Alessandro Arienzo (UNA); Roberto delle Donne (UNA); Ignasi Salvadó Estivill (URV); José Luis González Ugarte (URV); Didier Vercueil (UGA); Nykohla Strong (UAB); Eike Spielberg (UDE); Linda Hasse (UDE); Ane Sesma (UEA); Baldvin Zarioh (UIC); Friedrich Gaigg (UIN); Nicolien van der Grijp (VUA); Yasin Gunes (VUA); </dc:creator>
+    <dc:contributor>Eike Spielberg (UDE); Peter van den Besselaar (VUA)
     </dc:contributor>
-    <dc:date>2019-08-21</dc:date>
+    <dc:date>2020-06-30</dc:date>
     <aqd:query-definitions syntax="SCOPUS">
         <aqd:query-definition>
             <aqd:subquery-identifier>1</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/12.1</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Implement the 10-year framework of programmes on sustainable consumption and production, all
@@ -55,6 +55,7 @@
         </aqd:query-definition>
         <aqd:query-definition>
             <aqd:subquery-identifier>2</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/12.2</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     By 2030, achieve the sustainable management and efficient use of natural resources
@@ -79,6 +80,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>3</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/12.3</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     By 2030, halve per capita global food waste at the retail and consumer levels
@@ -102,6 +104,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>4</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/12.4</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     By 2020, achieve the environmentally sound management of chemicals and all
@@ -128,6 +131,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>5</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/12.5</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     By 2030, substantially reduce waste generation through prevention, reduction,
@@ -148,6 +152,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>6</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/12.6</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Encourage companies, especially large and transnational companies, to adopt
@@ -167,6 +172,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>7</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/12.7</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Promote public procurement practices that are sustainable, in accordance with
@@ -186,6 +192,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>8</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/12.8</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     By 2030, ensure that people everywhere have the relevant information and
@@ -206,6 +213,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>a</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/12.a</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Support developing countries to strengthen their scientific and technological
@@ -223,6 +231,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>b</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/12.b</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Develop and implement tools to monitor sustainable development impacts for
@@ -241,6 +250,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>c</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/12.c</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Rationalize inefficient fossil-fuel subsidies that encourage wasteful
@@ -268,7 +278,7 @@
             <aqd:filter type="affilation" field="AF-ID"></aqd:filter>
             <aqd:timerange field="PUBYEAR">
                 <aqd:start>2009</aqd:start>
-                <aqd:end>2019</aqd:end>
+                <aqd:end>2020</aqd:end>
             </aqd:timerange>
         </aqd:filters>
     </aqd:query-definitions>

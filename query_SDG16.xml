@@ -3,10 +3,12 @@
 <aqd:query xmlns:dc="http://dublincore.org/documents/dcmi-namespace/"
            xmlns:aqd="http://aurora-network.global/queries/namespace/">
     <dc:identifier type="sdg">16</dc:identifier>
+	<dc:identifier type="uri">http://metadata.un.org/sdg/16</dc:identifier>
+    <icon>https://sustainabledevelopment.un.org/content/images/E_SDG_Icons-16.jpg</icon>
     <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg16</dc:subject>
-    <dc:identifier type="version">4.0</dc:identifier>
-    <dc:identifier type="doi">10.5281/zenodo.3817443</dc:identifier>
-    <dc:source type="doi">10.5281/zenodo.3817437</dc:source>
+    <dc:identifier type="version">5.0</dc:identifier>
+    <dc:identifier type="doi">10.5281/zenodo.3817445</dc:identifier>
+    <dc:source type="doi">10.5281/zenodo.3817443</dc:source>
     <dc:relation type="uri">https://sustainabledevelopment.un.org/sdgs</dc:relation>
     <dc:title>SDG-16 peace, justice and strong institutions</dc:title>
     <dc:description>
@@ -24,16 +26,14 @@
         more independent national human rights institutions around the world.
     </dc:description>
     <dc:rights href="http://creativecommons.org/licenses/by/4.0/">CC-BY v4 INT</dc:rights>
-    <dc:creator>
-      Aurora Universities Network (AUR); René Otten (VUA); Maurice Vanderfeesten (VUA); Didier Vercueil (UGA); Nykohla Strong (UAB); Raf Guns (UAN); Eike Spielberg (UDE); Felix Schmidt (UDE); Linda Hasse (UDE); Lars Kullman (UGO); Baldvin Zarioh (UIC);
-    </dc:creator>
-    <dc:contributor>
-      Eike Spielberg (UDE)
+    <dc:creator>Aurora Universities Network (AUR); René Otten (VUA); Eike Spielberg (UDE); Felix Schmidt (UDE); Maurice Vanderfeesten (VUA); Alessandro Arienzo (UNA); Roberto delle Donne (UNA); Ignasi Salvadó Estivill (URV); José Luis González Ugarte (URV); Didier Vercueil (UGA); Nykohla Strong (UAB); Eike Spielberg (UDE); Linda Hasse (UDE); Ane Sesma (UEA); Baldvin Zarioh (UIC); Friedrich Gaigg (UIN); Nicolien van der Grijp (VUA); Yasin Gunes (VUA); </dc:creator>
+    <dc:contributor>Eike Spielberg (UDE); Peter van den Besselaar (VUA)
     </dc:contributor>
-    <dc:date>2019-08-21</dc:date>
+    <dc:date>2020-06-30</dc:date>
     <aqd:query-definitions syntax="SCOPUS">
         <aqd:query-definition>
             <aqd:subquery-identifier>1</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/16.1</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Significantly reduce all forms of violence and related death rates everywhere
@@ -71,6 +71,7 @@
         </aqd:query-definition>
         <aqd:query-definition>
             <aqd:subquery-identifier>2</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/16.2</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     End abuse, exploitation, trafficking and all forms of violence against and torture of
@@ -105,6 +106,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>3</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/16.3</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Promote the rule of law at the national and international levels and ensure
@@ -137,6 +139,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>4</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/16.4</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     By 2030, significantly reduce illicit financial and arms flows, strengthen the
@@ -165,6 +168,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>5</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/16.5</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Substantially reduce corruption and bribery in all their forms
@@ -196,6 +200,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>6</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/16.6</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Develop effective, accountable and transparent institutions at all levels
@@ -216,6 +221,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>7</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/16.7</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Ensure responsive, inclusive, participatory and representative decision-making
@@ -239,6 +245,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>8</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/16.8</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Broaden and strengthen the participation of developing countries in the
@@ -265,6 +272,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>9</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/16.9</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     By 2030, provide legal identity for all, including birth registration
@@ -288,6 +296,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>10</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/16.10</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Ensure public access to information and protect fundamental freedoms, in
@@ -311,6 +320,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>a</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/16.a</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Strengthen relevant national institutions, including through international
@@ -337,6 +347,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>b</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/16.b</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Promote and enforce non-discriminatory laws and policies for sustainable

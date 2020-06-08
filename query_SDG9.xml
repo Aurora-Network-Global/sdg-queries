@@ -3,6 +3,7 @@
 <aqd:query xmlns:dc="http://dublincore.org/documents/dcmi-namespace/"
            xmlns:aqd="http://aurora-network.global/queries/namespace/">
     <dc:identifier type="sdg">9</dc:identifier>
+	<dc:identifier type="uri">http://metadata.un.org/sdg/9</dc:identifier>
     <icon>https://sustainabledevelopment.un.org/content/images/E_SDG_Icons-09.jpg</icon>
     <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg9</dc:subject>
     <dc:identifier type="version">5.0</dc:identifier>
@@ -34,6 +35,7 @@
     <aqd:query-definitions syntax="SCOPUS">
         <aqd:query-definition>
             <aqd:subquery-identifier>1</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/9.1</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Develop quality, reliable, sustainable and resilient infrastructure, including regional and
@@ -64,6 +66,7 @@
         </aqd:query-definition>
         <aqd:query-definition>
             <aqd:subquery-identifier>2</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/9.2</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Promote inclusive and sustainable industrialization and, by 2030, significantly raise
@@ -96,6 +99,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>3</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/9.3</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Increase the access of small-scale industrial and other enterprises, in
@@ -124,6 +128,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>4</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/9.4</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     By 2030, upgrade infrastructure and retrofit industries to make them
@@ -153,6 +158,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>5</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/9.5</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Enhance scientific research, upgrade the technological capabilities of
@@ -188,6 +194,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>a</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/9.a</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Facilitate sustainable and resilient infrastructure development in developing
@@ -209,6 +216,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>b</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/9.b</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Support domestic technology development, research and innovation in developing
@@ -234,6 +242,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>c</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/9.c</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Significantly increase access to information and communications technology and

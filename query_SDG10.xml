@@ -3,6 +3,7 @@
 <aqd:query xmlns:dc="http://dublincore.org/documents/dcmi-namespace/"
            xmlns:aqd="http://aurora-network.global/queries/namespace/">
     <dc:identifier type="sdg">10</dc:identifier>
+	<dc:identifier type="uri">http://metadata.un.org/sdg/10</dc:identifier>
     <icon>https://sustainabledevelopment.un.org/content/images/E_SDG_Icons-10.jpg</icon>
     <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg10</dc:subject>
     <dc:identifier type="version">5.0</dc:identifier>
@@ -34,6 +35,7 @@
     <aqd:query-definitions syntax="SCOPUS">
         <aqd:query-definition>
             <aqd:subquery-identifier>1</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/10.1</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     By 2030, progressively achieve and sustain income growth of the bottom 40 per cent of the
@@ -59,6 +61,7 @@
         </aqd:query-definition>
         <aqd:query-definition>
             <aqd:subquery-identifier>2</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/10.2</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     By 2030, empower and promote the social, economic and political inclusion of all,
@@ -78,6 +81,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>3</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/10.3</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Ensure equal opportunity and reduce inequalities of outcome, including by
@@ -105,6 +109,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>4</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/10.4</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Adopt policies, especially fiscal, wage and social protection policies, and
@@ -126,6 +131,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>5</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/10.5</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Improve the regulation and monitoring of global financial markets and
@@ -147,6 +153,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>6</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/10.6</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Ensure enhanced representation and voice for developing countries in
@@ -166,6 +173,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>7</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/10.7</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Facilitate orderly, safe, regular and responsible migration and mobility of
@@ -188,6 +196,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>a</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/10.a</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Implement the principle of special and differential treatment for developing
@@ -211,6 +220,7 @@
 			</aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>b</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/10.b</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Encourage official development assistance and financial flows, including
@@ -233,6 +243,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>c</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/10.c</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     By 2030, reduce to less than 3 per cent the transaction costs of migrant
