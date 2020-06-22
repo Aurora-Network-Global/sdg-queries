@@ -48,8 +48,7 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ( ( "sustainab*" ) W/3 ( "consum*" OR "product*" ) ) OR "Sustainable Consumption" OR
-                    "Alternative Agriculture"
+                    ( "sustainab*" ) W/3 ( "consum*" OR "product*" ) 
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
@@ -72,11 +71,18 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    (( "sustainab*" OR "efficen*" ) W/3 ( "manage*" OR "managing" OR "natural resource*" ) )
-                    OR
-                    "Material footprint" OR "Domestic material consumption" OR "Conservation Of Natural Resources"
+                ( "sustainab*" )  AND  ( "natural resource*" ) 
                 </aqd:query-line>
-            </aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( "sustainab*"  OR  "efficien*" )  AND  ( "natural resource*" )  
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( "material"  OR  "carbon"  OR  "water" )  W/3  ( "footprint*" )  
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                (( "material*" )  W/3  ( "consumption" ))  AND  ( "domestic"  OR  "household*" )   
+                </aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>3</aqd:subquery-identifier>
@@ -93,12 +99,10 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    (( "reduc*" ) W/3 ( " postharvest loss*" OR " post-harvest loss*"
-                    ) )
-                    OR
-                    ( ( "reduc*" ) W/3 ( "food" ) W/3 ( "wast*" OR "loss*" OR "spoil*" ) )
-                    OR
-                    "food loss index"
+                 ( "food" ) W/3 ( "wast*" OR "loss*" OR "spoil*" )
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                 " postharvest loss*" OR " post-harvest loss*"
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
@@ -125,9 +129,15 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    "Life Cycle Analysis" OR "Life Cycle Assessment" OR "Hazardous waste generated per capita"
+                    "Life Cycle Analysis" OR "Life Cycle Assessment" 
                 </aqd:query-line>
-            </aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                    ( "Life Cycle" )  AND  ( ( "hazardous"  OR  "toxic" )  W/3  ( "chemical*"  OR  "waste*" ) )   
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                    ( "per capita" )  AND  ( ( "hazardous"  OR  "toxic" )  W/3  ( "chemical*"  OR  "waste*" ) )  
+                </aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>5</aqd:subquery-identifier>
@@ -144,11 +154,15 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ( ( "reduc*" ) W/3 ( "chemical*" OR "waste*" ) W/3 ( "air" OR
-                    "water" OR "soil" OR "recycl*") ) OR "Recycling" OR "National recycling rate" OR "tons of material
-                    recycled"
+                ( "prevent*"  OR  "reduc*" )  W/3  ( "chemical*"  OR  "waste*" )  W/3  ( "recycl*"  OR  "reuse"  OR  "reusing" OR "air"  OR  "water"  OR  "soil")  
                 </aqd:query-line>
-            </aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( "National" )  W/3  ( "recycling rate" )  
+                </aqd:query-line> 
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( "tons" )  W/3  ( ( "material*" )  W/3  ( "recycle*" ) )   
+                </aqd:query-line> 
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>6</aqd:subquery-identifier>
@@ -165,8 +179,7 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ( ( "sustainab*" ) W/3 ( "practice*" OR "information*" OR
-                    "report*" ) AND ( "compan*" OR "firm*" ) )
+                ( "sustainab*" )  W/3  ( "practice*"  OR  "information*"  OR  "report*" )  AND  ( "compan*"  OR  "firm*"  OR  "corporate"  OR  "business*" )  
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
@@ -185,8 +198,7 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ( ( "sustainab*" ) W/3 ( "procurement*" OR "buying" OR "policies"
-                    OR "policy") )
+                ( ( "sustainab*" )  W/3  ( "procurement*"  OR  "buying" ) )  AND  ( "policy"  OR  "policies"  OR  "priorit*"  OR  "action*" )  
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
@@ -207,9 +219,12 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ( ( "sustainab*" ) W/3 ( "information" OR "awareness" ) )
+                    ( ( "sustainab*" OR "global citizenship" ) W/3 ( "information" OR "awareness" ) )
                 </aqd:query-line>
-            </aqd:query-lines>
+                 <aqd:query-line field="TITLE-ABS-KEY">
+                   ( "sustainab*" OR "global citizenship")  W/3  ( "education" )  W/3  ( "program*"  OR  "curricul*"  OR  "policy"  OR  "policies" ) 
+                </aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>a</aqd:subquery-identifier>
@@ -226,8 +241,10 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY"/>
-            </aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+				( "sustainab*" ) W/3 ( "consum*" OR "product*" ) AND ( "develop* countr*" OR "least developed countr*" OR "small island*" )
+                </aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>b</aqd:subquery-identifier>
@@ -268,9 +285,7 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ( ( "reduc*" OR "rationali*" ) W/3 ( "subsid*" OR "replace*" OR
-                    "substitut*" OR "alternative*" ) W/3 ( "fossil-fuel" OR "coal" OR "petrol*") ) OR "fossil-fuel
-                    subsidies per unit of GDP" OR "Energy Conservation"
+                    ( "subsid*" OR "tax*" ) W/3 ( "fossil-fuel*" OR "coal*" OR "petrol*") 
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>

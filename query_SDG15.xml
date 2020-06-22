@@ -52,19 +52,10 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    (
-                    ({sustainab*} OR {conserv*} OR {restor*})
-                    W/3 ({ecosyst*}
-                    OR {terrestrial}
-                    OR {freshwater}
-                    OR {inland}
-                    OR {*forest*}
-                    OR {environment*}
-                    OR {soil}
-                    OR {land}
-                    )
-                    )
-                    AND NOT ({marine} OR {reef})
+                ( ( "sustainab*"  OR  "conserv*"  OR  "restor*" )  
+				W/3  ( "ecosyst*"  OR  "terrestrial"  OR  "freshwater"  OR  "inland"  
+				OR  "forest*"  OR  "rainforest*"  OR  "agroforest*"  OR  "deforest*"  OR  "reforest*"  OR  "afforest*"  OR  "environment*"  OR  "soil"  OR  "land" ) )  
+				AND NOT  ( "marine" OR  "ocean*"  OR  "sea"  OR  "seas" OR  "reef" )  
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
@@ -84,12 +75,18 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    (({halt} OR {combat*} W/3 {deforest*})
-                    OR ({increase} W/3 {*forestation} )
-                    )
-                    AND NOT ({marine} OR {reef})
+                    ("sustainab*") AND ("management*") AND ("forest*")
+                 </aqd:query-line>
+                 <aqd:query-line field="TITLE-ABS-KEY">
+                    ( "halt*"  OR  "combat*" OR "reduc*")  W/3  ( "deforest*"  )  
                 </aqd:query-line>
-            </aqd:query-lines>
+                 <aqd:query-line field="TITLE-ABS-KEY">
+                    ( "restor*" )  W/3  ( "degraded forest*" )  
+                </aqd:query-line>
+                 <aqd:query-line field="TITLE-ABS-KEY">
+                   ( "increas*" )  W/3  ( "reforest*"  OR  "afforest*" )  
+                </aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>3</aqd:subquery-identifier>
@@ -107,12 +104,15 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    (( ( {halt} OR {combat*} )
-                    W/3 ( {desertification} OR {droughts} OR {floods})
-                    )
-                    AND NOT ({marine} OR {reef})
+                ( "halt*"  OR  "combat*"  OR  "reduc*" )  W/3  ( "desertification*" ) 
                 </aqd:query-line>
-            </aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                 ( "restor*" )  W/3  ( "degraded land*"  OR  "degraded dryland*"  OR  "degraded soil*" )    
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( "proportion*"  OR  "percentage" )  AND  ( "degraded" )  W/3  ( "land*"  OR  "dryland*"  OR  "soil*" ) 
+                </aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>4</aqd:subquery-identifier>
@@ -133,8 +133,11 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY">{mountain green cover index}
-                    AND NOT ({marine} OR {reef})
+                <aqd:query-line field="TITLE-ABS-KEY">
+				( "mountain*"  OR  "alpine" )  W/3  ( "ecosystem*"  OR  "biodiversity" )  
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+				"mountain green cover index"
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
@@ -154,13 +157,19 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ((({degrodat*} OR {degrad*} OR {fragmentat*}) W/3 ({habitat} OR
-                    {land} OR {woodland} OR {forest} ))
-                    OR {red list index}
-                    )
-                    AND NOT ({marine} OR {reef})
+                 ( "halt*"  OR  "combat*"  OR  "reduc*" )  W/3  ( "degrad*"  OR  "loss*"  OR  "destruction"  OR  "fragmentation" )  
+				 W/3  ( "habitat"  OR  "land"  OR  "woodland*"  OR  "forest*" )
                 </aqd:query-line>
-            </aqd:query-lines>
+                 <aqd:query-line field="TITLE-ABS-KEY">
+                 ( "halt*"  OR  "combat*"  OR  "reduc*" )  W/3  ( "loss*" )  W/3  ( "biodiversity" ) 
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( "prevent*" )  W/3  ( "extinction" )  W/3  ( "species" )  
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                 "Red List Index" 
+                </aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>6</aqd:subquery-identifier>
@@ -178,7 +187,9 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY"/>
+                <aqd:query-line field="TITLE-ABS-KEY">
+				( ( "genetic"  OR  "gene*"  OR  "genes" )  W/3  ( "resource*" ) )  AND  ( "sharing" )  				
+				</aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
@@ -196,13 +207,8 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ("combat*"
-                    W/3 {poaching} OR {trafficking})
-                    AND ((protected OR illegal)
-                    AND (species OR flora OR fauna OR "wildlife products")
-                    )
-                    )
-                    AND NOT ({marine} OR {reef})
+                 ( "poaching" OR "trafficking") AND ("species" OR "flora" OR "fauna" OR "wildlife")    
+                 AND NOT ("marine" OR  "ocean*"  OR  "sea"  OR  "seas" OR "reef")
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
@@ -221,13 +227,20 @@
                     prevention or control of invasive alien species
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
-            <aqd:query-lines>
+                <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    (({protect} OR {prevent}) W/3 ({threat*} OR {extinct}) AND
-                    (species))
-                    AND NOT ({marine} OR {reef})
+                     ( "invas*" )  W/3  ( "alien"  OR  "nonnative"  OR  "non-native"  OR  "nonindigenous"  OR  "non-indigenous" )  W/3  ( "species"  OR  "animal*"  OR  "plant*" )  
+                    AND NOT ("marine" OR  "ocean*"  OR  "sea"  OR  "seas" OR "reef")
                 </aqd:query-line>
-            </aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+		            ( "protect*" )  W/3  ( "threaten*"  OR  "endanger*" )  W/3  ( "species"  OR  "animal*"  OR  "plant*" )  
+                     AND NOT ("marine" OR  "ocean*"  OR  "sea"  OR  "seas" OR "reef")
+					 </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+		            ( ( "prevent*" )  W/3  ( "extinct*" ) )  AND  ( ( "threaten*"  OR  "endanger*" )  W/3  ( "species"  OR  "animal*"  OR  "plant*" ) )  
+                     AND NOT ("marine" OR  "ocean*"  OR  "sea"  OR  "seas" OR "reef")
+				</aqd:query-line>				
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>9</aqd:subquery-identifier>
@@ -245,13 +258,13 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    (
-                    ({ecosystem} W/3 {biodiversity})
-                    OR {species diversity}
-                    )
-                    AND NOT ({marine} OR {reef})
+                    ( ( "ecosystem"  W/3  "biodiversity" )  OR  "species diversity" )  AND  ( "polic*"  OR  "strateg*"  OR  "plan"  OR  "plans"  OR  "planning" ) 
+                    AND NOT ("marine" OR  "ocean*"  OR  "sea"  OR  "seas" OR "reef")
                 </aqd:query-line>
-            </aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                    ( "Aichi Biodiversity Target*" )  OR  ( "Strategic Plan for Biodiversity" )  
+                </aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>a</aqd:subquery-identifier>
@@ -268,13 +281,16 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY">
-                    ("ocean*" OR "marine" OR "coast*" OR "sea" OR "seawater*" OR "sea
-                    water*" OR “coral reef*” ) AND ("sustainab*" OR "preservation*" OR "conservation*" OR
-                    "jurisdiction*" OR "legal"
-                    OR "law*")
+                <aqd:query-line field="TITLE-ABS-KEY" >
+				( "ecosystem"  W/3  "biodiversity" )  AND  ( "financ*" )  
                 </aqd:query-line>
-            </aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY" >
+				( "ecosystem"  W/3  "biodiversity" )  AND  ( "develop*"  W/3  ( "assist*"  OR  "support*"  OR  "aid"  OR  "program*" ) )  
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY" >
+				( "ecosystem"  W/3  "biodiversity" )  AND  ( "spending"  OR  "expenditure"  OR  "GDP"  OR  "gross domestic product" )  
+                </aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>b</aqd:subquery-identifier>
@@ -292,7 +308,16 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY"/>
+                <aqd:query-line field="TITLE-ABS-KEY" >
+				("sustainab*") AND ("management*") AND ("forest*") 
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY" >
+				( "ecosystem"  W/3  "biodiversity" )  AND  ( "develop*"  W/3  ( "assist*"  OR  "support*"  OR  "aid"  OR  "program*" ) )  
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY" >
+				( "ecosystem"  W/3  "biodiversity" )  AND  ( "spending"  OR  "expenditure"  OR  "GDP"  OR  "gross domestic product" )  
+                </aqd:query-line>
+				
             </aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
@@ -310,14 +335,17 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY"/>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                 ( "poaching" OR "trafficking") AND ("species" OR "flora" OR "fauna" OR "wildlife")    
+                 AND NOT ("marine" OR  "ocean*"  OR  "sea"  OR  "seas" OR "reef")
+                </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
         <aqd:filters>
             <aqd:filter type="affilation" field="AF-ID"></aqd:filter>
             <aqd:timerange field="PUBYEAR">
                 <aqd:start>2009</aqd:start>
-                <aqd:end>2019</aqd:end>
+                <aqd:end>2020</aqd:end>
             </aqd:timerange>
         </aqd:filters>
     </aqd:query-definitions>

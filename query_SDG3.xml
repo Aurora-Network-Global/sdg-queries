@@ -123,9 +123,9 @@
                     OR "neglected disease*"
                     OR "dengue"
 					OR "Chagas*" OR "trypanosom*"
-					OR ("COVID19" OR "COVID-19" OR "2019-nCoV" OR “SARS-CoV-2” OR "HCoV-2019" OR "hcov" OR "NCOVID-19" OR "severe acute respiratory syndrome coronavirus 2" OR "severe acute respiratory syndrome corona virus 2" OR (("coronavirus" OR "corona virus") W/3 (Wuhan OR China OR novel)))
-                    )
-                </aqd:query-line>
+					OR ("COVID19" OR "COVID-19" OR "2019-nCoV" OR “SARS-CoV-2” OR “SARS-CoV2” OR "HCoV-2019" OR "hcov" OR "NCOVID-19" 
+					OR "severe acute respiratory syndrome coronavirus 2" OR "severe acute respiratory syndrome corona virus 2" OR "coronavirus" OR "corona virus")  )
+ 				 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">

@@ -44,8 +44,8 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ("ocean*" OR "marine" OR "coast*" OR "sea" OR "seawater*" OR "sea water*" OR “coral
-                    reef*” ) AND ("pollut*" OR "debris" OR "nutrient pollution*" OR "eutrophication*" )
+                    ( "ocean*"  OR  "marine"  OR  "coast*"  OR  "sea"  OR  "seas"  OR  "seawater*"  OR  "sea water*"  OR  "coral reef*" )  
+					AND  ( "pollut*"  OR  "debris"  OR  "eutrophication*"  OR  "contaminat*"  OR  "waste"  OR  "plastic*"  OR  "microplastic*"  OR  "micro-plastic*" )  
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
@@ -65,9 +65,8 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ("ocean*" OR "marine" OR "coast*" OR "sea" OR "seawater*" OR "sea water*" OR “coral
-                    reef*” ) AND ("ecosystem*" OR "biodivers*" OR "protect*" OR “environmental degradation” OR “climat*
-                    change*”)
+                    ("ocean*" OR "marine" OR "coast*" OR "sea" OR "seas" OR "seawater*" OR "sea water*" OR “coral
+                    reef*” ) AND ("ecosystem*" OR "biodivers*" OR "protection" OR “environmental degradation” )
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
@@ -86,8 +85,8 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ("ocean*" OR "marine" OR "coast*" OR "sea" OR "seawater*" OR "sea
-                    water*" OR “coral reef*” ) AND ("acidification*" OR "acidity" OR “pH level*”)
+                    ("ocean*" OR "marine" OR "coast*" OR "sea" OR "seas" OR "seawater*" OR "sea
+                    water*" OR “coral reef*” ) AND ("acidi*" OR "pH")
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
@@ -108,7 +107,7 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ("ocean*" OR "marine" OR "coast*" OR "sea" OR "seawater*" OR "sea
+                    ("ocean*" OR "marine" OR "coast*" OR "sea" OR "seas" OR "seawater*" OR "sea
                     water*" OR “coral reef*” ) AND ("overfish*" OR “fisheries” OR “fishery”
                     OR “fish stock*” OR "fishing")
                 </aqd:query-line>
@@ -129,8 +128,8 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ("ocean*" OR "marine" OR "coast*" OR "sea" OR "seawater*" OR "sea
-                    water*" OR “coral reef*” ) AND ("protected area*")
+                    ("ocean*" OR "marine" OR "coast*" OR "sea" OR "seas" OR "seawater*" OR "sea
+                    water*" OR “coral reef*” ) AND ( ( "protected"  OR  "conserv*" )  W/3  ( "area*" ) ) 
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
@@ -152,7 +151,9 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY"/>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( "ocean*"  OR  "marine"  OR  "coast*"  OR  "sea"  OR  "seas"  OR  "seawater*"  OR  "sea water*"  OR  "coral reef*" )  AND  ( "fish stock" ) 
+            </aqd:query-line>					
             </aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
@@ -172,8 +173,12 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ("ocean*" OR "marine" OR "coast*" OR "sea" OR "seawater*" OR "sea
-                    water*" OR “coral reef*” ) AND (“small Island*” OR "tourism" OR "developing countries")
+                    ("ocean*" OR "marine" OR "coast*" OR "sea" OR "seas" OR "seawater*" OR "sea water*" OR “coral reef*” ) 
+					AND ( "develop* countr*"  OR  "least developed countr*"  OR  "small island*" )  
+                 </aqd:query-line>
+				 <aqd:query-line field="TITLE-ABS-KEY">
+                    ("ocean*" OR "marine" OR "coast*" OR "sea" OR "seas" OR "seawater*" OR "sea water*" OR “coral reef*” ) 
+					AND (( "sustainab*" )  W/3 ( "fish*" OR  "aquaculture*"  OR "tourism*" ))  
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
@@ -194,7 +199,15 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY"/>
+                <aqd:query-line field="TITLE-ABS-KEY"> 
+				( "ocean*"  OR  "marine"  OR  "coast*"  OR  "sea"  OR  "seas"  OR  "seawater*"  OR  "sea water*"  OR  "coral reef*" )  AND  ( ( "research" )  W/3  ( "develop*"  OR  "budget*"  OR  "spending" ) )  
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+				( "ocean*"  OR  "marine"  OR  "coast*"  OR  "sea"  OR  "seas"  OR  "seawater*"  OR  "sea water*"  OR  "coral reef*" )  AND  ( ( "knowledge" )  W/3  ( "develop*"  OR  "increase*" ) )  
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY"> 
+				( "ocean*"  OR  "marine"  OR  "coast*"  OR  "sea"  OR  "seas"  OR  "seawater*"  OR  "sea water*"  OR  "coral reef*" )  AND  ( ( "transfer" )  W/3  ( "technology" ) )  
+                </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
@@ -213,8 +226,7 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ("ocean*" OR "marine" OR "coast*" OR "sea" OR "seawater*" OR "sea
-                    water*" OR “coral reef*” ) AND ("small-scale fish*")
+                    ("small-scale") W/3 ("fish*")
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
@@ -238,10 +250,13 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ("ocean*" OR "marine" OR "coast*" OR "sea" OR "seawater*" OR "sea
-                    water*" OR “coral reef*” ) AND ("sustainab*" OR "preservation*" OR "conservation*" OR
-                    "jurisdiction*" OR "legal"
-                    OR "law*")
+                    ("ocean*" OR "marine" OR "coast*" OR "sea" OR "seas" OR "seawater*" OR "sea
+                    water*" OR “coral reef*” ) AND ("sustainab*" OR "preserv**" OR "conserv*" OR "protect*") AND
+                    ("jurisdiction*" OR "legal" OR "law*")
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                    ("sustainab*" OR "preserv**" OR "conserv*" OR "protect*") 
+					AND  ( "UNCLOS"  OR  "UN Convention on the Law of the Sea"  OR  "United Nations Convention on the Law of the Sea" )  
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
@@ -249,7 +264,7 @@
             <aqd:filter type="affilation" field="AF-ID"></aqd:filter>
             <aqd:timerange field="PUBYEAR">
                 <aqd:start>2009</aqd:start>
-                <aqd:end>2019</aqd:end>
+                <aqd:end>2020</aqd:end>
             </aqd:timerange>
         </aqd:filters>
     </aqd:query-definitions>

@@ -197,7 +197,9 @@
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">( ( "sustainable development" )  W/3  ( "educat*"  OR  "teach*" OR  "learn*" ) )
 				</aqd:query-line>
-            </aqd:query-lines>
+                 <aqd:query-line field="TITLE-ABS-KEY">( "sustainab*" OR "global citizenship")  W/3  ( "education" )  W/3  ( "program*"  OR  "curricul*"  OR  "policy"  OR  "policies" ) 
+				</aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>a</aqd:subquery-identifier>

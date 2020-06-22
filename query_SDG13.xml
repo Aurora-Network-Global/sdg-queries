@@ -44,13 +44,15 @@
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
                     ( "climat*" W/3 "anthropogenic*" )
-                    OR ( "climat*" W/3 "biodiversity" )
+                    OR ( "climat*" W/3 "action*" )
+                    OR ( "climat*" W/3 "adapt*" )
+					OR ( "climat*" W/3 "biodiversity" )
                     OR ( "climat*" W/3 "carbon*" )
                     OR ( "climat*" W/3 "change*" )
+					OR ( "climat*" W/3 "crisis" )
                     OR ( "climat*" W/3 "deforestati*" )
                     OR ( "climat*" W/3 "desertificati*" )
                     OR ( "climat*" W/3 "ecolog*" )
-                    OR ( "climat*" W/3 "environment*" )
                     OR ( "climat*" W/3 "environment*" )
                     OR ( "climat*" W/3 "GHG" )
                     OR ( "climat*" W/3 "global change" )
@@ -58,10 +60,10 @@
                     OR ( "climat*" W/3 "hazard*" )
                     OR ( "climat*" W/3 "reforestati*" )
                     OR ( "climat*" W/3 "variabilit*" )
-                    OR ( "climat*" W/3 "water stress" )
-                    OR ( "carbon economy*" )
-                    OR ( "carbon footprint*" )
-                    OR ( "circular economy*" )
+                    OR ( "climat*" W/3 "warming" )
+					OR ( "climat*" W/3 "water stress" )
+					OR ( ( "climate" )  AND  ( ( "Paris" )  W/3  ( "agreement" OR "COP21" ) ) )  
+					OR ( ( "climate" )  AND  ( ( "Kyoto" )  W/3  ( "protocol" ) ) )  
                     OR ( "climate action*" )
                     OR ( "Climate Effect*" )
                     OR ( "Climate Model*” )
@@ -72,13 +74,10 @@
                     OR ( "eco-innovation*" )
                     OR ( "environmental change*" )
                     OR ( "Environmental Impact" )
-                    OR ( "Global Change*" )
                     OR ( "Global Climate" )
                     OR ( "global warming" )
-                    OR ( "Greenhouse Effect*" )
-                    OR ( "Greenhouse Gas*" )
-                    OR ( "natural disaster*" )
-                    OR ( ( "greenhouse" ) AND ( "emission*" ) )
+                    OR ( "Greenhouse Effect*" ) OR ( "Green-house Effect*" )
+                    OR ( "Greenhouse Gas*" ) OR ( "Green-house Gas*" )
                     OR ( ( "sea level*") AND ( "chang*" OR "rising" ) )
                 </aqd:query-line>
             </aqd:query-lines>
@@ -107,9 +106,15 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ( "climat*" W/3 "resilien*" )
+                    (( "climat*" OR "natural disaster*") W/3 "resilien*" )
+					</aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                    ( "reduc*" )  W/3  ( "disaster*" )  W/3  ( "risk*" ) 
                 </aqd:query-line>
-            </aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( "disaster*" )  W/3  ( ( "number"  W/3  ( "death*"  OR  "people" ) )  OR  ( "missing person*" )  OR  ( "human loss*" ) )  
+                </aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>2</aqd:subquery-identifier>
@@ -130,9 +135,7 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ( "climat*" W/3 "polic*" ) OR ( "climat*" W/3 "strategy*" ) OR (
-                    "climat*" W/3 "regime*" ) OR ( "climat*" W/3 "scenario*" ) OR ("climat*" W/3 "integrated assessment"
-                    ) OR ( "climat*" W/3 "model*" )
+                 ( ( "climat*" )  W/3  ( "polic*"  OR  "strateg*" OR "plan"  OR  "plans"  OR  "planning" ) )  
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
@@ -157,8 +160,10 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY"/>
-            </aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+				 ( "climate" )  W/3  ( "information"  OR  "awareness"  OR  "educat*"  OR  "teach*"  OR  "learn*" )  
+                 </aqd:query-line>
+				 </aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>a</aqd:subquery-identifier>
@@ -179,8 +184,13 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY"/>
-            </aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+				 ( "climate" )  W/3  ( "fund"  OR  "funds"  OR  "funding" OR "money"  OR  "dollar*" OR "commitment" OR "capitali*")  
+                 </aqd:query-line>
+				 <aqd:query-line field="TITLE-ABS-KEY">
+				  ( "UNFCC"  OR  "United Nations Framework Convention for Climate Change" )   
+                 </aqd:query-line>
+				 </aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>b</aqd:subquery-identifier>
@@ -204,14 +214,17 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY"/>
-            </aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+				( "climate" )  AND  ( ( "assist*"  OR  "support*"  OR  "aid"  OR  "program*"  OR  "development*"  OR  "capacity*" )  
+				W/3  ( "develop* countr*"  OR  "least developed countr*"  OR  "small island*" ) )  
+                 </aqd:query-line>
+				 </aqd:query-lines>
         </aqd:query-definition>
         <aqd:filters>
             <aqd:filter type="affilation" field="AF-ID"></aqd:filter>
             <aqd:timerange field="PUBYEAR">
                 <aqd:start>2009</aqd:start>
-                <aqd:end>2019</aqd:end>
+                <aqd:end>2020</aqd:end>
             </aqd:timerange>
         </aqd:filters>
     </aqd:query-definitions>
