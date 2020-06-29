@@ -58,16 +58,24 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ("violence"
-                    OR "homicide"
-
-                    AND ( LIMIT-TO ( SUBJAREA , "SOCI" )
-                    OR LIMIT-TO ( SUBJAREA , "ARTS" )
-                    OR LIMIT-TO ( SUBJAREA , "ECON" )
-                    OR LIMIT-TO ( SUBJAREA , "MULT" )
-                    )
+                ( "reduc*" )  W/3  ( "violence"  OR  "homicide" )  
                 </aqd:query-line>
-            </aqd:query-lines>
+                 <aqd:query-line field="TITLE-ABS-KEY">
+                ( "violen*" )  W/3  ( "related" )  W/3  ( "death*" )  
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( ( "victim*" )  W/3  ( "homicide" ) )  AND  ( "number*"  OR  "per capita"  OR  "population" )  
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( ( "conflict*" )  W/3  ( "death*" ) )  AND  ( "number*"  OR  "per capita"  OR  "population" )  
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( ( "physical*"  OR  "psychological"  OR  "sexual" )  W/3  ( "violen*" ) )  AND  ( "number*"  OR  "per capita"  OR  "population" )  
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( ( "safe" )  W/3  ( "walking*" ) )  AND  ( "number*"  OR  "per capita"  OR  "population" )  
+                </aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition>
             <aqd:subquery-identifier>2</aqd:subquery-identifier>
@@ -93,14 +101,19 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ((human W/3 trafficking)
-                    OR "Children's Right*" )
-
-                    AND ( LIMIT-TO ( SUBJAREA , "SOCI" )
-                    OR LIMIT-TO ( SUBJAREA , "ARTS" )
-                    OR LIMIT-TO ( SUBJAREA , "ECON" )
-                    OR LIMIT-TO ( SUBJAREA , "MULT" )
-                    )
+                ( ( "end"  OR  "ending"  OR  "reduc*" )  W/3  ( "abus*"  OR  "exploit*"  OR  "traffick*"  OR  "violen*"  OR  "tortur*"  OR  "neglect*" )  W/3  ( "child*" ) )  
+				</aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( ( "caregiver*" )  AND  ( "abus*"  OR  "exploit*"  OR  "traffick*"  OR  "violen*"  OR  "tortur*"  OR  "neglect*" )  W/3  ( "child*" ) )   
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( ( "victim*" )  AND  ( "human traffick*" ) )  
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                 ( ( ( ( "sexual*" )  W/3  ( "violen*" ) )  AND  ( "young" ) )  AND  ( "number*"  OR  "per capita"  OR  "population" ) )   
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                    "Children's Right*" 
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
@@ -124,18 +137,15 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ("International Law*"
-                    OR "conflict management"
-                    OR "justice"
-                    OR "criminal law" )
-
-                    AND ( LIMIT-TO ( SUBJAREA , "SOCI" )
-                    OR LIMIT-TO ( SUBJAREA , "ARTS" )
-                    OR LIMIT-TO ( SUBJAREA , "ECON" )
-                    OR LIMIT-TO ( SUBJAREA , "MULT" )
-                    )
+                  "rule of law"     
                 </aqd:query-line>
-            </aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( "access*" )  W/3  ( "justice" )      
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                 ( "victim*" )  W/3  ( "report*" )     
+                </aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>4</aqd:subquery-identifier>
@@ -157,14 +167,18 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ("organi?ed crime" )
-                    AND ( LIMIT-TO ( SUBJAREA , "SOCI" )
-                    OR LIMIT-TO ( SUBJAREA , "ARTS" )
-                    OR LIMIT-TO ( SUBJAREA , "ECON" )
-                    OR LIMIT-TO ( SUBJAREA , "MULT" )
-                    )
+                ( "organised crime" )  OR  ( "organized crime" )  
                 </aqd:query-line>
-            </aqd:query-lines>
+                 <aqd:query-line field="TITLE-ABS-KEY">
+                ( "illegal"  OR  "illicit" )  W/3  ( "financ*"  OR  "arms" )
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( "recover*"  OR  "return*" )  W/3  ( "stolen" )
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( "money" )  W/3  ( "launder*" )
+                </aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>5</aqd:subquery-identifier>
@@ -187,14 +201,7 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ("corruption"
-                    OR "bribery"
-                    OR "miscarriage of justice" )
-                    AND ( LIMIT-TO ( SUBJAREA , "SOCI" )
-                    OR LIMIT-TO ( SUBJAREA , "ARTS" )
-                    OR LIMIT-TO ( SUBJAREA , "ECON" )
-                    OR LIMIT-TO ( SUBJAREA , "MULT" )
-                    )
+                    ("corruption" OR "bribe*" OR "miscarriage of justice" )
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
@@ -216,8 +223,13 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY"/>
-            </aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+				( "effective"  OR  "accountable"  OR  "transparent" )  W/3  ( "institution*" )  
+                 </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+				( "satisf*"  OR  "experience*" )  W/3  ( "public service*" )  
+                 </aqd:query-line>
+				 </aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>7</aqd:subquery-identifier>
@@ -240,8 +252,18 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY"/>
-            </aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+				( "decision making" )  W/3  ( "responsive"  OR  "inclusive"  OR  "participat*"  OR  "represent*" )
+				</aqd:query-line>
+                 <aqd:query-line field="TITLE-ABS-KEY">
+				  "inclusive societ*" 
+				</aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+				 ( "people*"  OR  "women"  OR  "men" )  
+				 W/3  ( "participat*"  OR  "position*" )  
+				 W/3  ( "institution*"  OR  "government*"  OR  "municipal*"  OR  "judiciary"  OR  "public service*"  OR  "legislature"  OR  "parliament*" )  
+				</aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>8</aqd:subquery-identifier>
@@ -258,15 +280,11 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ( "Nongovernmental Organi?ation*"
-                    OR "Non-governmental Organi?ation*"
-                    OR "NGO*" )
-
-                    AND ( LIMIT-TO ( SUBJAREA , "SOCI" )
-                    OR LIMIT-TO ( SUBJAREA , "ARTS" )
-                    OR LIMIT-TO ( SUBJAREA , "ECON" )
-                    OR LIMIT-TO ( SUBJAREA , "MULT" )
-                    )
+                ( ( "participat*"  OR  "representation"  OR  "voice"  OR  "voting right*" )  W/3  ( "international*"  OR  "global" ) )  AND  ( "develop* countr*" )  
+                </aqd:query-line>
+				 <aqd:query-line field="TITLE-ABS-KEY">
+                 ( "Nongovernmental Organisation*"  OR  "Nongovernmental Organization*"  OR  "Non-governmental Organisation*"  OR  "Non-governmental Organization*"  OR  "NGO*" )  
+				 AND  ( "develop* countr*" ) 
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
@@ -285,14 +303,12 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ( "Civil Right*" )
-                    AND ( LIMIT-TO ( SUBJAREA , "SOCI" )
-                    OR LIMIT-TO ( SUBJAREA , "ARTS" )
-                    OR LIMIT-TO ( SUBJAREA , "ECON" )
-                    OR LIMIT-TO ( SUBJAREA , "MULT" )
-                    )
+                 "legal identity"
                 </aqd:query-line>
-            </aqd:query-lines>
+                 <aqd:query-line field="TITLE-ABS-KEY">
+                 ("birth") W/3 ("regist*") AND ("authorit*" OR "municipal*") 
+                </aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>10</aqd:subquery-identifier>
@@ -315,7 +331,17 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY"/>
+                <aqd:query-line field="TITLE-ABS-KEY">
+				( "public*" )  W/3  ( "access*" )  W/3  ( "information*" )
+                 </aqd:query-line> 
+				 <aqd:query-line field="TITLE-ABS-KEY">
+				 ( "fundamental freedom*" ) OR ( ( "free*" )  W/3  ( "speech*"  OR  "press" ) )  
+                </aqd:query-line> 
+                <aqd:query-line field="TITLE-ABS-KEY">
+				 ( "case*" )  
+				 AND  ( ( "kill*"  OR  "murder*"  OR  "attack*"  OR  "kidnap*"  OR  "disappear*"  OR  "arbitrary detention*"  OR  "tortur*" )  
+				 W/3  ( "journalist*"  OR  "media personnel*"  OR  "trade union*"  OR  "lawyer*"  OR  "advocates" ) ) 
+                </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
@@ -334,16 +360,12 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ( "terrorism"
-                    OR "human right*"
-                    OR "Paris principles" )
-                    AND ( LIMIT-TO ( SUBJAREA , "SOCI" )
-                    OR LIMIT-TO ( SUBJAREA , "ARTS" )
-                    OR LIMIT-TO ( SUBJAREA , "ECON" )
-                    OR LIMIT-TO ( SUBJAREA , "MULT" )
-                    )
+                 ( "institution*" )  AND  ( ( "prevent*"  OR  "combat*" )  W/3  ( "violence"  OR  "terrorism*"  OR  "crime" ) )
                 </aqd:query-line>
-            </aqd:query-lines>
+                 <aqd:query-line field="TITLE-ABS-KEY">
+                  ( "institution*" )  AND  ( "human right*"  OR  "civil right*"  OR  "child right*" )
+                </aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>b</aqd:subquery-identifier>
@@ -362,13 +384,7 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ( "human right*"
-                    OR "International Humanitarian Law*” )
-                    AND ( LIMIT-TO ( SUBJAREA , "SOCI" )
-                    OR LIMIT-TO ( SUBJAREA , "ARTS" )
-                    OR LIMIT-TO ( SUBJAREA , "ECON" )
-                    OR LIMIT-TO ( SUBJAREA , "MULT" )
-                    )
+                ( "discriminat*"  OR  "non-discriminat*"  OR  "nondiscriminat*" )  AND  ( "policy"  OR  "policies"  OR  "legislation*"  OR  "law*" ) 
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
@@ -376,7 +392,7 @@
             <aqd:filter type="affilation" field="AF-ID"></aqd:filter>
             <aqd:timerange field="PUBYEAR">
                 <aqd:start>2009</aqd:start>
-                <aqd:end>2019</aqd:end>
+                <aqd:end>2020</aqd:end>
             </aqd:timerange>
         </aqd:filters>
     </aqd:query-definitions>
