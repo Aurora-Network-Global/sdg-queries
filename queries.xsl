@@ -116,7 +116,7 @@
                 <xsl:if test="count(aqd:query-lines/aqd:query-line) > 0">
                     <xsl:if test="aqd:query-lines/aqd:query-line/. != ''">
                         <xsl:if test="position() != 1">
-                            <xsl:text>OR</xsl:text>
+                            <xsl:text> OR </xsl:text>
                         </xsl:if>
                         <xsl:apply-templates select="aqd:query-lines"/>
                         <xsl:apply-templates select="aqd:filters"/>
@@ -130,7 +130,7 @@
         <xsl:if test="count(aqd:query-lines/aqd:query-line) > 0">
             <xsl:if test="aqd:query-lines/aqd:query-line/. != ''">
                 <xsl:if test="position() != 1">
-                    <xsl:text>OR</xsl:text>
+                    <xsl:text> OR </xsl:text>
                 </xsl:if>
                 <xsl:apply-templates select="aqd:query-lines"/>
                 <xsl:apply-templates select="aqd:filters"/>
@@ -179,11 +179,11 @@
         <xsl:if test="aqd:timerange">
             <p>
                 <font face="Courier, monospace">
-                     AND (
+                      AND (
                     <xsl:value-of select="aqd:timerange/@field"/>
                     &gt;
                     <xsl:value-of select="aqd:timerange/aqd:start/."/>
-                     AND
+                      AND 
                     <xsl:value-of select="aqd:timerange/@field"/>
                     &lt;
                     <xsl:value-of select="aqd:timerange/aqd:end/."/>
