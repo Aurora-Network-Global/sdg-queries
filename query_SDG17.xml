@@ -48,12 +48,17 @@
                     Proportion of domestic budget funded by domestic taxes
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
-            <aqd:query-lines field="TITLE-ABS-KEY">
-                <aqd:query-line>
-                    ("sustainab*" OR "SDG*") AND ("government*" OR "private*" OR "public*" OR "societ*" OR
-                    "stakeholder*" OR "developing countr*") AND ("international support")
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( ( "tax*"  OR  "revenue*" )  W/3  ( "collect*" ) )  AND  ( "government*"  OR  "domestic" )
                 </aqd:query-line>
-            </aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                 ( ( "tax*"  OR  "revenue*"  OR  "expenditure" )  W/3  ( "government*"  OR  "domestic" ) )  AND  ( "GDP"  OR  "gross domestic product*" )
+                </aqd:query-line>
+                 <aqd:query-line field="TITLE-ABS-KEY">
+                 ( ( "tax*" ) )  AND  ( ( "budget*" )  AND  ( "domestic" ) )
+                </aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition>
             <aqd:subquery-identifier>2</aqd:subquery-identifier>
@@ -73,11 +78,16 @@
                     donors’ gross national income (GNI)
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
-            <aqd:query-lines field="TITLE-ABS-KEY">
-                <aqd:query-line>("sustainab*" OR "SDG*") AND ("government*" OR "private*" OR "public*" OR "societ*" OR
-                    "stakeholder*" OR "developing countr*") AND ("development assistance")
+            <aqd:query-lines >
+                <aqd:query-line field="TITLE-ABS-KEY">
+				 ( ( "develop*" )  W/3  ( "assist*"  OR  "support"  OR  "aid"  OR  "program*" ) )  
+				 AND  ( "develop* countr*"  OR  "least developed countr*"  OR  "small island*" ) 
                 </aqd:query-line>
-            </aqd:query-lines>
+                 <aqd:query-line field="TITLE-ABS-KEY">
+				( ( "develop*" )  W/3  ( "assist*"  OR  "support"  OR  "aid"  OR  "program*" ) )  
+				AND  ( "commitment*" OR "ODA*"  OR  "Official Development Assistance*" OR  "GNI*"  OR  "gross national income*")
+                </aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>3</aqd:subquery-identifier>
@@ -98,8 +108,22 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY"/>
-            </aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+				( "financial resource*" )  AND  ( "develop* countr*"  OR  "least developed countr*"  OR  "small island*" )
+				</aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+				( "budget*" )  AND  ( "foreign*"  W/3  "invest*" )
+				</aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+				 ( "budget*" )  AND  ( ( "develop*" )  W/3  ( "assist*"  OR  "support"  OR  "aid"  OR  "program*" ) )
+				</aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+				( "budget*" )  AND  ( "south-south*" )
+				</aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+				 ( "remittance*" )  AND  ( "GDP*"  OR  "gross domestic product*" )
+				</aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>4</aqd:subquery-identifier>
@@ -116,8 +140,13 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY"/>
-            </aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+				( "debt*" )  AND  ( "develop* countr*"  OR  "least developed countr*"  OR  "small island*" )
+				</aqd:query-line>
+                 <aqd:query-line field="TITLE-ABS-KEY">
+				 ( ( "debt*" )  W/3  ( "servic*"  OR  "manag*" ) )  AND  ( "export*" )
+				</aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>5</aqd:subquery-identifier>
@@ -134,7 +163,9 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY"/>
+                <aqd:query-line field="TITLE-ABS-KEY">
+				( "investment*" )  AND  ( "develop* countr*"  OR  "least developed countr*"  OR  "small island*" )
+				</aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
@@ -158,8 +189,16 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY"/>
-            </aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+				 ( ( "international"  OR  "regional"  OR  "north-south"  OR  "south-south" )  W/3  ( "cooperation*" ) )  AND  ( "science"  OR  "technology"  OR  "innovation" )
+				</aqd:query-line> 
+                 <aqd:query-line field="TITLE-ABS-KEY">
+				( ( "agreement*" )  W/3  ( "cooperation*" ) )  AND  ( "science"  OR  "technology"  OR  "innovation" )
+				</aqd:query-line> 
+                <aqd:query-line field="TITLE-ABS-KEY">
+				 ( "subscription*" )  W/3  ( "internet*" )
+				</aqd:query-line> 
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>7</aqd:subquery-identifier>
@@ -177,8 +216,13 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY"/>
-            </aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+				( "development*"  OR  "transfer*"  OR  "dissemination*"  OR  "diffusion*" )  AND  ( "environment* sound*" )  W/3  ( "technolog*" )
+				</aqd:query-line> 
+                <aqd:query-line field="TITLE-ABS-KEY">
+				( "develop* countr*"  OR  "least developed countr*"  OR  "small island*" )  AND  ( "environment* sound*" )  W/3  ( "technolog*" )
+				</aqd:query-line> 
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>8</aqd:subquery-identifier>
@@ -194,8 +238,13 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY"/>
-            </aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+				 ( "develop* countr*"  OR  "least developed countr*"  OR  "small island*" )  AND  ( "capacity*" )  W/3  ( "science"  OR  "technology"  OR  "innovation" )
+				</aqd:query-line> 
+                <aqd:query-line field="TITLE-ABS-KEY">
+				 ( ( "subscription*" )  OR  ( ( "proportion" )  W/3  ( "population" ) ) )  AND  ( "internet*" )
+				</aqd:query-line> 
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>9</aqd:subquery-identifier>
@@ -213,8 +262,14 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY"/>
-            </aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+				( "implement*" )  AND  ( "SDG*"  OR  "sustainable development goal*" )
+ 				</aqd:query-line> 
+                <aqd:query-line field="TITLE-ABS-KEY">
+				( ( "financ*"  OR  "technic*" )  W/3  ( "assist*"  OR  "support*"  OR  "aid" ) )  
+				AND  ( "develop* countr*"  OR  "least developed countr*"  OR  "small island*" )  
+ 				</aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>10</aqd:subquery-identifier>
@@ -232,10 +287,12 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ("sustainab*" OR "SDG*") AND ("government*" OR "private*" OR
-                    "public*" OR "societ*" OR "stakeholder*" OR "developing countr*") AND ("trading system*" OR "WTO" OR
-                    "world trade organization")
+                ( "universal"  OR  "rule* based"  OR  "open"  OR  "non-discriminat*"  OR  "equit*"  OR  "multilateral" )  
+                W/3  ( "trade"  OR  "trading"  OR  "WTO"  OR  "world trade organization"  OR  "DOHA development*" )  
                 </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( "tariff*" )  W/3  ( "average" ) 
+				</aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
@@ -252,8 +309,11 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY"/>
-            </aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+				( "develop* countr*"  OR  "least developed countr*"  OR  "small island*" ) 
+				AND (( "global"  OR  "world" OR "increase*"  OR  "share")  W/3 ("export*"))
+                </aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>12</aqd:subquery-identifier>
@@ -271,8 +331,13 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY"/>
-            </aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+				( "duty"  OR  "duties"  OR  "quotum"  OR  "quota" )  W/3  ( "free" )
+				</aqd:query-line>
+                 <aqd:query-line field="TITLE-ABS-KEY">
+				 ( "tariff*" )  AND  ( "develop* countr*"  OR  "least developed countr*"  OR  "small island*" ) 
+				</aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>13</aqd:subquery-identifier>
@@ -287,7 +352,9 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY"/>
+                <aqd:query-line field="TITLE-ABS-KEY">
+				( ( "macroeconom*"  OR  "macro-econom*" )  W/3  "stability" )  
+             </aqd:query-line>				
             </aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
@@ -303,9 +370,10 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ("sustainab*" OR "SDG*") AND ("government*" OR "private*" OR
-                    "public*" OR "societ*" OR "stakeholder*" OR "developing countr*") AND ("development agenda" OR
-                    "coordinated polic*")
+                ( ( "policy"  OR  "policies" )  W/3  ( "coheren*"  OR  "incoherent*"  OR  "coordinat*" OR  "framework*"  OR  "instrument*" ) )  AND  ( "SDG*"  OR  "sustainable development*" )
+                </aqd:query-line>
+				<aqd:query-line field="TITLE-ABS-KEY">
+                 ( ( "policy"  OR  "policies" )  W/1  ( "sustainab*" ) )  AND  ( "SDG*"  OR  "sustainable development*" )
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
@@ -324,8 +392,20 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY"/>
-            </aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+				 ( ( "implement*"  OR  "establish*" )  W/3  ( "policy"  OR  "policies" ) )  AND  ( "SDG*"  OR  "sustainable development*" ) 
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+				( ( "implement*"  OR  "establish*" )  W/3  ( "policy"  OR  "policies" ) )  
+				AND  ( ( "poverty" )  W/3  ( "eradicat*"  OR  "reduc*"  OR  "end"  OR  "ending"  OR  "alleviat*" ) ) 
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                 ( "cooperation*"  W/3  "development" )  AND  ( "framework*" ) 
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                 ( "cooperation*"  W/3  "development" )  AND  ( "plan*"  W/3  "tool*" )
+                </aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>16</aqd:subquery-identifier>
@@ -345,12 +425,12 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ("sustainab*" OR "SDG*") AND ("government*" OR "private*" OR
-                    "public*" OR "societ*" OR "stakeholder*" OR "developing countr*") AND ("partner*" OR "cooperation"
-                    OR "International Cooperation" OR "Partnership*" OR "Stakeholder*" OR "Community-Institutional
-                    Relations")
+                 ( "SDG*"  OR  "sustainable development*" ) AND ( "partner*"  OR  "cooperat*" )   
                 </aqd:query-line>
-            </aqd:query-lines>
+                 <aqd:query-line field="TITLE-ABS-KEY">
+                 ( "SDG*"  OR  "sustainable development*" ) AND  ( "multi-stakeholder*" )    
+                </aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>17</aqd:subquery-identifier>
@@ -366,7 +446,9 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY"/>
+                <aqd:query-line field="TITLE-ABS-KEY">
+				( "partnership*" )  W/3  ( "public*" OR "civil societ*") 
+				</aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
@@ -399,12 +481,18 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ("sustainab*" OR "SDG*") AND ("government*" OR "private*" OR
-                    "public*" OR "societ*" OR "stakeholder*" OR "developing countr*") AND ("partner*" OR "cooperation"
-                    OR "International Cooperation" OR "Partnership*" OR "Stakeholder*" OR "Community-Institutional
-                    Relations")
+                ( "develop* countr*"  OR  "least developed countr*"  OR  "small island*" )  W/3  ( "data*"  OR  "statistic*" )
                 </aqd:query-line>
-            </aqd:query-lines>
+                 <aqd:query-line field="TITLE-ABS-KEY">
+                ( "sustainable development*" )  W/3  ( "indicator*" ) 
+                </aqd:query-line>
+                 <aqd:query-line field="TITLE-ABS-KEY">
+                "Fundamental Principles of Official Statistics"  OR  ( ( "Statistics" )  W/3  ( "legislation" ) )
+                </aqd:query-line>
+                 <aqd:query-line field="TITLE-ABS-KEY">
+                 ( "national" )  W/3  ( "plan*" )  W/3  ( "Statistic*" ) 
+                </aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>19</aqd:subquery-identifier>
@@ -429,18 +517,22 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ("sustainab*" OR "SDG*") AND ("government*" OR "private*" OR
-                    "public*" OR "societ*" OR "stakeholder*" OR "developing countr*") AND ("partner*" OR "cooperation"
-                    OR "International Cooperation" OR "Partnership*" OR "Stakeholder*" OR "Community-Institutional
-                    Relations")
+                 ( "SDG*"  OR  "sustainable development*" )  W/3  ( "progress*"  OR  "measurement*"  OR  "measuring"  OR  "monitor*" )
                 </aqd:query-line>
-            </aqd:query-lines>
+                 <aqd:query-line field="TITLE-ABS-KEY">
+                ( "develop* countr*"  OR  "least developed countr*"  OR  "small island*" )  W/3  ( "data*"  OR  "statistic*" )  
+				W/3  ( "capacity*"  OR  "strengthen*"  OR  "budget*"  OR  "money"  OR  "dollar*"  OR  "resource*" ) 
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                 "population census"  OR  "housing census"  OR  "birth registration*"  OR  "death registration*"
+                </aqd:query-line>
+				</aqd:query-lines>
         </aqd:query-definition>
         <aqd:filters>
             <aqd:filter type="affilation" field="AF-ID"></aqd:filter>
             <aqd:timerange field="PUBYEAR">
                 <aqd:start>2009</aqd:start>
-                <aqd:end>2019</aqd:end>
+                <aqd:end>2020</aqd:end>
             </aqd:timerange>
         </aqd:filters>
     </aqd:query-definitions>
