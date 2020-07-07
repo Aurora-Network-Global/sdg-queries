@@ -219,7 +219,7 @@
                 </aqd:query-line>
                  <aqd:query-line field="TITLE-ABS-KEY">(("property" OR "ownership*" OR "right*" OR "control*") W/3 ("land")) AND ( "gender" OR "women*" OR "female" OR "girl*" )
                 </aqd:query-line>
-                <aqd:query-line field="TITLE-ABS-KEY">("landowner*" OR “land owner*”) AND ( "gender" OR "women*" OR "female" OR "girl*" )
+                <aqd:query-line field="TITLE-ABS-KEY">("landowner*" OR "land owner*") AND ( "gender" OR "women*" OR "female" OR "girl*" )
                 </aqd:query-line>
                 <aqd:query-line field="TITLE-ABS-KEY">( ("property" OR "ownership*" OR "right*" OR "control*" ) W/3 ("natural resource*" OR "economic resource*")) AND ("gender" OR "women*" OR "female" OR "girl*")
                 </aqd:query-line>

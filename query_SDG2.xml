@@ -52,7 +52,7 @@
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">( "hunger*"  OR  "famine" )  W/3  ( "end"  OR  "ending"  OR  "eradicat*"  OR  "reduc*"  OR  "alleviat*" )  
 				</aqd:query-line>
-                <aqd:query-line field="TITLE-ABS-KEY">( "access") W/3 ("food*" OR "nutrition*") W/3 (“poor” OR “child*” OR “infant*”)
+                <aqd:query-line field="TITLE-ABS-KEY">( "access") W/3 ("food*" OR "nutrition*") W/3 ("poor" OR "child*" OR "infant*")
 				</aqd:query-line>
                 <aqd:query-line field="TITLE-ABS-KEY">( "prevalen*" OR "hunger*" OR "famine" ) W/3
 				("food security" OR "food insecurity" OR "food deprivation" OR "malnutrition*" OR "undernutrion*" OR "malnourish*" OR "undernourish*")
@@ -81,7 +81,7 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY">( "child*" OR "infant*" OR “neonate*” OR “newborn*” OR "baby" OR “babies”) W/3 ("hunger*" OR "stunting" OR “wasting” OR "nutritional status" OR "malnutrition*" OR "undernutrition*" OR "malnourish*" OR "undernourish*")</aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">( "child*" OR "infant*" OR "neonate*" OR "newborn*" OR "baby" OR "babies") W/3 ("hunger*" OR "stunting" OR "wasting" OR "nutritional status" OR "malnutrition*" OR "undernutrition*" OR "malnourish*" OR "undernourish*")</aqd:query-line>
 				<aqd:query-line field="TITLE-ABS-KEY">( "adolescent girl*" OR "pregnant women" OR "lactating women" ) AND ("nutrition*") W/3 ("need*") </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
@@ -105,7 +105,7 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                 <aqd:query-line field="TITLE-ABS-KEY">("agriculture*" OR "food*") W/3 ("producti*") AND (“scale” OR "smallscale")
+                 <aqd:query-line field="TITLE-ABS-KEY">("agriculture*" OR "food*") W/3 ("producti*") AND ("scale" OR "smallscale")
 				</aqd:query-line>
 				<aqd:query-line field="TITLE-ABS-KEY">("agriculture*" OR "food*") W/3 ("sustainab*") W/3 ("intensificat*")
 				</aqd:query-line>
@@ -155,7 +155,7 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY">( “genetic diversity” OR “biodiversity”) W/3 (“maintain*” OR “conserve*”) AND (“seed*”OR “cultivated plant*” OR “farmed animal*” OR “domesticated animal*”)
+                <aqd:query-line field="TITLE-ABS-KEY">( "genetic diversity" OR "biodiversity") W/3 ("maintain*" OR "conserve*") AND ("seed*"OR "cultivated plant*" OR "farmed animal*" OR "domesticated animal*")
 				</aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
@@ -211,7 +211,7 @@
 				</aqd:query-line>
 				<aqd:query-line field="TITLE-ABS-KEY">("agricultur*") AND ("Doha development round")
 				</aqd:query-line>
-				<aqd:query-line field="TITLE-ABS-KEY">("producer support estimate”)
+				<aqd:query-line field="TITLE-ABS-KEY">("producer support estimate")
 				</aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
@@ -230,9 +230,9 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY">("food price*”) W/3 (“volatil*”)
+                <aqd:query-line field="TITLE-ABS-KEY">("food price*") W/3 ("volatil*")
 				</aqd:query-line>
-				<aqd:query-line field="TITLE-ABS-KEY">("food*") W/3 ("commodit*”) W/3 (“market*")
+				<aqd:query-line field="TITLE-ABS-KEY">("food*") W/3 ("commodit*") W/3 ("market*")
 				</aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>

@@ -66,7 +66,7 @@
 					OR ( ( "climate" )  AND  ( ( "Kyoto" )  W/3  ( "protocol" ) ) )  
                     OR ( "climate action*" )
                     OR ( "Climate Effect*" )
-                    OR ( "Climate Model*” )
+                    OR ( "Climate Model*" )
                     OR ( "Climate Variability" )
                     OR ( "Climate Variation*" )
                     OR ( "climate-driven" )

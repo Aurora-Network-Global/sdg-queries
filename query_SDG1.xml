@@ -51,11 +51,11 @@
                 <aqd:query-line field="TITLE-ABS-KEY">( "poverty" ) W/3
                     ( "eradicat*" OR "reduc*" OR "end" OR "ending" OR "alleviat*")
                 </aqd:query-line>
-				<aqd:query-line field="TITLE-ABS-KEY">(“poverty line*”) OR (“poverty indicator*")
+				<aqd:query-line field="TITLE-ABS-KEY">("poverty line*") OR ("poverty indicator*")
                 </aqd:query-line>
-				<aqd:query-line field="TITLE-ABS-KEY">(“poverty" OR "income") W/3 (“inequalit*")
+				<aqd:query-line field="TITLE-ABS-KEY">("poverty" OR "income") W/3 ("inequalit*")
                 </aqd:query-line>
-				<aqd:query-line field="TITLE-ABS-KEY">(“poverty”) W/3 ("chronic*" OR "extreme")
+				<aqd:query-line field="TITLE-ABS-KEY">("poverty") W/3 ("chronic*" OR "extreme")
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
@@ -82,7 +82,7 @@
                     ( "poverty" ) W/3
                     ( "living" OR "life" OR "child*" OR "socioeconomic*" OR "socio-economic*"OR "social welfare" OR "household*" OR
                     "income*" )
-					OR (“poverty line*”)
+					OR ("poverty line*")
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
@@ -103,7 +103,7 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ("social protection" OR "economic marginalization" OR "economic marginalisation" OR "poor*" OR " vulnerable") AND (“poverty” OR “income”)
+                    ("social protection" OR "economic marginalization" OR "economic marginalisation" OR "poor*" OR " vulnerable") AND ("poverty" OR "income")
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
@@ -128,7 +128,7 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY">("access" OR "right*") W/3 ("economic resource*" OR “basic service*”)
+                <aqd:query-line field="TITLE-ABS-KEY">("access" OR "right*") W/3 ("economic resource*" OR "basic service*")
                 </aqd:query-line>
                 <aqd:query-line field="TITLE-ABS-KEY">("ownership*") W/3 ("land")
                 </aqd:query-line>
@@ -157,7 +157,7 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY">("resilien*") W/3 (“poverty” OR "the poor*")
+                <aqd:query-line field="TITLE-ABS-KEY">("resilien*") W/3 ("poverty" OR "the poor*")
 				</aqd:query-line>
                 <aqd:query-line field="TITLE-ABS-KEY">("disaster*") W/3 ( "number of death*")
 				</aqd:query-line>
@@ -192,7 +192,7 @@
             </aqd:query-line>
             <aqd:query-line field="TITLE-ABS-KEY">("poverty") W/3 ("develop*") W/3 ("program*" OR "polic*")
             </aqd:query-line>
-            <aqd:query-line field="TITLE-ABS-KEY">("government*") W/3 ("spending*”) W/3 ("education*" OR "health*" OR  "social protection")
+            <aqd:query-line field="TITLE-ABS-KEY">("government*") W/3 ("spending*") W/3 ("education*" OR "health*" OR  "social protection")
             </aqd:query-line>
             <aqd:query-line field="TITLE-ABS-KEY">("government* expenditure") W/3 ("education*" OR "health*" OR  "social protection")
             </aqd:query-line>
@@ -216,7 +216,7 @@
             <aqd:query-lines>
             <aqd:query-line field="TITLE-ABS-KEY">("investment") W/3 ("poverty")
             </aqd:query-line>
-            <aqd:query-line field="TITLE-ABS-KEY">("government*") W/3 ("spending*”) W/3 ("women" OR "poor and vulnerable")
+            <aqd:query-line field="TITLE-ABS-KEY">("government*") W/3 ("spending*") W/3 ("women" OR "poor and vulnerable")
             </aqd:query-line>
             <aqd:query-line field="TITLE-ABS-KEY">("government* expenditure") W/3 ("women" OR "poor and vulnerable")
             </aqd:query-line>

@@ -49,7 +49,7 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ("reduce" OR "end" OR "ending" OR "ratio") W/3 ( ( "maternal" W/3 ("mortality" OR “death*”) ) )
+                    ("reduce" OR "end" OR "ending" OR "ratio") W/3 ( ( "maternal" W/3 ("mortality" OR "death*") ) )
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
@@ -74,7 +74,7 @@
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
                     ( ("reduce" OR "end" OR "ending" OR "prevent*" OR "ratio*") W/3 (("neonatal" OR "under-five" OR ( "under" W/2 ("5" OR "five") )
-                    OR "before fifth") W/3 ("mortality" OR “death*”) ) )
+                    OR "before fifth") W/3 ("mortality" OR "death*") ) )
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
@@ -123,7 +123,7 @@
                     OR "neglected disease*"
                     OR "dengue"
 					OR "Chagas*" OR "trypanosom*"
-					OR ("COVID19" OR "COVID-19" OR "2019-nCoV" OR “SARS-CoV-2” OR “SARS-CoV2” OR "HCoV-2019" OR "hcov" OR "NCOVID-19" 
+					OR ("COVID19" OR "COVID-19" OR "2019-nCoV" OR "SARS-CoV-2" OR "SARS-CoV2" OR "HCoV-2019" OR "hcov" OR "NCOVID-19" 
 					OR "severe acute respiratory syndrome coronavirus 2" OR "severe acute respiratory syndrome corona virus 2" OR "coronavirus" OR "corona virus")  )
  				 </aqd:query-line>
             </aqd:query-lines>
@@ -147,23 +147,23 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-				(“cardiovascular disease* “ OR “heart attack*” OR “stroke” OR “myocard* infarct*” OR “cerebrovascular accident*” OR
-				“cva” OR “cva” OR “cancer*” OR “neoplasm*” OR “tumor*” OR “tumour*” OR “carcinoma*” OR “chronic obstructive pulmonary disease*” OR
-				“copd” OR “coad” OR “lung emphysema*” OR (“bronchitis” W/3 “chronic”) OR “asthma*” OR “diabetes mellitus” OR “diabetes insipidus”)
+				("cardiovascular disease* " OR "heart attack*" OR "stroke" OR "myocard* infarct*" OR "cerebrovascular accident*" OR
+				"cva" OR "cva" OR "cancer*" OR "neoplasm*" OR "tumor*" OR "tumour*" OR "carcinoma*" OR "chronic obstructive pulmonary disease*" OR
+				"copd" OR "coad" OR "lung emphysema*" OR ("bronchitis" W/3 "chronic") OR "asthma*" OR "diabetes mellitus" OR "diabetes insipidus")
 				AND
 				("premature" W/3 ("mortality" OR "death*"))
 				</aqd:query-line>
 				 <aqd:query-line field="TITLE-ABS-KEY">
-				(“cardiovascular disease* “ OR “heart attack*” OR “stroke” OR “myocard* infarct*” OR “cerebrovascular accident*” OR
-				“cva” OR “cva” OR “cancer*” OR “neoplasm*” OR “tumor*” OR “tumour*” OR “carcinoma*” OR “chronic obstructive pulmonary disease*” OR
-				“copd” OR “coad” OR “lung emphysema*” OR (“bronchitis” W/3 “chronic”) OR “asthma*” OR “diabetes mellitus” OR “diabetes insipidus”)
+				("cardiovascular disease* " OR "heart attack*" OR "stroke" OR "myocard* infarct*" OR "cerebrovascular accident*" OR
+				"cva" OR "cva" OR "cancer*" OR "neoplasm*" OR "tumor*" OR "tumour*" OR "carcinoma*" OR "chronic obstructive pulmonary disease*" OR
+				"copd" OR "coad" OR "lung emphysema*" OR ("bronchitis" W/3 "chronic") OR "asthma*" OR "diabetes mellitus" OR "diabetes insipidus")
 				AND
 				("mortality rate")
 				</aqd:query-line>
 				 <aqd:query-line field="TITLE-ABS-KEY">
-				(“cardiovascular disease* “ OR “heart attack*” OR “stroke” OR “myocard* infarct*” OR “cerebrovascular accident*” OR
-				“cva” OR “cva” OR “cancer*” OR “neoplasm*” OR “tumor*” OR “tumour*” OR “carcinoma*” OR “chronic obstructive pulmonary disease*” OR
-				“copd” OR “coad” OR “lung emphysema*” OR (“bronchitis” W/3 “chronic”) OR “asthma*” OR “diabetes mellitus” OR “diabetes insipidus”)
+				("cardiovascular disease* " OR "heart attack*" OR "stroke" OR "myocard* infarct*" OR "cerebrovascular accident*" OR
+				"cva" OR "cva" OR "cancer*" OR "neoplasm*" OR "tumor*" OR "tumour*" OR "carcinoma*" OR "chronic obstructive pulmonary disease*" OR
+				"copd" OR "coad" OR "lung emphysema*" OR ("bronchitis" W/3 "chronic") OR "asthma*" OR "diabetes mellitus" OR "diabetes insipidus")
 				AND
 				("suicid*")
 				</aqd:query-line>
@@ -249,13 +249,13 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                (“Access” OR (“national” W/3 “strategy*” OR “program*”)) AND (“Sexual health care” OR “Sexual healthcare” OR “Reproductive health care” OR “Reproductive healthcare”)
+                ("Access" OR ("national" W/3 "strategy*" OR "program*")) AND ("Sexual health care" OR "Sexual healthcare" OR "Reproductive health care" OR "Reproductive healthcare")
                 </aqd:query-line>
                  <aqd:query-line field="TITLE-ABS-KEY">
-                (“family planning” OR “unintended pregnanc*” OR “unwanted pregnanc*” OR “unintended motherhood”)
+                ("family planning" OR "unintended pregnanc*" OR "unwanted pregnanc*" OR "unintended motherhood")
                 </aqd:query-line>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                (“adolescen*” OR “teen*”) W/3 (“birth rate” OR “pregnan” OR “mother*”)
+                ("adolescen*" OR "teen*") W/3 ("birth rate" OR "pregnan" OR "mother*")
                 </aqd:query-line>
 				</aqd:query-lines>
         </aqd:query-definition>
@@ -283,7 +283,7 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                   (“universal health coverage” OR (("essential ") W/3 ("healthcare" OR "health care" OR "medicine*" OR "vaccine*")))
+                   ("universal health coverage" OR (("essential ") W/3 ("healthcare" OR "health care" OR "medicine*" OR "vaccine*")))
                 </aqd:query-line>
 				<aqd:query-line field="TITLE-ABS-KEY">
                    ( ( "household expenditure" )  W/3  ( "health" ) )
@@ -346,7 +346,7 @@
                 <aqd:query-line field="TITLE-ABS-KEY">
                     ( "tobacco" W/6 "control*" )
                     OR ( "health" W/3 "smoking" )
-                    OR (("smoking") W/3 (“cessation" OR "quit*”) W/3 ( "health"  OR  "benefit*" ))
+                    OR (("smoking") W/3 ("cessation" OR "quit*") W/3 ( "health"  OR  "benefit*" ))
                 </aqd:query-line>
                  <aqd:query-line field="TITLE-ABS-KEY">
                     (("tobacco" OR "smoking") W/3 ("age") W/3 ("prevalen*" OR "number*"))

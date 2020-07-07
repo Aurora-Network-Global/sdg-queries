@@ -152,7 +152,7 @@
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">( "water*" )  W/3  ( "resource* manage*"  OR  "cooperation*" )
                 </aqd:query-line>
-                 <aqd:query-line field="TITLE-ABS-KEY">( "address*" OR “coping” OR “polic*")  W/3  ( "water scarc*"  OR  "water short*" )
+                 <aqd:query-line field="TITLE-ABS-KEY">( "address*" OR "coping" OR "polic*")  W/3  ( "water scarc*"  OR  "water short*" )
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
