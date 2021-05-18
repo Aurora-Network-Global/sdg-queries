@@ -382,7 +382,7 @@
 				</aqd:query-line>
 				<aqd:query-line field="TITLE-ABS-KEY">("access*") W/3 ("essential") W/3 ("medicine*"OR "vaccin*")
 				</aqd:query-line>
-				<aqd:query-line field="TITLE-ABS-KEY">(("develop* W/3 assist*") W/3 (("medical research") OR ("health sector*")) )
+				<aqd:query-line field="TITLE-ABS-KEY">(("develop*" W/3 "assist*") W/3 (("medical research") OR ("health sector*")) )
 				</aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
