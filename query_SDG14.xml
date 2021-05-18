@@ -251,11 +251,11 @@
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
                     ("ocean*" OR "marine" OR "coast*" OR "sea" OR "seas" OR "seawater*" OR "sea
-                    water*" OR "coral reef*" ) AND ("sustainab*" OR "preserv**" OR "conserv*" OR "protect*") AND
+                    water*" OR "coral reef*" ) AND ("sustainab*" OR "preserv*" OR "conserv*" OR "protect*") AND
                     ("jurisdiction*" OR "legal" OR "law*")
                 </aqd:query-line>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ("sustainab*" OR "preserv**" OR "conserv*" OR "protect*") 
+                    ("sustainab*" OR "preserv*" OR "conserv*" OR "protect*") 
 					AND  ( "UNCLOS"  OR  "UN Convention on the Law of the Sea"  OR  "United Nations Convention on the Law of the Sea" )  
                 </aqd:query-line>
             </aqd:query-lines>
