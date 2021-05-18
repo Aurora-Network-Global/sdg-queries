@@ -171,7 +171,7 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    (water*) W/3 (ecosystem*)
+                    ("water*") W/3 ("ecosystem*")
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
