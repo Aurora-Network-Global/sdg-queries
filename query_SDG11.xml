@@ -102,10 +102,10 @@
 				( "sustainab*"  OR  "inclusi*" )  W/3  ( "urbanisation"  OR  "urbanization"  OR  "settlement*"  OR  "city"  OR  "cities" )  
                 </aqd:query-line>
                  <aqd:query-line field="TITLE-ABS-KEY">
-				 ( ( "land"  W/3  "consumption" )  AND  ( "population"  W/3  "growth " ) )  
+				 ( ( "land"  W/3  "consumption" )  AND  ( "population"  W/3  "growth" ) )  
                 </aqd:query-line>
                  <aqd:query-line field="TITLE-ABS-KEY">
-				 ( "urban"  OR  "city" )  W/3  ( "planning "  OR  "management" )  W/3  ( "participat*" )  
+				 ( "urban"  OR  "city" )  W/3  ( "planning"  OR  "management" )  W/3  ( "participat*" )  
                 </aqd:query-line>
 				</aqd:query-lines>
         </aqd:query-definition>

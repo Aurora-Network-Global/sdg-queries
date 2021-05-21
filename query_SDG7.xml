@@ -96,7 +96,7 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY">( ( " improv*" )  W/3  ( "energy" )  W/3  ( "efficiency" ) )
+                <aqd:query-line field="TITLE-ABS-KEY">( ( "improv*" )  W/3  ( "energy" )  W/3  ( "efficiency" ) )
                 </aqd:query-line>
                 <aqd:query-line field="TITLE-ABS-KEY">( ( "reduc*" )  W/3  ( "energy consumption" ) )
                 </aqd:query-line>
