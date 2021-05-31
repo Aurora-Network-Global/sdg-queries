@@ -80,7 +80,7 @@
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
                     ( "poverty" ) W/3
-                    ( "living" OR "life" OR "child*" OR "socioeconomic*" OR "socio-economic*"OR "social welfare" OR "household*" OR
+                    ( "living" OR "life" OR "child*" OR "socioeconomic*" OR "socio-economic*" OR "social welfare" OR "household*" OR
                     "income*" )
 					OR ("poverty line*")
                 </aqd:query-line>
@@ -103,7 +103,7 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                    ("social protection" OR "economic marginalization" OR "economic marginalisation" OR "poor*" OR " vulnerable") AND ("poverty" OR "income")
+                    ("social protection" OR "economic marginalization" OR "economic marginalisation" OR "poor*" OR "vulnerable") AND ("poverty" OR "income")
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>

@@ -102,7 +102,7 @@
                  ( "food" ) W/3 ( "wast*" OR "loss*" OR "spoil*" )
                 </aqd:query-line>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                 " postharvest loss*" OR " post-harvest loss*"
+                 "postharvest loss*" OR "post-harvest loss*"
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>

@@ -155,7 +155,7 @@
                 </aqd:subquery-description>
             </aqd:subquery-descriptions>
             <aqd:query-lines>
-                <aqd:query-line field="TITLE-ABS-KEY">( "genetic diversity" OR "biodiversity") W/3 ("maintain*" OR "conserve*") AND ("seed*"OR "cultivated plant*" OR "farmed animal*" OR "domesticated animal*")
+                <aqd:query-line field="TITLE-ABS-KEY">( "genetic diversity" OR "biodiversity") W/3 ("maintain*" OR "conserve*") AND ("seed*" OR "cultivated plant*" OR "farmed animal*" OR "domesticated animal*")
 				</aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
