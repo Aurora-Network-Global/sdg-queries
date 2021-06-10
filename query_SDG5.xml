@@ -187,7 +187,7 @@
 				</aqd:query-line>
                 <aqd:query-line field="TITLE-ABS-KEY">( "Access" )  AND  ( "Sexual health care"  OR  "Sexual healthcare"  OR  "Reproductive health care"  OR  "Reproductive healthcare" )
 				</aqd:query-line>
-				<aqd:query-line field="TITLE-ABS-KEY">( ( "own"  OR  "informed" )  W/3  ( "decision" )  W/3  ( "sexual"  OR  "contracepti*"  OR  "reproducti*"  OR  "family planning"  OR  "parentiong plan*"  OR  "abortion" ) )  
+				<aqd:query-line field="TITLE-ABS-KEY">( ( "own"  OR  "informed" )  W/3  ( "decision" )  W/3  ( "sexual"  OR  "contracepti*"  OR  "reproducti*"  OR  "family planning"  OR  "parenting plan*"  OR  "abortion" ) )
 				</aqd:query-line>
 				<aqd:query-line field="TITLE-ABS-KEY">( "Access" )  AND  ( "Sexual information"  OR  "Sexual education"  OR  "Reproductive information"  OR  "Reproductive education" )
 				</aqd:query-line>
