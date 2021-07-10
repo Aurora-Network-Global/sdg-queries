@@ -84,7 +84,7 @@
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
                     ( "Quality" OR "equitabl*" OR "free" OR "access" OR "affordab*") W/3
-                    ( "preschool" OR "pre-school" OR" pre-primary education" OR "pre-primary school" OR "preprimary education" OR "preprimary school")
+                    ( "preschool" OR "pre-school" OR "pre-primary education" OR "pre-primary school" OR "preprimary education" OR "preprimary school")
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>

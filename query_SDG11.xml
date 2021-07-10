@@ -174,7 +174,7 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-				( "city"  OR  "cities"  OR  "urban"  OR  "municipalit*" )  W/3 (( "air quality" OR "smog") OR ( "waste management" ) OR ( "solid waste " ) OR ( "PM10" OR   "PM2.5" )) 
+				( "city"  OR  "cities"  OR  "urban"  OR  "municipalit*" )  W/3 (( "air quality" OR "smog") OR ( "waste management" ) OR ( "solid waste" ) OR ( "PM10" OR   "PM2.5" ))
                 </aqd:query-line>
             </aqd:query-lines>
         </aqd:query-definition>
