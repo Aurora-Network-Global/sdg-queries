@@ -255,7 +255,7 @@
                 ("family planning" OR "unintended pregnanc*" OR "unwanted pregnanc*" OR "unintended motherhood")
                 </aqd:query-line>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                ("adolescen*" OR "teen*") W/3 ("birth rate" OR "pregnan" OR "mother*")
+                ("adolescen*" OR "teen*") W/3 ("birth rate" OR "pregnan*" OR "mother*")
                 </aqd:query-line>
 				</aqd:query-lines>
         </aqd:query-definition>

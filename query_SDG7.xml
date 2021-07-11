@@ -71,13 +71,13 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                ( "share"  OR  "increas*"  OR  "promot" )  W/3  ( ( "renewable"  OR  "alternative"  OR  "clean" )  W/3  ( "energy"  OR  "fuel" ) )  
+                ( "share"  OR  "increas*"  OR  "promot*" )  W/3  ( ( "renewable"  OR  "alternative"  OR  "clean" )  W/3  ( "energy"  OR  "fuel" ) )
 				</aqd:query-line>
                  <aqd:query-line field="TITLE-ABS-KEY">
-                ( "share"  OR  "increas*"  OR  "promot" )  W/3  ( ( "energy" )  W/3  ( "conversion"  OR  "transition" ) )  
+                ( "share"  OR  "increas*"  OR  "promot*" )  W/3  ( ( "energy" )  W/3  ( "conversion"  OR  "transition" ) )
 				</aqd:query-line>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                ( "share"  OR  "increas*"  OR  "promot" )  W/3  
+                ( "share"  OR  "increas*"  OR  "promot*" )  W/3
 				( "Biofuel*"  OR  "Biogas*"  OR  "Heat pump*"  OR  "Hybrid power"  OR  "Solar energy"  OR  "Solar power"  OR  "Wind energy"  OR  "Wind farm*"  
 				OR  "Wind power"  OR  "Wind turbine*" )  
 				</aqd:query-line>

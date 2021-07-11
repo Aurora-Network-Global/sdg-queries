@@ -54,7 +54,7 @@
                  ( "quality"  OR  "reliab*"  OR  "sustainab*"  OR  "resilient" )  W/3  ( "infrastructure" )
                 </aqd:query-line>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                ( "economic development"  OR  "human well-being" )  AND  ( afford*  OR  equitable )
+                ( "economic development"  OR  "human well-being" )  AND  ( "afford*"  OR  "equitable" )
                  </aqd:query-line>
 				 <aqd:query-line field="TITLE-ABS-KEY">
                 ( "rural"  W/3  "population*"  W/3  "road*" )

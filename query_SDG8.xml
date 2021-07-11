@@ -221,7 +221,7 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                 ( "force* labo*" )  OR  ( "modern slavery" )  OR  ( "human* traffic* " )  OR  ( "child* labo*" )  
+                 ( "force* labo*" )  OR  ( "modern slavery" )  OR  ( "human* traffic*" )  OR  ( "child* labo*" )
 				 OR  ( "child* slavery" )  OR  ( "child* traffick*" )  OR  ( "child* work*" )  
                 </aqd:query-line>
             </aqd:query-lines>
