@@ -388,7 +388,7 @@
         </aqd:query-definition>
         <aqd:query-definition syntax="SCOPUS">
             <aqd:subquery-identifier>c</aqd:subquery-identifier>
-			<dc:identifier type="uri">http://metadata.un.org/sdg/3c</dc:identifier>
+			<dc:identifier type="uri">http://metadata.un.org/sdg/3.c</dc:identifier>
             <aqd:subquery-descriptions>
                 <aqd:subquery-description>
                     Substantially increase health financing and the recruitment, development,
