@@ -26,7 +26,7 @@ The classification model we have used are 17 different search queries on the Sco
 
 ## Accuracy (Precision and Recall)
 We have [tested these queries against a panel of 255 researchers](https://doi.org/10.5281/zenodo.3813230), and found these queries to have an average Precision of 70% (truely related to that SDG according to the researchers), and an average Recall of 14% (from the corpus of suggested papers by the researchers.). Read more about the accuracy in this evaluation report: 
-Schmidt, Felix, & Vanderfeesten, Maurice. (2021). *Evaluation on accuracy of mapping science to the United Nations' Sustainable Development Goals (SDGs) of the Aurora SDG queries* (v1.0.2). Zenodo. https://doi.org/10.5281/zenodo.4964606.
+Schmidt, Felix, & Vanderfeesten, Maurice. (2021). *Evaluation on accuracy of mapping science to the United Nations' Sustainable Development Goals (SDGs) of the Aurora SDG queries* (v1.0.2). Zenodo. [https://doi.org/10.5281/zenodo.4964606](https://doi.org/10.5281/zenodo.4964606).
 
 ## Versions
 Different versions of the search queries have been made over the past years to improve the precision (soundness) and recall (completeness) of the results. The queries have been made in a team effort by several bibliometric experts from the Aurora Universities. Each one did two or 3  SDG's, and than reviewed each other's work.
