@@ -25,7 +25,7 @@ The initiative started from the Aurora Universities Network in 2017, in the work
 The classification model we have used are 17 different search queries on the Scopus database. The search queries are elegant constructions with keyword combinations and boolean and proximity operators, in the syntax specific to the Scopus Query Language. We have used Scopus because it covers more research area's that are relevant to the SDG's, and we could filter much easier the Aurora Institutions.
 
 ## Accuracy (Precision and Recall)
-We have [tested these queries against a panel of 255 researchers](https://doi.org/10.5281/zenodo.3813230), and found these queries to have an average Precision of 70% (truely related to that SDG according to the researchers), and an average Recall of 14% (from the corpus of suggested papers by the researchers.). Read more about the accuracy in this evaluation report: 
+We have [tested these queries against a panel of 255 researchers](https://doi.org/10.5281/zenodo.3813230), and found these queries to have an average *Precision of 70%* (70% of the publications are truely related to that SDG; papers selected by the researchers), and an average *Recall of 14%* (14% of the publications are found in a 'true' corpus; papers suggested on forehand by the researchers). Read more about the accuracy in this evaluation report: 
 Schmidt, Felix, & Vanderfeesten, Maurice. (2021). *Evaluation on accuracy of mapping science to the United Nations' Sustainable Development Goals (SDGs) of the Aurora SDG queries* (v1.0.2). Zenodo. [https://doi.org/10.5281/zenodo.4964606](https://doi.org/10.5281/zenodo.4964606).
 
 ## Versions
