@@ -1,5 +1,3 @@
-*[Please note: we are currently working on a multi-lingual SDG classifier; training an AI using the data from these queries.](https://sites.google.com/vu.nl/aurora-sdg-research-dashboard/deliverables)*
-
 # Search Queries for "Mapping Research Output to the Sustainable Development Goals (SDGs)"
 __This package contains machine readable (xml) search queries, for the Scopus publications database, to find domain specific research output that are related to the 17 Sustainable Development Goals (SDGs).__
 
@@ -8,6 +6,8 @@ ___[Click here for PROJECT WEBSITE](https://aurora-network.global/project/sdg-an
 
 ![A global effort in "Mapping research output to the Sustainable Development Goals". An initiative by the Aurora Universities Network ](./images/survey-logo-header-mapping-research-to-sdgs.png)
 ![illustration of XML and translation in HTML](./images/aurora-sdg-queries-xml-html.png)
+
+*[Please note: we are currently working on a multi-lingual SDG classifier; training an AI using the data from these queries.](https://sites.google.com/vu.nl/aurora-sdg-research-dashboard/deliverables)*
 
 ## Introduction
 [Sustainable Development Goals](https://sustainabledevelopment.un.org/sdgs) are the 17 global challenges set by the United Nations. Within each of the goals specific targets and indicators are mentioned to monitor the progress of reaching those goals by 2030. In an effort to capture how research is contributing to move the needle on those challenges, we earlier have made an initial classification model that enables to quickly identify what research output is related to what SDG. (This [Aurora SDG dashboard](https://aurora-network.global/project/sdg-analysis-bibliometrics-relevance/) is the  initial outcome as _proof of practice_.)  
