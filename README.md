@@ -1,3 +1,5 @@
+*[Please note: we are currently working on a multi-lingual SDG classifier; training an AI using the data from these queries.](https://sites.google.com/vu.nl/aurora-sdg-research-dashboard/deliverables)*
+
 # Search Queries for "Mapping Research Output to the Sustainable Development Goals (SDGs)"
 __This package contains machine readable (xml) search queries, for the Scopus publications database, to find domain specific research output that are related to the 17 Sustainable Development Goals (SDGs).__
 
@@ -22,11 +24,24 @@ Select one of the SDG icons to go to the latest Search Query.
 The initiative started from the Aurora Universities Network in 2017, in the working group "[Societal Impact and Relevance of Research](https://aurora-network.global/activity/societal-impact-and-relevance-of-research-sirr/)", to investigate and to make visible 1. what research is done that are relevant to topics or challenges that live in society (for the proof of practice this has been scoped down to the SDGs), and 2. what the effect or impact is of implementing those research outcomes to those societal challenges (this also have been scoped down to research output being cited in policy documents from national and local governments an NGO's).
 
 ## Method
-The classification model we have used are 17 different search queries on the Scopus database. The search queries are elegant constructions with keyword combinations and boolean and proximity operators, in the syntax specific to the Scopus Query Language. We have used Scopus because it covers more research area's that are relevant to the SDG's, and we could filter much easier the Aurora Institutions.
+The classification model we have used are 17 different search queries on the Scopus database composed from 169 sub-quesies, one for each target. The search queries are elegant constructions with keyword combinations, boolean- and proximityo-operators, in the syntax is specific to the Scopus Query Language. We have used Scopus because it covers more research area's that are relevant to the SDG's, and we could filter much easier the Aurora Institutions.
 
 ## Accuracy (Precision and Recall)
-We have [tested these queries in a survey against a panel of 255 researchers](https://doi.org/10.5281/zenodo.3813230), and found these queries to have an average *Precision of 70%* (70% of the publications are truely related to that SDG; papers selected by the researchers), and an average *Recall of 14%* (14% of the publications are found in a 'true' corpus; papers suggested on forehand by the researchers). Read more about the accuracy in this evaluation report: 
-Schmidt, Felix, & Vanderfeesten, Maurice. (2021). *Evaluation on accuracy of mapping science to the United Nations' Sustainable Development Goals (SDGs) of the Aurora SDG queries* (v1.0.2). Zenodo. [https://doi.org/10.5281/zenodo.4964606](https://doi.org/10.5281/zenodo.4964606).
+In order to validate the accuracy of the classification model, we have tested these queries in a survey against a panel of 244 researchers. The survey was open from October 2019 till January 2020, and captured data from 244 respondents in Europe and North America.
+
+The Survery data can be found here:
+ [Survey data of "Mapping Research output to the SDGs" by Aurora Universities Network (AUR) doi:10.5281/zenodo.3798385](https://doi.org/10.5281/zenodo.3798385)
+
+We used that data to receive input for improvement, and to measure the accuracy. 
+
+Regarding accuracy we found the version 5 queries to have an average *Precision of 70%* (70% of the publications are truely related to that SDG; papers selected by the researchers), and an average *Recall of 14%* (14% of the publications are found in a 'true' corpus; papers suggested on forehand by the researchers). 
+
+The Evaluation report can be found here: 
+[Schmidt, Felix, & Vanderfeesten, Maurice. (2021). *Evaluation on accuracy of mapping science to the United Nations' Sustainable Development Goals (SDGs) of the Aurora SDG queries* (v1.0.2). Zenodo. https://doi.org/10.5281/zenodo.4964606](https://doi.org/10.5281/zenodo.4964606).
+
+[ ![precision and recall graph](./images/aurora-sdg-evaluation-outcomes-graph.png)](https://zenodo.org/record/4964606/files/Evaluation_on_accuracy_of_mapping_science_to_the_United_Nations__Sustainable_Development_Goals__SDGs__of_the_Aurora_SDG_queries.pdf?download=1)
+
+[ ![precision and recall table](./images/aurora-sdg-evaluation-outcomes-table.png)](https://zenodo.org/record/4964606/files/Evaluation_on_accuracy_of_mapping_science_to_the_United_Nations__Sustainable_Development_Goals__SDGs__of_the_Aurora_SDG_queries.pdf?download=1)
 
 ## Versions
 Different versions of the search queries have been made over the past years to improve the precision (soundness) and recall (completeness) of the results. The queries have been made in a team effort by several bibliometric experts from the Aurora Universities. Each one did two or 3  SDG's, and than reviewed each other's work.
@@ -54,20 +69,6 @@ We do have made all the queries in XML format from version 4 onward, but also re
 
 Translation to HTML (XSL) and a descriptive schema (XSD) are available in this package.
 
-## Validation results of SDG queries v4.0 - Precision and Recall
-In order to validate classification model version 4 (on soundness/precision and completeness/recall), and receive input for improvement, a survey has been conducted to capture expert knowledge from senior researchers in their research domain related to the SDG. The survey was open to the world, but mainly distributed to researchers from the [Aurora Universities Network](https://aurora-network.global/). The survey was open from October 2019 till January 2020, and captured data from 244 respondents in Europe and North America.
-
-The data can be found here:
- [Survey data of "Mapping Research output to the SDGs" by Aurora Universities Network (AUR) doi:10.5281/zenodo.3798385](https://doi.org/10.5281/zenodo.3798385)
-
-We used the data for creating a baseline for the SDG classification model, and secondly to gather information on improving a next version.
-
-The graph below shows the precision (soundness) on the vertical axis, and the recall (completeness) on the horizontal axis of each SDG query in the version 4 set. The size is the number of papers reviewed by respondents (accepted + rejected).  The rough averages (including outliers) of all SDG queries on Precision is 0.61, and on Recall is 0.15. Meaning we mostly find the right papers, but there are much more relevant papers we do not capture with the version 4 classification model. This was expected, therefore this sets the baseline for a version 5 of the classification model.
-
-[ ![precision and recall graph](./images/aurora-sdg-survey-query-v4-recall-precision-graph.png)](https://app.powerbi.com/view?r=eyJrIjoiM2I5M2RiZDUtZTgxYy00ZTI0LWE5ZmItMjNjYTk3ZTU1NWI2IiwidCI6IjQ2MmE5YzljLTJkYTYtNGJmYi1iMzE4LTBmODMwNDNmZTQ5YiIsImMiOjh9)
-
-[ ![precision and recall table](./images/aurora-sdg-survey-query-v4-recall-precision-table.png)](https://app.powerbi.com/view?r=eyJrIjoiM2I5M2RiZDUtZTgxYy00ZTI0LWE5ZmItMjNjYTk3ZTU1NWI2IiwidCI6IjQ2MmE5YzljLTJkYTYtNGJmYi1iMzE4LTBmODMwNDNmZTQ5YiIsImMiOjh9)
-
 ## License and Attribution, Acknowledgements and how to Cite
 ### Acknowledgements
 We would like to thank the presidents of the Aurora Universities for their support and executive representation in this project. Also we would like to thank all researchers involved to have shared their expertise.
@@ -78,15 +79,16 @@ If you want to tribute this hard work, please reuse these  SDG queries to create
 Do so by respecting the license and attribute the contributors.
 
 ### Please cite these search queries sets as follows:  
-*Search Queries for "Mapping Research Output to the Sustainable Development Goals (SDGs)" v1.0* by Aurora Universities Network (AUR) [doi:10.5281/zenodo.3817352](https://doi.org/10.5281/zenodo.3817352)
-
-*Search Queries for "Mapping Research Output to the Sustainable Development Goals (SDGs)" v2.0* by Aurora Universities Network (AUR) [doi:10.5281/zenodo.3817433](https://doi.org/10.5281/zenodo.3817433)
-
-*Search Queries for "Mapping Research Output to the Sustainable Development Goals (SDGs)" v3.0* by Aurora Universities Network (AUR) [doi:10.5281/zenodo.3817437](https://doi.org/10.5281/zenodo.3817437)
+*Search Queries for "Mapping Research Output to the Sustainable Development Goals (SDGs)" v5.0* by Aurora Universities Network (AUR) [doi:10.5281/zenodo.3817445](https://doi.org/10.5281/zenodo.3817445)
 
 *Search Queries for "Mapping Research Output to the Sustainable Development Goals (SDGs)" v4.0* by Aurora Universities Network (AUR) [doi:10.5281/zenodo.3817443](https://doi.org/10.5281/zenodo.3817443)
 
-*Search Queries for "Mapping Research Output to the Sustainable Development Goals (SDGs)" v5.0* by Aurora Universities Network (AUR) [doi:10.5281/zenodo.3817445](https://doi.org/10.5281/zenodo.3817445)
+*Search Queries for "Mapping Research Output to the Sustainable Development Goals (SDGs)" v3.0* by Aurora Universities Network (AUR) [doi:10.5281/zenodo.3817437](https://doi.org/10.5281/zenodo.3817437)
+
+*Search Queries for "Mapping Research Output to the Sustainable Development Goals (SDGs)" v2.0* by Aurora Universities Network (AUR) [doi:10.5281/zenodo.3817433](https://doi.org/10.5281/zenodo.3817433)
+
+*Search Queries for "Mapping Research Output to the Sustainable Development Goals (SDGs)" v1.0* by Aurora Universities Network (AUR) [doi:10.5281/zenodo.3817352](https://doi.org/10.5281/zenodo.3817352)
+
 
 ### License for reuse:
 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/legalcode)
@@ -94,25 +96,25 @@ Do so by respecting the license and attribute the contributors.
 ### License Attribution when reusing this data:
 Note: different people contributed to different versions.
 
-* Search Queries for "Mapping Research Output to the Sustainable Development Goals (SDGs)" v1.0 by Aurora Universities Network (AUR); Didier Vercueil (UGA); Nykohla Strong (UAB); Felix Schmidt (UDE); Adam Green (UEA); Jaqui Farrar (UEA); Lars Kullman (UGO); René Otten (VUA); Maurice Vanderfeesten (VUA); is licensed under a Creative Commons Attribution 4.0 International License.
-https://doi.org/10.5281/zenodo.3817352
-Based on a work at https://sustainabledevelopment.un.org/sdgs
-
-* Search Queries for "Mapping Research Output to the Sustainable Development Goals (SDGs)" v2.0 by Aurora Universities Network (AUR); Didier Vercueil (UGA); Nykohla Strong (UAB); Raf Guns (UAN); Susanne Mikki (UBE); Felix Schmidt (UDE); Jaqui Farrar (UEA); Lars Kullman (UGO); Baldvin Zarioh (UIC); René Otten (VUA); Maurice Vanderfeesten (VUA); is licensed under a Creative Commons Attribution 4.0 International License.
-https://doi.org/10.5281/zenodo.3817433
-Based on a work at https://doi.org/10.5281/zenodo.3817352
-
-* Search Queries for "Mapping Research Output to the Sustainable Development Goals (SDGs)" v3.0 by Aurora Universities Network (AUR); Didier Vercueil (UGA); Nykohla Strong (UAB); Raf Guns (UAN); Felix Schmidt (UDE); Ane Sesma (UEA); Lars Kullman (UGO); Baldvin Zarioh (UIC); René Otten (VUA); Maurice Vanderfeesten (VUA); is licensed under a Creative Commons Attribution 4.0 International License.
-https://doi.org/10.5281/zenodo.3817437
-Based on a work at https://doi.org/10.5281/zenodo.3817433
+* Search Queries for "Mapping Research Output to the Sustainable Development Goals (SDGs)" v5.0 by Aurora Universities Network (AUR); Alessandro Arienzo (UNA); Roberto delle Donne (UNA); Ignasi Salvadó Estivill (URV); José Luis González Ugarte (URV); Didier Vercueil (UGA); Nykohla Strong (UAB); Eike Spielberg (UDE); Felix Schmidt (UDE); Linda Hasse (UDE); Ane Sesma (UEA); Baldvin Zarioh (UIC); Friedrich Gaigg  (UIN); René Otten (VUA); Nicolien van der Grijp (VUA); Yasin Gunes (VUA); Maurice Vanderfeesten (VUA); is licensed under a Creative Commons Attribution 4.0 International License.
+https://doi.org/10.5281/zenodo.3817445
+Based on a work at https://doi.org/10.5281/zenodo.3817443
 
 * Search Queries for "Mapping Research Output to the Sustainable Development Goals (SDGs)" v4.0 by Aurora Universities Network (AUR); Didier Vercueil (UGA); Nykohla Strong (UAB); Raf Guns (UAN); Eike Spielberg (UDE); Felix Schmidt (UDE); Linda Hasse (UDE); Lars Kullman (UGO); Baldvin Zarioh (UIC); René Otten (VUA); Maurice Vanderfeesten (VUA); is licensed under a Creative Commons Attribution 4.0 International License.
 https://doi.org/10.5281/zenodo.3817443
 Based on a work at https://doi.org/10.5281/zenodo.3817437
 
-* Search Queries for "Mapping Research Output to the Sustainable Development Goals (SDGs)" v5.0 by Aurora Universities Network (AUR); Alessandro Arienzo (UNA); Roberto delle Donne (UNA); Ignasi Salvadó Estivill (URV); José Luis González Ugarte (URV); Didier Vercueil (UGA); Nykohla Strong (UAB); Eike Spielberg (UDE); Felix Schmidt (UDE); Linda Hasse (UDE); Ane Sesma (UEA); Baldvin Zarioh (UIC); Friedrich Gaigg  (UIN); René Otten (VUA); Nicolien van der Grijp (VUA); Yasin Gunes (VUA); Maurice Vanderfeesten (VUA); is licensed under a Creative Commons Attribution 4.0 International License.
-https://doi.org/10.5281/zenodo.3817445
-Based on a work at https://doi.org/10.5281/zenodo.3817443
+* Search Queries for "Mapping Research Output to the Sustainable Development Goals (SDGs)" v3.0 by Aurora Universities Network (AUR); Didier Vercueil (UGA); Nykohla Strong (UAB); Raf Guns (UAN); Felix Schmidt (UDE); Ane Sesma (UEA); Lars Kullman (UGO); Baldvin Zarioh (UIC); René Otten (VUA); Maurice Vanderfeesten (VUA); is licensed under a Creative Commons Attribution 4.0 International License.
+https://doi.org/10.5281/zenodo.3817437
+Based on a work at https://doi.org/10.5281/zenodo.3817433
+
+* Search Queries for "Mapping Research Output to the Sustainable Development Goals (SDGs)" v2.0 by Aurora Universities Network (AUR); Didier Vercueil (UGA); Nykohla Strong (UAB); Raf Guns (UAN); Susanne Mikki (UBE); Felix Schmidt (UDE); Jaqui Farrar (UEA); Lars Kullman (UGO); Baldvin Zarioh (UIC); René Otten (VUA); Maurice Vanderfeesten (VUA); is licensed under a Creative Commons Attribution 4.0 International License.
+https://doi.org/10.5281/zenodo.3817433
+Based on a work at https://doi.org/10.5281/zenodo.3817352
+
+* Search Queries for "Mapping Research Output to the Sustainable Development Goals (SDGs)" v1.0 by Aurora Universities Network (AUR); Didier Vercueil (UGA); Nykohla Strong (UAB); Felix Schmidt (UDE); Adam Green (UEA); Jaqui Farrar (UEA); Lars Kullman (UGO); René Otten (VUA); Maurice Vanderfeesten (VUA); is licensed under a Creative Commons Attribution 4.0 International License.
+https://doi.org/10.5281/zenodo.3817352
+Based on a work at https://sustainabledevelopment.un.org/sdgs
 
 
 ## Contributors, full list
@@ -147,6 +149,8 @@ Kouwenaar, Kees | AURORA University Network | AUR |  | Sponsor | x | x | x | x |
 Beukering, Pieter van | Vrije Universiteit Amsterdam | VUA | 0000-0001-7146-4409 | Sponsor | x | x | x | x |
 
 ## Related works
+
+[For an updated version see our SDG knowledge base](https://sites.google.com/vu.nl/aurora-sdg-research-dashboard/sdg-knowledge-base)
 
 works | related
 --- | ---
