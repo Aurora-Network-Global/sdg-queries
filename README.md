@@ -1,3 +1,11 @@
+# SDG Search queries
+Select one of the SDG icons to go to the latest Search Query.
+
+[![SDG01](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-01.png)](query_SDG1.xml) | [![SDG02](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-02.png)](query_SDG2.xml) | [![SDG03](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-03.png)](query_SDG3.xml) | [![SDG04](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-04.png)](query_SDG4.xml) | [![SDG05](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-05.png)](query_SDG5.xml) | [![SDG06](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-06.png)](query_SDG6.xml)
+--- | --- | --- | --- | --- | ---
+[![SDG07](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-07.png)](query_SDG7.xml) | [![SDG08](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-08.png)](query_SDG8.xml) | [![SDG09](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-09.png)](query_SDG9.xml) | [![SDG10](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-10.png)](query_SDG10.xml) | [![SDG11](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-11.png)](query_SDG11.xml) | [![SDG12](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-12.png)](query_SDG12.xml)
+[![SDG13](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-13.png)](query_SDG13.xml) | [![SDG14](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-14.png)](query_SDG14.xml) | [![SDG15](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-15.png)](query_SDG15.xml) | [![SDG16](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-16.png)](query_SDG16.xml) | [![SDG17](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-17.png)](query_SDG17.xml) |  
+
 # Search Queries for "Mapping Research Output to the Sustainable Development Goals (SDGs)"
 __This package contains machine readable (xml) search queries, for the Scopus publications database, to find domain specific research output that are related to the 17 Sustainable Development Goals (SDGs).__
 
@@ -12,13 +20,6 @@ ___[Click here for PROJECT WEBSITE](https://aurora-network.global/project/sdg-an
 ## Introduction
 [Sustainable Development Goals](https://sustainabledevelopment.un.org/sdgs) are the 17 global challenges set by the United Nations. Within each of the goals specific targets and indicators are mentioned to monitor the progress of reaching those goals by 2030. In an effort to capture how research is contributing to move the needle on those challenges, we earlier have made an initial classification model that enables to quickly identify what research output is related to what SDG. (This [Aurora SDG dashboard](https://aurora-network.global/project/sdg-analysis-bibliometrics-relevance/) is the  initial outcome as _proof of practice_.)  
 
-## SDG Search queries
-Select one of the SDG icons to go to the latest Search Query.
-
-[![SDG01](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-01.png)](query_SDG1.xml) | [![SDG02](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-02.png)](query_SDG2.xml) | [![SDG03](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-03.png)](query_SDG3.xml) | [![SDG04](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-04.png)](query_SDG4.xml) | [![SDG05](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-05.png)](query_SDG5.xml) | [![SDG06](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-06.png)](query_SDG6.xml)
---- | --- | --- | --- | --- | ---
-[![SDG07](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-07.png)](query_SDG7.xml) | [![SDG08](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-08.png)](query_SDG8.xml) | [![SDG09](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-09.png)](query_SDG9.xml) | [![SDG10](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-10.png)](query_SDG10.xml) | [![SDG11](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-11.png)](query_SDG11.xml) | [![SDG12](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-12.png)](query_SDG12.xml)
-[![SDG13](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-13.png)](query_SDG13.xml) | [![SDG14](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-14.png)](query_SDG14.xml) | [![SDG15](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-15.png)](query_SDG15.xml) | [![SDG16](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-16.png)](query_SDG16.xml) | [![SDG17](./images/sdg-icons/E_SDG_goals_icons-individual-rgb-17.png)](query_SDG17.xml) |  
 
 ## History & Intended Usage
 The initiative started from the Aurora Universities Network in 2017, in the working group "[Societal Impact and Relevance of Research](https://aurora-network.global/activity/societal-impact-and-relevance-of-research-sirr/)", to investigate and to make visible 1. what research is done that are relevant to topics or challenges that live in society (for the proof of practice this has been scoped down to the SDGs), and 2. what the effect or impact is of implementing those research outcomes to those societal challenges (this also have been scoped down to research output being cited in policy documents from national and local governments an NGO's).
