@@ -30,7 +30,7 @@
                     <div class="container">
                         <h1><i class="fas fa-university"></i> Aurora SDG Search Queries <i class="fas fa-search"></i></h1>
                         <h2> Search Queries for "Mapping Research Output to the Sustainable Development Goals (SDGs)" </h2>
-			    	<p> <i class="fas fa-project-diagram"></i> <a href="https://aurora-universities.eu/sdg-research/" target="_blank"> Project: SDG analysis Biliometrics of Relevance | Societal Impact and Relevance of Research </a> </p>
+			    	<p> <i class="fas fa-project-diagram"></i> <a href="https://aurora-universities.eu/sdg-research/" target="_blank"> Project: Aurora SDG Research Dashboard </a> </p>
 				<p> <i class="fas fa-code-branch"></i> <a href="https://github.com/Aurora-Network-Global/sdg-queries" target="_blank"> Contribute on Github </a> <i class="fab fa-github"></i></p>
 			 	<p> <i class="fas fa-arrow-left"></i>  <a href="https://aurora-network-global.github.io/sdg-queries/"> Back to other SDG Queries</a> </p>
                     </div>
