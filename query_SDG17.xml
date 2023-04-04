@@ -239,7 +239,7 @@
             </aqd:subquery-descriptions>
             <aqd:query-lines>
                 <aqd:query-line field="TITLE-ABS-KEY">
-				 ( "develop* countr*"  OR  "least developed countr*"  OR  "small island*" )  AND  ( "capacity*" )  W/3  ( "science"  OR  "technology"  OR  "innovation" )
+				 ( "develop* countr*"  OR  "least developed countr*"  OR  "small island*" )  AND  (( "capacity*" )  W/3  ( "science"  OR  "technology"  OR  "innovation" ))
 				</aqd:query-line> 
                 <aqd:query-line field="TITLE-ABS-KEY">
 				 ( ( "subscription*" )  OR  ( ( "proportion" )  W/3  ( "population" ) ) )  AND  ( "internet*" )
