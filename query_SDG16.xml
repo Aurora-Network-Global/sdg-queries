@@ -104,7 +104,7 @@
                 ( ( "end"  OR  "ending"  OR  "reduc*" )  W/3  ( "abus*"  OR  "exploit*"  OR  "traffick*"  OR  "violen*"  OR  "tortur*"  OR  "neglect*" )  W/3  ( "child*" ) )  
 				</aqd:query-line>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                ( ( "caregiver*" )  AND  ( "abus*"  OR  "exploit*"  OR  "traffick*"  OR  "violen*"  OR  "tortur*"  OR  "neglect*" )  W/3  ( "child*" ) )   
+                ( ( "caregiver*" )  AND  (( "abus*"  OR  "exploit*"  OR  "traffick*"  OR  "violen*"  OR  "tortur*"  OR  "neglect*" )  W/3  ( "child*" )) )  
                 </aqd:query-line>
                 <aqd:query-line field="TITLE-ABS-KEY">
                 ( ( "victim*" )  AND  ( "human traffick*" ) )  
