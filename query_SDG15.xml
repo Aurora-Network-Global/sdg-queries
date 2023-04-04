@@ -110,7 +110,7 @@
                  ( "restor*" )  W/3  ( "degraded land*"  OR  "degraded dryland*"  OR  "degraded soil*" )    
                 </aqd:query-line>
                 <aqd:query-line field="TITLE-ABS-KEY">
-                ( "proportion*"  OR  "percentage" )  AND  ( "degraded" )  W/3  ( "land*"  OR  "dryland*"  OR  "soil*" ) 
+                ( "proportion*"  OR  "percentage" )  AND  (( "degraded" )  W/3  ( "land*"  OR  "dryland*"  OR  "soil*" ))
                 </aqd:query-line>
 				</aqd:query-lines>
         </aqd:query-definition>
